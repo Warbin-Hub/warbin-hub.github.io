@@ -95,9 +95,9 @@
       </tags>
   </entry>
   <entry>
-    <title>Java数据结构-多路查找树</title>
-    <url>/2022/12/12/Java%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E5%A4%9A%E8%B7%AF%E6%9F%A5%E6%89%BE%E6%A0%91/</url>
-    <content><![CDATA[<h3 id="一、二叉树与B树"><a href="#一、二叉树与B树" class="headerlink" title="一、二叉树与B树"></a>一、二叉树与B树</h3><h4 id="1、二叉树的问题分析"><a href="#1、二叉树的问题分析" class="headerlink" title="1、二叉树的问题分析"></a>1、二叉树的问题分析</h4><h4 id="2、多叉树"><a href="#2、多叉树" class="headerlink" title="2、多叉树"></a>2、多叉树</h4><h4 id="3、B树的基本介绍"><a href="#3、B树的基本介绍" class="headerlink" title="3、B树的基本介绍"></a>3、B树的基本介绍</h4><h3 id="二、2-3树"><a href="#二、2-3树" class="headerlink" title="二、2-3树"></a>二、2-3树</h3><h4 id="1、树的特点"><a href="#1、树的特点" class="headerlink" title="1、树的特点"></a>1、树的特点</h4><h4 id="2、2-3树应用案例"><a href="#2、2-3树应用案例" class="headerlink" title="2、2-3树应用案例"></a>2、2-3树应用案例</h4><h4 id="3、其它说明"><a href="#3、其它说明" class="headerlink" title="3、其它说明"></a>3、其它说明</h4><h3 id="三、B树、B-树和B-树"><a href="#三、B树、B-树和B-树" class="headerlink" title="三、B树、B+树和B*树"></a>三、B树、B+树和B*树</h3><h4 id="1、B树的介绍"><a href="#1、B树的介绍" class="headerlink" title="1、B树的介绍"></a>1、B树的介绍</h4><h4 id="2、B树的说明"><a href="#2、B树的说明" class="headerlink" title="2、B树的说明"></a>2、B树的说明</h4><h4 id="3、B-树的介绍"><a href="#3、B-树的介绍" class="headerlink" title="3、B+树的介绍"></a>3、B+树的介绍</h4><h4 id="4、B-树的介绍"><a href="#4、B-树的介绍" class="headerlink" title="4、B*树的介绍"></a>4、B*树的介绍</h4>]]></content>
+    <title>Java数据结构-图</title>
+    <url>/2022/12/12/Java%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E5%9B%BE/</url>
+    <content><![CDATA[<h3 id="一、图基本介绍"><a href="#一、图基本介绍" class="headerlink" title="一、图基本介绍"></a>一、图基本介绍</h3><h3 id="二、图的常用概念"><a href="#二、图的常用概念" class="headerlink" title="二、图的常用概念"></a>二、图的常用概念</h3><h3 id="三、图的快速入门案例"><a href="#三、图的快速入门案例" class="headerlink" title="三、图的快速入门案例"></a>三、图的快速入门案例</h3><h3 id="四、图的深度优先搜索算法介绍"><a href="#四、图的深度优先搜索算法介绍" class="headerlink" title="四、图的深度优先搜索算法介绍"></a>四、图的深度优先搜索算法介绍</h3><h3 id="五、图的创建和深度优先遍历算法"><a href="#五、图的创建和深度优先遍历算法" class="headerlink" title="五、图的创建和深度优先遍历算法"></a>五、图的创建和深度优先遍历算法</h3><h3 id="六、图的广度优先遍历算法"><a href="#六、图的广度优先遍历算法" class="headerlink" title="六、图的广度优先遍历算法"></a>六、图的广度优先遍历算法</h3>]]></content>
       <categories>
         <category>Java Data Structure</category>
       </categories>
@@ -106,9 +106,9 @@
       </tags>
   </entry>
   <entry>
-    <title>Java数据结构-图</title>
-    <url>/2022/12/12/Java%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E5%9B%BE/</url>
-    <content><![CDATA[<h3 id="一、图基本介绍"><a href="#一、图基本介绍" class="headerlink" title="一、图基本介绍"></a>一、图基本介绍</h3><h3 id="二、图的常用概念"><a href="#二、图的常用概念" class="headerlink" title="二、图的常用概念"></a>二、图的常用概念</h3><h3 id="三、图的快速入门案例"><a href="#三、图的快速入门案例" class="headerlink" title="三、图的快速入门案例"></a>三、图的快速入门案例</h3><h3 id="四、图的深度优先搜索算法介绍"><a href="#四、图的深度优先搜索算法介绍" class="headerlink" title="四、图的深度优先搜索算法介绍"></a>四、图的深度优先搜索算法介绍</h3><h3 id="五、图的创建和深度优先遍历算法"><a href="#五、图的创建和深度优先遍历算法" class="headerlink" title="五、图的创建和深度优先遍历算法"></a>五、图的创建和深度优先遍历算法</h3><h3 id="六、图的广度优先遍历算法"><a href="#六、图的广度优先遍历算法" class="headerlink" title="六、图的广度优先遍历算法"></a>六、图的广度优先遍历算法</h3>]]></content>
+    <title>Java数据结构-多路查找树</title>
+    <url>/2022/12/12/Java%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E5%A4%9A%E8%B7%AF%E6%9F%A5%E6%89%BE%E6%A0%91/</url>
+    <content><![CDATA[<h3 id="一、二叉树与B树"><a href="#一、二叉树与B树" class="headerlink" title="一、二叉树与B树"></a>一、二叉树与B树</h3><h4 id="1、二叉树的问题分析"><a href="#1、二叉树的问题分析" class="headerlink" title="1、二叉树的问题分析"></a>1、二叉树的问题分析</h4><h4 id="2、多叉树"><a href="#2、多叉树" class="headerlink" title="2、多叉树"></a>2、多叉树</h4><h4 id="3、B树的基本介绍"><a href="#3、B树的基本介绍" class="headerlink" title="3、B树的基本介绍"></a>3、B树的基本介绍</h4><h3 id="二、2-3树"><a href="#二、2-3树" class="headerlink" title="二、2-3树"></a>二、2-3树</h3><h4 id="1、树的特点"><a href="#1、树的特点" class="headerlink" title="1、树的特点"></a>1、树的特点</h4><h4 id="2、2-3树应用案例"><a href="#2、2-3树应用案例" class="headerlink" title="2、2-3树应用案例"></a>2、2-3树应用案例</h4><h4 id="3、其它说明"><a href="#3、其它说明" class="headerlink" title="3、其它说明"></a>3、其它说明</h4><h3 id="三、B树、B-树和B-树"><a href="#三、B树、B-树和B-树" class="headerlink" title="三、B树、B+树和B*树"></a>三、B树、B+树和B*树</h3><h4 id="1、B树的介绍"><a href="#1、B树的介绍" class="headerlink" title="1、B树的介绍"></a>1、B树的介绍</h4><h4 id="2、B树的说明"><a href="#2、B树的说明" class="headerlink" title="2、B树的说明"></a>2、B树的说明</h4><h4 id="3、B-树的介绍"><a href="#3、B-树的介绍" class="headerlink" title="3、B+树的介绍"></a>3、B+树的介绍</h4><h4 id="4、B-树的介绍"><a href="#4、B-树的介绍" class="headerlink" title="4、B*树的介绍"></a>4、B*树的介绍</h4>]]></content>
       <categories>
         <category>Java Data Structure</category>
       </categories>
@@ -1383,6 +1383,18 @@
       </tags>
   </entry>
   <entry>
+    <title>1.5.3 吞吐量</title>
+    <url>/2022/12/09/%E5%90%9E%E5%90%90%E9%87%8F/</url>
+    <content><![CDATA[<h3 id="一、吞吐量"><a href="#一、吞吐量" class="headerlink" title="一、吞吐量"></a>一、吞吐量</h3><p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221209134417536.png" alt="image-20221209134417536" loading="lazy"></p>
+]]></content>
+      <categories>
+        <category>Computer Network</category>
+      </categories>
+      <tags>
+        <tag>postgraduate</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Translate - English</title>
     <url>/2022/11/27/%E5%9B%9B%E7%BA%A7%E7%BF%BB%E8%AF%91%E7%9A%84%E5%B8%B8%E8%A7%81%E5%8F%A5%E5%BC%8F/</url>
     <content><![CDATA[<ul>
@@ -2246,18 +2258,6 @@
       </tags>
   </entry>
   <entry>
-    <title>1.5.3 吞吐量</title>
-    <url>/2022/12/09/%E5%90%9E%E5%90%90%E9%87%8F/</url>
-    <content><![CDATA[<h3 id="一、吞吐量"><a href="#一、吞吐量" class="headerlink" title="一、吞吐量"></a>一、吞吐量</h3><p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221209134417536.png" alt="image-20221209134417536" loading="lazy"></p>
-]]></content>
-      <categories>
-        <category>Computer Network</category>
-      </categories>
-      <tags>
-        <tag>postgraduate</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>CET-4 List 3 Word Tasks - English</title>
     <url>/2022/11/26/%E5%9B%9B%E7%BA%A7%E9%AB%98%E9%A2%91%E5%8D%95%E8%AF%8DList3/</url>
     <content><![CDATA[<h3 id="一、说明"><a href="#一、说明" class="headerlink" title="一、说明"></a>一、说明</h3><p>本博客记录53个次次高频四级高频单词。</p>
@@ -2553,6 +2553,277 @@
 <td align="center">acknowledge</td>
 <td align="center">v</td>
 <td align="center">承认，答谢</td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>vocabulary</category>
+      </categories>
+      <tags>
+        <tag>CET-4</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>CET-4 List 4 Word Tasks - English</title>
+    <url>/2022/11/26/%E5%9B%9B%E7%BA%A7%E9%AB%98%E9%A2%91%E5%8D%95%E8%AF%8DList4/</url>
+    <content><![CDATA[<h3 id="一、说明"><a href="#一、说明" class="headerlink" title="一、说明"></a>一、说明</h3><p>本博客记录47个次次次高频四级高频单词。</p>
+<h3 id="二、任务词汇表"><a href="#二、任务词汇表" class="headerlink" title="二、任务词汇表"></a>二、任务词汇表</h3><table>
+<thead>
+<tr>
+<th align="center">单词</th>
+<th align="center">词性</th>
+<th align="center">词义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">definition</td>
+<td align="center">n</td>
+<td align="center">定义，清晰度</td>
+</tr>
+<tr>
+<td align="center">heritage</td>
+<td align="center">n</td>
+<td align="center">遗产，传统</td>
+</tr>
+<tr>
+<td align="center">appreciate</td>
+<td align="center">v</td>
+<td align="center">欣赏，感谢</td>
+</tr>
+<tr>
+<td align="center">atmosphere</td>
+<td align="center">n</td>
+<td align="center">大气，气氛</td>
+</tr>
+<tr>
+<td align="center">commit</td>
+<td align="center">v</td>
+<td align="center">犯(错)</td>
+</tr>
+<tr>
+<td align="center">sufficient</td>
+<td align="center">adj</td>
+<td align="center">足够的</td>
+</tr>
+<tr>
+<td align="center">hinder</td>
+<td align="center">v</td>
+<td align="center">阻碍，打扰</td>
+</tr>
+<tr>
+<td align="center">percentage</td>
+<td align="center">n</td>
+<td align="center">百分比</td>
+</tr>
+<tr>
+<td align="center">interpret</td>
+<td align="center">v</td>
+<td align="center">口译，解释</td>
+</tr>
+<tr>
+<td align="center">institute</td>
+<td align="center">n</td>
+<td align="center">学院，研究所</td>
+</tr>
+<tr>
+<td align="center">demonstrate</td>
+<td align="center">v</td>
+<td align="center">展示，证明</td>
+</tr>
+<tr>
+<td align="center">dramatic</td>
+<td align="center">adj</td>
+<td align="center">急剧的，戏剧性的</td>
+</tr>
+<tr>
+<td align="center">specialist</td>
+<td align="center">n</td>
+<td align="center">专家</td>
+</tr>
+<tr>
+<td align="center">fulfill</td>
+<td align="center">v</td>
+<td align="center">履行，实现</td>
+</tr>
+<tr>
+<td align="center">episode</td>
+<td align="center">n</td>
+<td align="center">一集，插曲</td>
+</tr>
+<tr>
+<td align="center">multiple</td>
+<td align="center">adj</td>
+<td align="center">多样的</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center">n</td>
+<td align="center">倍数</td>
+</tr>
+<tr>
+<td align="center">tension</td>
+<td align="center">n</td>
+<td align="center">紧张</td>
+</tr>
+<tr>
+<td align="center">distraction</td>
+<td align="center">n</td>
+<td align="center">分心，娱乐</td>
+</tr>
+<tr>
+<td align="center">density</td>
+<td align="center">n</td>
+<td align="center">密度，浓度</td>
+</tr>
+<tr>
+<td align="center">universal</td>
+<td align="center">adj</td>
+<td align="center">普遍的</td>
+</tr>
+<tr>
+<td align="center">cognitive</td>
+<td align="center">adj</td>
+<td align="center">认知的</td>
+</tr>
+<tr>
+<td align="center">disorder</td>
+<td align="center">n</td>
+<td align="center">混乱，失调</td>
+</tr>
+<tr>
+<td align="center">capture</td>
+<td align="center">v&#x2F;n</td>
+<td align="center">逮捕，捕捉</td>
+</tr>
+<tr>
+<td align="center">relieve</td>
+<td align="center">v</td>
+<td align="center">减轻，缓解</td>
+</tr>
+<tr>
+<td align="center">negotiate</td>
+<td align="center">v</td>
+<td align="center">谈判，协商</td>
+</tr>
+<tr>
+<td align="center">pediatrician</td>
+<td align="center">n</td>
+<td align="center">儿科医生</td>
+</tr>
+<tr>
+<td align="center">undermine</td>
+<td align="center">v</td>
+<td align="center">逐渐削弱</td>
+</tr>
+<tr>
+<td align="center">gadget</td>
+<td align="center">n</td>
+<td align="center">小配件，小器具</td>
+</tr>
+<tr>
+<td align="center">marvelous</td>
+<td align="center">adj</td>
+<td align="center">极好的</td>
+</tr>
+<tr>
+<td align="center">discipline</td>
+<td align="center">n</td>
+<td align="center">纪律，训练</td>
+</tr>
+<tr>
+<td align="center">accumulate</td>
+<td align="center">v</td>
+<td align="center">积累</td>
+</tr>
+<tr>
+<td align="center">attribute</td>
+<td align="center">v</td>
+<td align="center">把，归因于</td>
+</tr>
+<tr>
+<td align="center">contaminate</td>
+<td align="center">v</td>
+<td align="center">污染</td>
+</tr>
+<tr>
+<td align="center">restrict</td>
+<td align="center">v</td>
+<td align="center">限制，约束</td>
+</tr>
+<tr>
+<td align="center">extraordinary</td>
+<td align="center">adj</td>
+<td align="center">卓越的</td>
+</tr>
+<tr>
+<td align="center">guarantee</td>
+<td align="center">v</td>
+<td align="center">确保</td>
+</tr>
+<tr>
+<td align="center">infant</td>
+<td align="center">n</td>
+<td align="center">婴儿</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center">adj</td>
+<td align="center">初期的</td>
+</tr>
+<tr>
+<td align="center">eliminate</td>
+<td align="center">v</td>
+<td align="center">消除，排除</td>
+</tr>
+<tr>
+<td align="center">ambitious</td>
+<td align="center">adj</td>
+<td align="center">有野心的</td>
+</tr>
+<tr>
+<td align="center">roughly</td>
+<td align="center">adv</td>
+<td align="center">大约，粗略地</td>
+</tr>
+<tr>
+<td align="center">luggage</td>
+<td align="center">n</td>
+<td align="center">行李</td>
+</tr>
+<tr>
+<td align="center">collapse</td>
+<td align="center">n</td>
+<td align="center">倒塌，暴跌</td>
+</tr>
+<tr>
+<td align="center">investigate</td>
+<td align="center">v</td>
+<td align="center">调查，研究</td>
+</tr>
+<tr>
+<td align="center">implement</td>
+<td align="center">v</td>
+<td align="center">实施</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center">n</td>
+<td align="center">工具</td>
+</tr>
+<tr>
+<td align="center">shortcoming</td>
+<td align="center">n</td>
+<td align="center">缺点</td>
+</tr>
+<tr>
+<td align="center">negotiate</td>
+<td align="center">v</td>
+<td align="center">谈判，协商</td>
+</tr>
+<tr>
+<td align="center">intellectual</td>
+<td align="center">adj</td>
+<td align="center">明智的</td>
 </tr>
 </tbody></table>
 ]]></content>
@@ -3100,277 +3371,6 @@
       </tags>
   </entry>
   <entry>
-    <title>CET-4 List 4 Word Tasks - English</title>
-    <url>/2022/11/26/%E5%9B%9B%E7%BA%A7%E9%AB%98%E9%A2%91%E5%8D%95%E8%AF%8DList4/</url>
-    <content><![CDATA[<h3 id="一、说明"><a href="#一、说明" class="headerlink" title="一、说明"></a>一、说明</h3><p>本博客记录47个次次次高频四级高频单词。</p>
-<h3 id="二、任务词汇表"><a href="#二、任务词汇表" class="headerlink" title="二、任务词汇表"></a>二、任务词汇表</h3><table>
-<thead>
-<tr>
-<th align="center">单词</th>
-<th align="center">词性</th>
-<th align="center">词义</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">definition</td>
-<td align="center">n</td>
-<td align="center">定义，清晰度</td>
-</tr>
-<tr>
-<td align="center">heritage</td>
-<td align="center">n</td>
-<td align="center">遗产，传统</td>
-</tr>
-<tr>
-<td align="center">appreciate</td>
-<td align="center">v</td>
-<td align="center">欣赏，感谢</td>
-</tr>
-<tr>
-<td align="center">atmosphere</td>
-<td align="center">n</td>
-<td align="center">大气，气氛</td>
-</tr>
-<tr>
-<td align="center">commit</td>
-<td align="center">v</td>
-<td align="center">犯(错)</td>
-</tr>
-<tr>
-<td align="center">sufficient</td>
-<td align="center">adj</td>
-<td align="center">足够的</td>
-</tr>
-<tr>
-<td align="center">hinder</td>
-<td align="center">v</td>
-<td align="center">阻碍，打扰</td>
-</tr>
-<tr>
-<td align="center">percentage</td>
-<td align="center">n</td>
-<td align="center">百分比</td>
-</tr>
-<tr>
-<td align="center">interpret</td>
-<td align="center">v</td>
-<td align="center">口译，解释</td>
-</tr>
-<tr>
-<td align="center">institute</td>
-<td align="center">n</td>
-<td align="center">学院，研究所</td>
-</tr>
-<tr>
-<td align="center">demonstrate</td>
-<td align="center">v</td>
-<td align="center">展示，证明</td>
-</tr>
-<tr>
-<td align="center">dramatic</td>
-<td align="center">adj</td>
-<td align="center">急剧的，戏剧性的</td>
-</tr>
-<tr>
-<td align="center">specialist</td>
-<td align="center">n</td>
-<td align="center">专家</td>
-</tr>
-<tr>
-<td align="center">fulfill</td>
-<td align="center">v</td>
-<td align="center">履行，实现</td>
-</tr>
-<tr>
-<td align="center">episode</td>
-<td align="center">n</td>
-<td align="center">一集，插曲</td>
-</tr>
-<tr>
-<td align="center">multiple</td>
-<td align="center">adj</td>
-<td align="center">多样的</td>
-</tr>
-<tr>
-<td align="center"></td>
-<td align="center">n</td>
-<td align="center">倍数</td>
-</tr>
-<tr>
-<td align="center">tension</td>
-<td align="center">n</td>
-<td align="center">紧张</td>
-</tr>
-<tr>
-<td align="center">distraction</td>
-<td align="center">n</td>
-<td align="center">分心，娱乐</td>
-</tr>
-<tr>
-<td align="center">density</td>
-<td align="center">n</td>
-<td align="center">密度，浓度</td>
-</tr>
-<tr>
-<td align="center">universal</td>
-<td align="center">adj</td>
-<td align="center">普遍的</td>
-</tr>
-<tr>
-<td align="center">cognitive</td>
-<td align="center">adj</td>
-<td align="center">认知的</td>
-</tr>
-<tr>
-<td align="center">disorder</td>
-<td align="center">n</td>
-<td align="center">混乱，失调</td>
-</tr>
-<tr>
-<td align="center">capture</td>
-<td align="center">v&#x2F;n</td>
-<td align="center">逮捕，捕捉</td>
-</tr>
-<tr>
-<td align="center">relieve</td>
-<td align="center">v</td>
-<td align="center">减轻，缓解</td>
-</tr>
-<tr>
-<td align="center">negotiate</td>
-<td align="center">v</td>
-<td align="center">谈判，协商</td>
-</tr>
-<tr>
-<td align="center">pediatrician</td>
-<td align="center">n</td>
-<td align="center">儿科医生</td>
-</tr>
-<tr>
-<td align="center">undermine</td>
-<td align="center">v</td>
-<td align="center">逐渐削弱</td>
-</tr>
-<tr>
-<td align="center">gadget</td>
-<td align="center">n</td>
-<td align="center">小配件，小器具</td>
-</tr>
-<tr>
-<td align="center">marvelous</td>
-<td align="center">adj</td>
-<td align="center">极好的</td>
-</tr>
-<tr>
-<td align="center">discipline</td>
-<td align="center">n</td>
-<td align="center">纪律，训练</td>
-</tr>
-<tr>
-<td align="center">accumulate</td>
-<td align="center">v</td>
-<td align="center">积累</td>
-</tr>
-<tr>
-<td align="center">attribute</td>
-<td align="center">v</td>
-<td align="center">把，归因于</td>
-</tr>
-<tr>
-<td align="center">contaminate</td>
-<td align="center">v</td>
-<td align="center">污染</td>
-</tr>
-<tr>
-<td align="center">restrict</td>
-<td align="center">v</td>
-<td align="center">限制，约束</td>
-</tr>
-<tr>
-<td align="center">extraordinary</td>
-<td align="center">adj</td>
-<td align="center">卓越的</td>
-</tr>
-<tr>
-<td align="center">guarantee</td>
-<td align="center">v</td>
-<td align="center">确保</td>
-</tr>
-<tr>
-<td align="center">infant</td>
-<td align="center">n</td>
-<td align="center">婴儿</td>
-</tr>
-<tr>
-<td align="center"></td>
-<td align="center">adj</td>
-<td align="center">初期的</td>
-</tr>
-<tr>
-<td align="center">eliminate</td>
-<td align="center">v</td>
-<td align="center">消除，排除</td>
-</tr>
-<tr>
-<td align="center">ambitious</td>
-<td align="center">adj</td>
-<td align="center">有野心的</td>
-</tr>
-<tr>
-<td align="center">roughly</td>
-<td align="center">adv</td>
-<td align="center">大约，粗略地</td>
-</tr>
-<tr>
-<td align="center">luggage</td>
-<td align="center">n</td>
-<td align="center">行李</td>
-</tr>
-<tr>
-<td align="center">collapse</td>
-<td align="center">n</td>
-<td align="center">倒塌，暴跌</td>
-</tr>
-<tr>
-<td align="center">investigate</td>
-<td align="center">v</td>
-<td align="center">调查，研究</td>
-</tr>
-<tr>
-<td align="center">implement</td>
-<td align="center">v</td>
-<td align="center">实施</td>
-</tr>
-<tr>
-<td align="center"></td>
-<td align="center">n</td>
-<td align="center">工具</td>
-</tr>
-<tr>
-<td align="center">shortcoming</td>
-<td align="center">n</td>
-<td align="center">缺点</td>
-</tr>
-<tr>
-<td align="center">negotiate</td>
-<td align="center">v</td>
-<td align="center">谈判，协商</td>
-</tr>
-<tr>
-<td align="center">intellectual</td>
-<td align="center">adj</td>
-<td align="center">明智的</td>
-</tr>
-</tbody></table>
-]]></content>
-      <categories>
-        <category>vocabulary</category>
-      </categories>
-      <tags>
-        <tag>CET-4</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>1.2.2 因特网的发展历程</title>
     <url>/2022/12/09/%E5%9B%A0%E7%89%B9%E7%BD%91%E7%9A%84%E5%8F%91%E5%B1%95%E5%8E%86%E7%A8%8B/</url>
     <content><![CDATA[<h3 id="一、因特网的诞生背景"><a href="#一、因特网的诞生背景" class="headerlink" title="一、因特网的诞生背景"></a>一、因特网的诞生背景</h3><blockquote>
@@ -3388,6 +3388,26 @@
 <p>因特网已经发展成基于ISP的多层次结构的互连网络。</p>
 </blockquote>
 <p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221209000659296.png" alt="image-20221209000659296" loading="lazy"></p>
+]]></content>
+      <categories>
+        <category>Computer Network</category>
+      </categories>
+      <tags>
+        <tag>postgraduate</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>1.2.3 因特网的标准化工作和管理机构</title>
+    <url>/2022/12/09/%E5%9B%A0%E7%89%B9%E7%BD%91%E7%9A%84%E6%A0%87%E5%87%86%E5%8C%96%E5%B7%A5%E4%BD%9C%E5%92%8C%E7%AE%A1%E7%90%86%E6%9C%BA%E6%9E%84/</url>
+    <content><![CDATA[<h3 id="一、因特网的标准化工作"><a href="#一、因特网的标准化工作" class="headerlink" title="一、因特网的标准化工作"></a>一、因特网的标准化工作</h3><blockquote>
+<p>因特网的标准化工作是面向公众的，其任何一个建议标准在成为因特网标准之前，都以RFC技术文档的形式在因特网上发表。RFC（Request For Comments）的意思是“请求评论”。任何人都可以从因特网上免费下载RFC文档（<a href="http://www.ietf.org/rfc.html)%EF%BC%8C%E5%B9%B6%E9%9A%8F%E6%97%B6%E5%AF%B9%E6%9F%90%E4%B8%AARFC%E6%96%87%E6%A1%A3%E5%8F%91%E8%A1%A8%E6%84%8F%E8%A7%81%E5%92%8C%E5%BB%BA%E8%AE%AE%E3%80%82">http://www.ietf.org/rfc.html)，并随时对某个RFC文档发表意见和建议。</a></p>
+<p>制定因特网标准需要经过因特网草案（Internet Draft）、建议标准（Proposed Standard）、草案标准（Draft Standard）、因特网标准（Internet Standard）这4个阶段。</p>
+</blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221209000828271.png" alt="image-20221209000828271" loading="lazy"></p>
+<h3 id="二、因特网的管理机构"><a href="#二、因特网的管理机构" class="headerlink" title="二、因特网的管理机构"></a>二、因特网的管理机构</h3><blockquote>
+<p>因特网管理机构的组织架构如图1-11所示。因特网由国际组织因特网协会（Internet Society，ISOC）全面管理。ISOC下设因特网体系结构委员会（Intemet Architecture Board,IAB），负责管理因特网相关协议的开发。IAB下设因特网工程部(Internet Engineering Task Force, IETF）和因特网研究部（Internet Research Task Force, IRTF），其中IETF负责研究中短期的工程问题、相关协议的开发和标准化；IRTF负责研究理论方面的需要长期考虑的问题。</p>
+</blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221209000941469.png" alt="image-20221209000941469" loading="lazy"></p>
 ]]></content>
       <categories>
         <category>Computer Network</category>
@@ -3446,17 +3466,20 @@
       </tags>
   </entry>
   <entry>
-    <title>1.2.3 因特网的标准化工作和管理机构</title>
-    <url>/2022/12/09/%E5%9B%A0%E7%89%B9%E7%BD%91%E7%9A%84%E6%A0%87%E5%87%86%E5%8C%96%E5%B7%A5%E4%BD%9C%E5%92%8C%E7%AE%A1%E7%90%86%E6%9C%BA%E6%9E%84/</url>
-    <content><![CDATA[<h3 id="一、因特网的标准化工作"><a href="#一、因特网的标准化工作" class="headerlink" title="一、因特网的标准化工作"></a>一、因特网的标准化工作</h3><blockquote>
-<p>因特网的标准化工作是面向公众的，其任何一个建议标准在成为因特网标准之前，都以RFC技术文档的形式在因特网上发表。RFC（Request For Comments）的意思是“请求评论”。任何人都可以从因特网上免费下载RFC文档（<a href="http://www.ietf.org/rfc.html)%EF%BC%8C%E5%B9%B6%E9%9A%8F%E6%97%B6%E5%AF%B9%E6%9F%90%E4%B8%AARFC%E6%96%87%E6%A1%A3%E5%8F%91%E8%A1%A8%E6%84%8F%E8%A7%81%E5%92%8C%E5%BB%BA%E8%AE%AE%E3%80%82">http://www.ietf.org/rfc.html)，并随时对某个RFC文档发表意见和建议。</a></p>
-<p>制定因特网标准需要经过因特网草案（Internet Draft）、建议标准（Proposed Standard）、草案标准（Draft Standard）、因特网标准（Internet Standard）这4个阶段。</p>
+    <title>1.5.2 带宽</title>
+    <url>/2022/12/09/%E5%B8%A6%E5%AE%BD/</url>
+    <content><![CDATA[<h3 id="一、带宽的定义"><a href="#一、带宽的定义" class="headerlink" title="一、带宽的定义"></a>一、带宽的定义</h3><blockquote>
+<p>带宽的两种含义：</p>
+<ul>
+<li>带宽在模拟信号系统中的意义：是指某个信号所包含的各种不同频率成分所占据的频率范围。单位是赫兹（Hz），简称“赫”。常用单位有干赫（kHz）、兆赫（MHz）以及吉赫（GHz）等。例如，在传统的模拟通信线路上传送的电话信号的标准带宽是3.1kHz，话音的主要成分的频率范围为300Hz~3.4kHz。表示通信线路允许通过的信号频带范围就称为线路的带宽。</li>
+<li>带宽在计算机网络中的意义：用来表示网络的通信线路所能传送数据的能力，即在单位时间内从网络中的某一点到另一点所能通过的最高数据率。因此，在计算机网络中，带宽的单位与之前介绍过的速率的单位是相同的。基本单位是比特&#x2F;秒(b&#x2F;s或bps），常用单位有千比特&#x2F;秒（kb&#x2F;s或kbps）、兆比特&#x2F;秒（Mb&#x2F;s或Mbps）、吉比特&#x2F;秒（Gb&#x2F;s或Gbps）以及太比特秒（Tb&#x2F;s或Tbps)。</li>
+</ul>
+<p>根据香农公式可知，带宽的上述两种表述有着密切的关系：<strong>线路的“频率带宽”越宽，其所传输数据的“最高数据率”也越高。</strong></p>
 </blockquote>
-<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221209000828271.png" alt="image-20221209000828271" loading="lazy"></p>
-<h3 id="二、因特网的管理机构"><a href="#二、因特网的管理机构" class="headerlink" title="二、因特网的管理机构"></a>二、因特网的管理机构</h3><blockquote>
-<p>因特网管理机构的组织架构如图1-11所示。因特网由国际组织因特网协会（Internet Society，ISOC）全面管理。ISOC下设因特网体系结构委员会（Intemet Architecture Board,IAB），负责管理因特网相关协议的开发。IAB下设因特网工程部(Internet Engineering Task Force, IETF）和因特网研究部（Internet Research Task Force, IRTF），其中IETF负责研究中短期的工程问题、相关协议的开发和标准化；IRTF负责研究理论方面的需要长期考虑的问题。</p>
+<h3 id="二、带宽的木桶效应"><a href="#二、带宽的木桶效应" class="headerlink" title="二、带宽的木桶效应"></a>二、带宽的木桶效应</h3><blockquote>
+<p>在实际应用中，主机的接口速率、线路带宽、交换机或路由器的接口速率遵循“木桶效应”，也就是数据传送速率从<strong>主机接口速率</strong>、<strong>线路带宽</strong>以及<strong>交换机或路由器的接口速率</strong>这三者中取小者。</p>
 </blockquote>
-<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221209000941469.png" alt="image-20221209000941469" loading="lazy"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221209134033985.png" alt="image-20221209134033985" loading="lazy"></p>
 ]]></content>
       <categories>
         <category>Computer Network</category>
@@ -3485,20 +3508,16 @@
       </tags>
   </entry>
   <entry>
-    <title>1.5.2 带宽</title>
-    <url>/2022/12/09/%E5%B8%A6%E5%AE%BD/</url>
-    <content><![CDATA[<h3 id="一、带宽的定义"><a href="#一、带宽的定义" class="headerlink" title="一、带宽的定义"></a>一、带宽的定义</h3><blockquote>
-<p>带宽的两种含义：</p>
-<ul>
-<li>带宽在模拟信号系统中的意义：是指某个信号所包含的各种不同频率成分所占据的频率范围。单位是赫兹（Hz），简称“赫”。常用单位有干赫（kHz）、兆赫（MHz）以及吉赫（GHz）等。例如，在传统的模拟通信线路上传送的电话信号的标准带宽是3.1kHz，话音的主要成分的频率范围为300Hz~3.4kHz。表示通信线路允许通过的信号频带范围就称为线路的带宽。</li>
-<li>带宽在计算机网络中的意义：用来表示网络的通信线路所能传送数据的能力，即在单位时间内从网络中的某一点到另一点所能通过的最高数据率。因此，在计算机网络中，带宽的单位与之前介绍过的速率的单位是相同的。基本单位是比特&#x2F;秒(b&#x2F;s或bps），常用单位有千比特&#x2F;秒（kb&#x2F;s或kbps）、兆比特&#x2F;秒（Mb&#x2F;s或Mbps）、吉比特&#x2F;秒（Gb&#x2F;s或Gbps）以及太比特秒（Tb&#x2F;s或Tbps)。</li>
-</ul>
-<p>根据香农公式可知，带宽的上述两种表述有着密切的关系：<strong>线路的“频率带宽”越宽，其所传输数据的“最高数据率”也越高。</strong></p>
+    <title>1.5.6 往返时间</title>
+    <url>/2022/12/09/%E5%BE%80%E8%BF%94%E6%97%B6%E9%97%B4/</url>
+    <content><![CDATA[<h3 id="一、往返时间的定义"><a href="#一、往返时间的定义" class="headerlink" title="一、往返时间的定义"></a>一、往返时间的定义</h3><blockquote>
+<p>往返时间（Round-Trip Time，RTT）是指从发送端发送数据分组开始，到发送端收到接收端发来的相应确认分组为止，总共耗费的时间。</p>
 </blockquote>
-<h3 id="二、带宽的木桶效应"><a href="#二、带宽的木桶效应" class="headerlink" title="二、带宽的木桶效应"></a>二、带宽的木桶效应</h3><blockquote>
-<p>在实际应用中，主机的接口速率、线路带宽、交换机或路由器的接口速率遵循“木桶效应”，也就是数据传送速率从<strong>主机接口速率</strong>、<strong>线路带宽</strong>以及<strong>交换机或路由器的接口速率</strong>这三者中取小者。</p>
+<blockquote>
+<p>卫星链路带来的传播时延比较大。</p>
 </blockquote>
-<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221209134033985.png" alt="image-20221209134033985" loading="lazy"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221209135750706.png" alt="image-20221209135750706" loading="lazy"></p>
+<h3 id="二、往返时间测试举例"><a href="#二、往返时间测试举例" class="headerlink" title="二、往返时间测试举例"></a>二、往返时间测试举例</h3><p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221209135826352.png" alt="image-20221209135826352" loading="lazy"></p>
 ]]></content>
       <categories>
         <category>Computer Network</category>
@@ -3526,16 +3545,28 @@
       </tags>
   </entry>
   <entry>
-    <title>1.5.6 往返时间</title>
-    <url>/2022/12/09/%E5%BE%80%E8%BF%94%E6%97%B6%E9%97%B4/</url>
-    <content><![CDATA[<h3 id="一、往返时间的定义"><a href="#一、往返时间的定义" class="headerlink" title="一、往返时间的定义"></a>一、往返时间的定义</h3><blockquote>
-<p>往返时间（Round-Trip Time，RTT）是指从发送端发送数据分组开始，到发送端收到接收端发来的相应确认分组为止，总共耗费的时间。</p>
+    <title>1.7.2 我国互联网发展情况相关资料的获取</title>
+    <url>/2022/12/09/%E6%88%91%E5%9B%BD%E4%BA%92%E8%81%94%E7%BD%91%E5%8F%91%E5%B1%95%E6%83%85%E5%86%B5%E7%9B%B8%E5%85%B3%E8%B5%84%E6%96%99%E7%9A%84%E8%8E%B7%E5%8F%96/</url>
+    <content><![CDATA[<h3 id="一、中国互联网络信息中心CNNIC"><a href="#一、中国互联网络信息中心CNNIC" class="headerlink" title="一、中国互联网络信息中心CNNIC"></a>一、中国互联网络信息中心CNNIC</h3><blockquote>
+<p>每年会发布两次我国互联网发展状况统计报告。我们可在CNNIC的官方网站<a href="http://www.cnnic.cn上查询和下载最新的相关文档./">www.cnnic.cn上查询和下载最新的相关文档。</a></p>
 </blockquote>
-<blockquote>
-<p>卫星链路带来的传播时延比较大。</p>
+<h3 id="二、第49次《中国互联网络发展状况统计报告》核心数据（截至2021年12月）"><a href="#二、第49次《中国互联网络发展状况统计报告》核心数据（截至2021年12月）" class="headerlink" title="二、第49次《中国互联网络发展状况统计报告》核心数据（截至2021年12月）"></a>二、第49次《中国互联网络发展状况统计报告》核心数据（截至2021年12月）</h3><blockquote>
+<ol>
+<li>我国网民规模：10.32亿，较2020年12月增长4296万，互联网普及率达73.0%，较2020年12月提升2.6个百分点。</li>
+<li>我国手机网民规模：10.29亿，较2020年12月增长4298万，网民使用手机上网的比例达99.7%。</li>
+<li>我国农村网民规模：2.84亿，占网民整体的27.6%；城镇网民规模达7.48亿，占网民整体的72.4%。</li>
+<li>我国网民使用手机上网的比例：99.7%；使用电视上网的比例为28.1%；使用台式电脑上网、笔记本电脑上网、平板电脑上网的比例分别为35.0%、33.0%和27.4%。</li>
+<li>我国IPv6地址数量：62052块&#x2F;32，较2020年12月增长9.4%。</li>
+<li>我国即时通信用户规模：10.07亿，较2020年12月增长2555万，占网民整体的97.5%。</li>
+<li>我国网络视频（含短视频）用户规模：9.75亿，较2020年12月增长4794万，占网民整体的94.5%；其中，短视频用户规模达9.34亿，较2020年12月增长6080万，占网民整体的90.5%。</li>
+<li>我国网络支付用户规模：9.04亿，较2020年12月增长4929万，占网民整体的87.6%。</li>
+<li>我国网络购物用户规模：8.42亿，较2020年12月增长5968万<strong>，</strong>占网民整体的81.6%。</li>
+<li>我国网络新闻用户规模：7.71亿，较2020年12月增长2835万，占网民整体的74.7%。</li>
+<li>我国网上外卖用户规模：5.44亿，较2020年12月增长1.25亿，占网民整体的52.7%。</li>
+<li>我国在线办公用户规模：4.69亿，较2020年12月增长1.23亿，占网民整体的45.4%。</li>
+<li>我国在线医疗用户规模：2.98亿，较2020年12月增长8308万，占网民整体的28.9%。</li>
+</ol>
 </blockquote>
-<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221209135750706.png" alt="image-20221209135750706" loading="lazy"></p>
-<h3 id="二、往返时间测试举例"><a href="#二、往返时间测试举例" class="headerlink" title="二、往返时间测试举例"></a>二、往返时间测试举例</h3><p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221209135826352.png" alt="image-20221209135826352" loading="lazy"></p>
 ]]></content>
       <categories>
         <category>Computer Network</category>
@@ -3571,37 +3602,6 @@
 <li>2003年，马云创立了淘宝网（Taobao.com），它是一个个人网上贸易市场平台。</li>
 <li>2004年，阿里巴巴集团创立了第三方支付平台—支付宝（Alipay.com），为中国电子商务提供了简单、安全、快捷的在线支付手段。</li>
 <li>2011年，腾讯推出了专门供智能手机使用的即时通信软件“微信”（WeChat）。该软件是在著名的电子邮件客户端软件Foxmail的作者张小龙的领导下成功研发的。目前几乎所有的智能手机用户都在使用微信。装有微信软件的智能手机，已从简单的社交工具演变成一个具有支付能力的全能钱包。</li>
-</ol>
-</blockquote>
-]]></content>
-      <categories>
-        <category>Computer Network</category>
-      </categories>
-      <tags>
-        <tag>postgraduate</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>1.7.2 我国互联网发展情况相关资料的获取</title>
-    <url>/2022/12/09/%E6%88%91%E5%9B%BD%E4%BA%92%E8%81%94%E7%BD%91%E5%8F%91%E5%B1%95%E6%83%85%E5%86%B5%E7%9B%B8%E5%85%B3%E8%B5%84%E6%96%99%E7%9A%84%E8%8E%B7%E5%8F%96/</url>
-    <content><![CDATA[<h3 id="一、中国互联网络信息中心CNNIC"><a href="#一、中国互联网络信息中心CNNIC" class="headerlink" title="一、中国互联网络信息中心CNNIC"></a>一、中国互联网络信息中心CNNIC</h3><blockquote>
-<p>每年会发布两次我国互联网发展状况统计报告。我们可在CNNIC的官方网站<a href="http://www.cnnic.cn上查询和下载最新的相关文档./">www.cnnic.cn上查询和下载最新的相关文档。</a></p>
-</blockquote>
-<h3 id="二、第49次《中国互联网络发展状况统计报告》核心数据（截至2021年12月）"><a href="#二、第49次《中国互联网络发展状况统计报告》核心数据（截至2021年12月）" class="headerlink" title="二、第49次《中国互联网络发展状况统计报告》核心数据（截至2021年12月）"></a>二、第49次《中国互联网络发展状况统计报告》核心数据（截至2021年12月）</h3><blockquote>
-<ol>
-<li>我国网民规模：10.32亿，较2020年12月增长4296万，互联网普及率达73.0%，较2020年12月提升2.6个百分点。</li>
-<li>我国手机网民规模：10.29亿，较2020年12月增长4298万，网民使用手机上网的比例达99.7%。</li>
-<li>我国农村网民规模：2.84亿，占网民整体的27.6%；城镇网民规模达7.48亿，占网民整体的72.4%。</li>
-<li>我国网民使用手机上网的比例：99.7%；使用电视上网的比例为28.1%；使用台式电脑上网、笔记本电脑上网、平板电脑上网的比例分别为35.0%、33.0%和27.4%。</li>
-<li>我国IPv6地址数量：62052块&#x2F;32，较2020年12月增长9.4%。</li>
-<li>我国即时通信用户规模：10.07亿，较2020年12月增长2555万，占网民整体的97.5%。</li>
-<li>我国网络视频（含短视频）用户规模：9.75亿，较2020年12月增长4794万，占网民整体的94.5%；其中，短视频用户规模达9.34亿，较2020年12月增长6080万，占网民整体的90.5%。</li>
-<li>我国网络支付用户规模：9.04亿，较2020年12月增长4929万，占网民整体的87.6%。</li>
-<li>我国网络购物用户规模：8.42亿，较2020年12月增长5968万<strong>，</strong>占网民整体的81.6%。</li>
-<li>我国网络新闻用户规模：7.71亿，较2020年12月增长2835万，占网民整体的74.7%。</li>
-<li>我国网上外卖用户规模：5.44亿，较2020年12月增长1.25亿，占网民整体的52.7%。</li>
-<li>我国在线办公用户规模：4.69亿，较2020年12月增长1.23亿，占网民整体的45.4%。</li>
-<li>我国在线医疗用户规模：2.98亿，较2020年12月增长8308万，占网民整体的28.9%。</li>
 </ol>
 </blockquote>
 ]]></content>
@@ -3655,15 +3655,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Welcome</title>
-    <url>/2022/10/11/%E6%AC%A2%E8%BF%8E%E7%95%8C%E9%9D%A2/</url>
-    <content><![CDATA[<p>Deliberating without writing is like eating without digesting.</p>
-]]></content>
-      <tags>
-        <tag>essay</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>1.5.5 时延带宽积</title>
     <url>/2022/12/09/%E6%97%B6%E5%BB%B6%E5%AE%BD%E5%B8%A6%E7%A7%AF/</url>
     <content><![CDATA[<h3 id="一、时延带宽积"><a href="#一、时延带宽积" class="headerlink" title="一、时延带宽积"></a>一、时延带宽积</h3><blockquote>
@@ -3687,25 +3678,12 @@
       </tags>
   </entry>
   <entry>
-    <title>1.3.1 电路交换</title>
-    <url>/2022/12/09/%E7%94%B5%E8%B7%AF%E4%BA%A4%E6%8D%A2/</url>
-    <content><![CDATA[<h3 id="一、电路交换"><a href="#一、电路交换" class="headerlink" title="一、电路交换"></a>一、电路交换</h3><blockquote>
-<p>使用电路交换进行通信的三个步骤如下：</p>
-<p>(1）建立连接：主叫方必须首先进行拨号以请求建立连接。当被叫方听到电话交换机送来的振铃音并摘机后，从主叫方到被叫方就建立了一条专用的物理通路，简称为连接。这条连接为通话双方提供通信资源。</p>
-<p>(2）通话：主叫方和被叫方现在可以基于已建立的连接进行通话了。在整个通话期</p>
-<p>间，通话双方始终点用着连接，通信资源不会被其他用户占用。</p>
-<p>(3）释放连接：通话完毕挂机后，从主叫方到被叫方的这条专用的物理通路被交换机<br>释放，将双方所占用的通信资源归还给电信网。如果主叫方在拨号请求建立连接时听到忙音，这可能是被叫方此时正忙或电信网的资源已不足以支持这次请求，则主叫方必须挂机等待一段时间后再重新拨号。</p>
-</blockquote>
-<blockquote>
-<p>计算机之间的数据传送是突发式的，当使用电路交换来传送计算机数据时，其线路的传输效率 般都会很低，线路上真正用来传送数据的时间往往不到10%甚至不到1%。</p>
-</blockquote>
-<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221209130339227.png" alt="image-20221209130339227" loading="lazy"></p>
+    <title>Welcome</title>
+    <url>/2022/10/11/%E6%AC%A2%E8%BF%8E%E7%95%8C%E9%9D%A2/</url>
+    <content><![CDATA[<p>Deliberating without writing is like eating without digesting.</p>
 ]]></content>
-      <categories>
-        <category>Computer Network</category>
-      </categories>
       <tags>
-        <tag>postgraduate</tag>
+        <tag>essay</tag>
       </tags>
   </entry>
   <entry>
@@ -3977,6 +3955,28 @@
       </categories>
       <tags>
         <tag>CET-4</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>1.3.1 电路交换</title>
+    <url>/2022/12/09/%E7%94%B5%E8%B7%AF%E4%BA%A4%E6%8D%A2/</url>
+    <content><![CDATA[<h3 id="一、电路交换"><a href="#一、电路交换" class="headerlink" title="一、电路交换"></a>一、电路交换</h3><blockquote>
+<p>使用电路交换进行通信的三个步骤如下：</p>
+<p>(1）建立连接：主叫方必须首先进行拨号以请求建立连接。当被叫方听到电话交换机送来的振铃音并摘机后，从主叫方到被叫方就建立了一条专用的物理通路，简称为连接。这条连接为通话双方提供通信资源。</p>
+<p>(2）通话：主叫方和被叫方现在可以基于已建立的连接进行通话了。在整个通话期</p>
+<p>间，通话双方始终点用着连接，通信资源不会被其他用户占用。</p>
+<p>(3）释放连接：通话完毕挂机后，从主叫方到被叫方的这条专用的物理通路被交换机<br>释放，将双方所占用的通信资源归还给电信网。如果主叫方在拨号请求建立连接时听到忙音，这可能是被叫方此时正忙或电信网的资源已不足以支持这次请求，则主叫方必须挂机等待一段时间后再重新拨号。</p>
+</blockquote>
+<blockquote>
+<p>计算机之间的数据传送是突发式的，当使用电路交换来传送计算机数据时，其线路的传输效率 般都会很低，线路上真正用来传送数据的时间往往不到10%甚至不到1%。</p>
+</blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221209130339227.png" alt="image-20221209130339227" loading="lazy"></p>
+]]></content>
+      <categories>
+        <category>Computer Network</category>
+      </categories>
+      <tags>
+        <tag>postgraduate</tag>
       </tags>
   </entry>
   <entry>
@@ -7857,30 +7857,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Contents of English</title>
-    <url>/2022/10/14/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%9B%AE%E5%BD%95/</url>
-    <content><![CDATA[<h3 id="一、说明"><a href="#一、说明" class="headerlink" title="一、说明"></a>一、说明</h3><p>本目录是我英语学习博客的一个导向目录。</p>
-<h3 id="二、词汇表目录"><a href="#二、词汇表目录" class="headerlink" title="二、词汇表目录"></a>二、词汇表目录</h3><ol>
-<li><a href="/2022/10/14/%E7%AC%AC%E4%B8%80%E5%A4%A9%E5%8D%95%E8%AF%8D/" title="Day 1 Word Tasks - English">Day 1 Word Tasks</a></li>
-<li><a href="/2022/10/15/%E7%AC%AC%E4%BA%8C%E5%A4%A9%E5%8D%95%E8%AF%8D/" title="Day 2 Word Tasks - English">Day 2 Word Tasks</a></li>
-<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">Day 3 Word Tasks</a></li>
-<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">Day 4 Word Tasks</a></li>
-<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">Day 5 Word Tasks</a></li>
-<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">Day 6 Word Tasks</a></li>
-<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">Day 7 Word Tasks</a></li>
-<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">Day 8 Word Tasks</a></li>
-<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">Day 9 Word Tasks</a></li>
-<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">Day 10 Word Tasks</a></li>
-</ol>
-<h3 id="三、语法目录"><a href="#三、语法目录" class="headerlink" title="三、语法目录"></a>三、语法目录</h3><h3 id="四、阅读文章目录"><a href="#四、阅读文章目录" class="headerlink" title="四、阅读文章目录"></a>四、阅读文章目录</h3><h3 id="五、真题目录"><a href="#五、真题目录" class="headerlink" title="五、真题目录"></a>五、真题目录</h3>]]></content>
-      <categories>
-        <category>catalogue</category>
-      </categories>
-      <tags>
-        <tag>postgraduate</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Contents of Principle of Compiler</title>
     <url>/2022/10/14/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86%E7%9B%AE%E5%BD%95/</url>
     <content><![CDATA[<h3 id="一、说明"><a href="#一、说明" class="headerlink" title="一、说明"></a>一、说明</h3><p>本目录是我课程编译原理具体笔记博客的一个导向目录。</p>
@@ -7957,6 +7933,59 @@
       </tags>
   </entry>
   <entry>
+    <title>Contents of English</title>
+    <url>/2022/10/14/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%9B%AE%E5%BD%95/</url>
+    <content><![CDATA[<h3 id="一、说明"><a href="#一、说明" class="headerlink" title="一、说明"></a>一、说明</h3><p>本目录是我英语学习博客的一个导向目录。</p>
+<h3 id="二、词汇表目录"><a href="#二、词汇表目录" class="headerlink" title="二、词汇表目录"></a>二、词汇表目录</h3><ol>
+<li><a href="/2022/10/14/%E7%AC%AC%E4%B8%80%E5%A4%A9%E5%8D%95%E8%AF%8D/" title="Day 1 Word Tasks - English">Day 1 Word Tasks</a></li>
+<li><a href="/2022/10/15/%E7%AC%AC%E4%BA%8C%E5%A4%A9%E5%8D%95%E8%AF%8D/" title="Day 2 Word Tasks - English">Day 2 Word Tasks</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">Day 3 Word Tasks</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">Day 4 Word Tasks</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">Day 5 Word Tasks</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">Day 6 Word Tasks</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">Day 7 Word Tasks</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">Day 8 Word Tasks</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">Day 9 Word Tasks</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">Day 10 Word Tasks</a></li>
+</ol>
+<h3 id="三、语法目录"><a href="#三、语法目录" class="headerlink" title="三、语法目录"></a>三、语法目录</h3><h3 id="四、阅读文章目录"><a href="#四、阅读文章目录" class="headerlink" title="四、阅读文章目录"></a>四、阅读文章目录</h3><h3 id="五、真题目录"><a href="#五、真题目录" class="headerlink" title="五、真题目录"></a>五、真题目录</h3>]]></content>
+      <categories>
+        <category>catalogue</category>
+      </categories>
+      <tags>
+        <tag>postgraduate</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>蓝桥杯Eclipse个人设置</title>
+    <url>/2022/12/15/%E8%93%9D%E6%A1%A5%E6%9D%AFEclipse%E4%B8%AA%E4%BA%BA%E8%AE%BE%E7%BD%AE/</url>
+    <content><![CDATA[<h3 id="1、自动补全"><a href="#1、自动补全" class="headerlink" title="1、自动补全"></a>1、自动补全</h3><p>编写代码时，自动提示完善代码。比如键盘输入‘s’,提示String等选项</p>
+<p>操作步骤：window -&gt;Perferences -&gt;Java -&gt; Editor -&gt; Content Assist</p>
+<p>Auto activation triggers for java 参数 填写<code>**.()&#123;&#125;abcdefghijklmnopqrstuvwxyz</code></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221215212531534.png" alt="image-20221215212531534" loading="lazy"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221215212556536.png" alt="image-20221215212556536" loading="lazy"></p>
+<h3 id="2、快捷键"><a href="#2、快捷键" class="headerlink" title="2、快捷键"></a>2、快捷键</h3><blockquote>
+<p> 操作步骤：<strong>Window - &gt;Preferences -&gt; General -&gt; Keys</strong></p>
+<ol>
+<li>quick fixed available（快速修复错误): 光标放在出错的代码位置，然后<strong>ctrl+1</strong>，在按<strong>enter</strong>键，即可快速智能修复。</li>
+<li>注释：ctrl+&#x2F;，取消注释 Ctrl+&#x2F;</li>
+<li>Alt+Shift+R 重命名 ，尤其是变量或类的重命名</li>
+<li>Ctrl+Shift+X 把当前选中的文本全部变为大写</li>
+<li>Ctrl+Shift+Y 把当前选中的文本全部变为小写</li>
+<li>Ctrl+L 定位在某行</li>
+<li>Ctrl+2，L为本地变量赋值,用过idea的同学都知道，idea中有一个 .var的变量自动赋值功能非常好用，eclipse中ctrl+2,L的功能和其类似。</li>
+<li>代码编辑区缩放，类似我们常用的快捷键组合Ctrl+鼠标滚轮。eclipse中（笔记本）使用Ctrl+ -代码编辑区缩小，Ctrl+&#x3D;放大。</li>
+</ol>
+</blockquote>
+]]></content>
+      <categories>
+        <category>catalogue</category>
+      </categories>
+      <tags>
+        <tag>Blue Bridge Cup</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>蓝桥杯备赛</title>
     <url>/2022/12/08/%E8%93%9D%E6%A1%A5%E6%9D%AF%E5%A4%87%E8%B5%9B/</url>
     <content><![CDATA[<h3 id="一、说明"><a href="#一、说明" class="headerlink" title="一、说明"></a>一、说明</h3><p>本目录是我蓝桥杯备赛的总目录。</p>
@@ -8001,35 +8030,6 @@
 <li>枚举</li>
 </ol>
 <h3 id="四、真题笔记目录"><a href="#四、真题笔记目录" class="headerlink" title="四、真题笔记目录"></a>四、真题笔记目录</h3>]]></content>
-      <categories>
-        <category>catalogue</category>
-      </categories>
-      <tags>
-        <tag>Blue Bridge Cup</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>蓝桥杯Eclipse个人设置</title>
-    <url>/2022/12/15/%E8%93%9D%E6%A1%A5%E6%9D%AFEclipse%E4%B8%AA%E4%BA%BA%E8%AE%BE%E7%BD%AE/</url>
-    <content><![CDATA[<h3 id="1、自动补全"><a href="#1、自动补全" class="headerlink" title="1、自动补全"></a>1、自动补全</h3><p>编写代码时，自动提示完善代码。比如键盘输入‘s’,提示String等选项</p>
-<p>操作步骤：window -&gt;Perferences -&gt;Java -&gt; Editor -&gt; Content Assist</p>
-<p>Auto activation triggers for java 参数 填写<code>**.()&#123;&#125;abcdefghijklmnopqrstuvwxyz</code></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221215212531534.png" alt="image-20221215212531534" loading="lazy"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221215212556536.png" alt="image-20221215212556536" loading="lazy"></p>
-<h3 id="2、快捷键"><a href="#2、快捷键" class="headerlink" title="2、快捷键"></a>2、快捷键</h3><blockquote>
-<p> 操作步骤：<strong>Window - &gt;Preferences -&gt; General -&gt; Keys</strong></p>
-<ol>
-<li>quick fixed available（快速修复错误): 光标放在出错的代码位置，然后<strong>ctrl+1</strong>，在按<strong>enter</strong>键，即可快速智能修复。</li>
-<li>注释：ctrl+&#x2F;，取消注释 Ctrl+&#x2F;</li>
-<li>Alt+Shift+R 重命名 ，尤其是变量或类的重命名</li>
-<li>Ctrl+Shift+X 把当前选中的文本全部变为大写</li>
-<li>Ctrl+Shift+Y 把当前选中的文本全部变为小写</li>
-<li>Ctrl+L 定位在某行</li>
-<li>Ctrl+2，L为本地变量赋值,用过idea的同学都知道，idea中有一个 .var的变量自动赋值功能非常好用，eclipse中ctrl+2,L的功能和其类似。</li>
-<li>代码编辑区缩放，类似我们常用的快捷键组合Ctrl+鼠标滚轮。eclipse中（笔记本）使用Ctrl+ -代码编辑区缩小，Ctrl+&#x3D;放大。</li>
-</ol>
-</blockquote>
-]]></content>
       <categories>
         <category>catalogue</category>
       </categories>
@@ -8132,21 +8132,6 @@
       </tags>
   </entry>
   <entry>
-    <title>1.1.2 计算机网络带来的负面问题</title>
-    <url>/2022/12/08/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E5%B8%A6%E6%9D%A5%E7%9A%84%E8%B4%9F%E9%9D%A2%E9%97%AE%E9%A2%98/</url>
-    <content><![CDATA[<h3 id="一、网络带来的负面问题"><a href="#一、网络带来的负面问题" class="headerlink" title="一、网络带来的负面问题"></a>一、网络带来的负面问题</h3><blockquote>
-<p>黑客利用网络窃取国家机密、传播计算机病毒、肆意攻击正规网站，不法分子在网络上实施诈骗、建立各种色情网站和赌博网站来牟利，某些电子商务平台上的不良商家通过网络售卖假冒伪劣商品，网络使用者有意或无意地传播形形色色的谣言……但是，计算机网路给我们生活带来的正面影响远远超过其负面问题。</p>
-</blockquote>
-<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221208234426384.png" alt="image-20221208234426384" loading="lazy"></p>
-]]></content>
-      <categories>
-        <category>Computer Network</category>
-      </categories>
-      <tags>
-        <tag>postgraduate</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>1.6.2 计算机网络体系结构分层的必要性</title>
     <url>/2022/12/09/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84%E5%88%86%E5%B1%82%E7%9A%84%E5%BF%85%E8%A6%81%E6%80%A7/</url>
     <content><![CDATA[<h3 id="一、计算机网络体系结构分层的必要性"><a href="#一、计算机网络体系结构分层的必要性" class="headerlink" title="一、计算机网络体系结构分层的必要性"></a>一、计算机网络体系结构分层的必要性</h3><blockquote>
@@ -8199,6 +8184,21 @@
       </tags>
   </entry>
   <entry>
+    <title>1.1.2 计算机网络带来的负面问题</title>
+    <url>/2022/12/08/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E5%B8%A6%E6%9D%A5%E7%9A%84%E8%B4%9F%E9%9D%A2%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<h3 id="一、网络带来的负面问题"><a href="#一、网络带来的负面问题" class="headerlink" title="一、网络带来的负面问题"></a>一、网络带来的负面问题</h3><blockquote>
+<p>黑客利用网络窃取国家机密、传播计算机病毒、肆意攻击正规网站，不法分子在网络上实施诈骗、建立各种色情网站和赌博网站来牟利，某些电子商务平台上的不良商家通过网络售卖假冒伪劣商品，网络使用者有意或无意地传播形形色色的谣言……但是，计算机网路给我们生活带来的正面影响远远超过其负面问题。</p>
+</blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221208234426384.png" alt="image-20221208234426384" loading="lazy"></p>
+]]></content>
+      <categories>
+        <category>Computer Network</category>
+      </categories>
+      <tags>
+        <tag>postgraduate</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>1.4.2 计算机网络的分类</title>
     <url>/2022/12/09/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E7%9A%84%E5%88%86%E7%B1%BB/</url>
     <content><![CDATA[<h3 id="一、按网络的覆盖范围分类"><a href="#一、按网络的覆盖范围分类" class="headerlink" title="一、按网络的覆盖范围分类"></a>一、按网络的覆盖范围分类</h3><p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221209132658779.png" alt="image-20221209132658779" loading="lazy"></p>
@@ -8222,6 +8222,25 @@
 </blockquote>
 <p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221208233950290.png" alt="image-20221208233950290" loading="lazy"></p>
 <h3 id="二、物联网IoT"><a href="#二、物联网IoT" class="headerlink" title="二、物联网IoT"></a>二、物联网IoT</h3><p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221208234319489.png" alt="image-20221208234319489" loading="lazy"></p>
+]]></content>
+      <categories>
+        <category>Computer Network</category>
+      </categories>
+      <tags>
+        <tag>postgraduate</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>1.4.1 计算机网络的定义</title>
+    <url>/2022/12/09/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E7%9A%84%E5%AE%9A%E4%B9%89/</url>
+    <content><![CDATA[<h3 id="一、早期的最简单的定义"><a href="#一、早期的最简单的定义" class="headerlink" title="一、早期的最简单的定义"></a>一、早期的最简单的定义</h3><blockquote>
+<p>一些互连的、自治的计算机的集合。</p>
+</blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221209132221203.png" alt="image-20221209132221203" loading="lazy"></p>
+<h3 id="二、现阶段的较好定义"><a href="#二、现阶段的较好定义" class="headerlink" title="二、现阶段的较好定义"></a>二、现阶段的较好定义</h3><blockquote>
+<p>计算机网络主要是由一些通用的、可编程的硬件互连而成。</p>
+</blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221209132532533.png" alt="image-20221209132532533" loading="lazy"></p>
 ]]></content>
       <categories>
         <category>Computer Network</category>
@@ -8462,22 +8481,15 @@
       </tags>
   </entry>
   <entry>
-    <title>1.4.1 计算机网络的定义</title>
-    <url>/2022/12/09/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E7%9A%84%E5%AE%9A%E4%B9%89/</url>
-    <content><![CDATA[<h3 id="一、早期的最简单的定义"><a href="#一、早期的最简单的定义" class="headerlink" title="一、早期的最简单的定义"></a>一、早期的最简单的定义</h3><blockquote>
-<p>一些互连的、自治的计算机的集合。</p>
-</blockquote>
-<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221209132221203.png" alt="image-20221209132221203" loading="lazy"></p>
-<h3 id="二、现阶段的较好定义"><a href="#二、现阶段的较好定义" class="headerlink" title="二、现阶段的较好定义"></a>二、现阶段的较好定义</h3><blockquote>
-<p>计算机网络主要是由一些通用的、可编程的硬件互连而成。</p>
-</blockquote>
-<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221209132532533.png" alt="image-20221209132532533" loading="lazy"></p>
-]]></content>
+    <title>Contents of Software Engineering</title>
+    <url>/2022/10/17/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E7%9B%AE%E5%BD%95/</url>
+    <content><![CDATA[<h3 id="一、说明"><a href="#一、说明" class="headerlink" title="一、说明"></a>一、说明</h3><p>本目录是我软件工程学习过程中笔记博客的一个导向目录。</p>
+<h3 id="二、文章链接"><a href="#二、文章链接" class="headerlink" title="二、文章链接"></a>二、文章链接</h3>]]></content>
       <categories>
-        <category>Computer Network</category>
+        <category>catalogue</category>
       </categories>
       <tags>
-        <tag>postgraduate</tag>
+        <tag>curriculum</tag>
       </tags>
   </entry>
   <entry>
@@ -8514,18 +8526,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Contents of Software Engineering</title>
-    <url>/2022/10/17/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E7%9B%AE%E5%BD%95/</url>
-    <content><![CDATA[<h3 id="一、说明"><a href="#一、说明" class="headerlink" title="一、说明"></a>一、说明</h3><p>本目录是我软件工程学习过程中笔记博客的一个导向目录。</p>
-<h3 id="二、文章链接"><a href="#二、文章链接" class="headerlink" title="二、文章链接"></a>二、文章链接</h3>]]></content>
-      <categories>
-        <category>catalogue</category>
-      </categories>
-      <tags>
-        <tag>curriculum</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Advanced Mathematics</title>
     <url>/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/</url>
     <content><![CDATA[<p>还没写呢</p>
@@ -8551,6 +8551,34 @@
       </categories>
       <tags>
         <tag>postgraduate</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>高等数学-1.1函数</title>
+    <url>/2022/11/27/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A61.1%E5%87%BD%E6%95%B0/</url>
+    <content><![CDATA[<h3 id="一、说明"><a href="#一、说明" class="headerlink" title="一、说明"></a>一、说明</h3><p>本篇是我考研高等数学具体笔记博客。</p>
+<p>使用的视频教材为：<a href="https://www.bilibili.com/video/BV1Lg411y7GM/?spm_id_from=333.788.recommend_more_video.1&vd_source=b67e806ce2d472466c131e4de446b801">考研数学-汤家凤高数基础全集-文都考研</a></p>
+<p>使用的讲义为：高等数学辅导讲义2024考研数学</p>
+<hr>
+<p>章数：1</p>
+<p>节数：1</p>
+<p>内容：函数</p>
+<hr>
+<h3 id="二、知识点"><a href="#二、知识点" class="headerlink" title="二、知识点"></a>二、知识点</h3><h4 id="1、基本概念"><a href="#1、基本概念" class="headerlink" title="1、基本概念"></a>1、基本概念</h4><p>​	<img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221127153216717.png" alt="image-20221127153216717" loading="lazy"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221127153242951.png" alt="image-20221127153242951" loading="lazy"></p>
+<h4 id="2、函数初等性质"><a href="#2、函数初等性质" class="headerlink" title="2、函数初等性质"></a>2、函数初等性质</h4><p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221127153403090.png" alt="image-20221127153403090" loading="lazy"></p>
+<p><strong>函数有界的条件</strong>：f(x)有界的充分必要条件是f(x)既有下界又有上界</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221127153413813.png" alt="image-20221127153413813" loading="lazy"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221127153431642.png" alt="image-20221127153431642" loading="lazy"></p>
+<h4 id="3、特殊函数"><a href="#3、特殊函数" class="headerlink" title="3、特殊函数"></a>3、特殊函数</h4><p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221127153504739.png" alt="image-20221127153504739" loading="lazy"></p>
+<p><strong>（1）</strong>[x]≤x.</p>
+<p><strong>（2）</strong>[x+y]&#x3D;[x]+[y]不是总成立的，但[x+m]&#x3D;[x]+m（其中m为整数）是一定成立的.</p>
+]]></content>
+      <categories>
+        <category>notes</category>
+      </categories>
+      <tags>
+        <tag>Postgraduate Advanced Mathematics</tag>
       </tags>
   </entry>
   <entry>
@@ -8636,34 +8664,6 @@
 </li>
 </ol>
 <h4 id="3、重要极限"><a href="#3、重要极限" class="headerlink" title="3、重要极限"></a>3、重要极限</h4><p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221127165432061.png" alt="image-20221127165432061" loading="lazy"></p>
-]]></content>
-      <categories>
-        <category>notes</category>
-      </categories>
-      <tags>
-        <tag>Postgraduate Advanced Mathematics</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>高等数学-1.1函数</title>
-    <url>/2022/11/27/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A61.1%E5%87%BD%E6%95%B0/</url>
-    <content><![CDATA[<h3 id="一、说明"><a href="#一、说明" class="headerlink" title="一、说明"></a>一、说明</h3><p>本篇是我考研高等数学具体笔记博客。</p>
-<p>使用的视频教材为：<a href="https://www.bilibili.com/video/BV1Lg411y7GM/?spm_id_from=333.788.recommend_more_video.1&vd_source=b67e806ce2d472466c131e4de446b801">考研数学-汤家凤高数基础全集-文都考研</a></p>
-<p>使用的讲义为：高等数学辅导讲义2024考研数学</p>
-<hr>
-<p>章数：1</p>
-<p>节数：1</p>
-<p>内容：函数</p>
-<hr>
-<h3 id="二、知识点"><a href="#二、知识点" class="headerlink" title="二、知识点"></a>二、知识点</h3><h4 id="1、基本概念"><a href="#1、基本概念" class="headerlink" title="1、基本概念"></a>1、基本概念</h4><p>​	<img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221127153216717.png" alt="image-20221127153216717" loading="lazy"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221127153242951.png" alt="image-20221127153242951" loading="lazy"></p>
-<h4 id="2、函数初等性质"><a href="#2、函数初等性质" class="headerlink" title="2、函数初等性质"></a>2、函数初等性质</h4><p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221127153403090.png" alt="image-20221127153403090" loading="lazy"></p>
-<p><strong>函数有界的条件</strong>：f(x)有界的充分必要条件是f(x)既有下界又有上界</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221127153413813.png" alt="image-20221127153413813" loading="lazy"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221127153431642.png" alt="image-20221127153431642" loading="lazy"></p>
-<h4 id="3、特殊函数"><a href="#3、特殊函数" class="headerlink" title="3、特殊函数"></a>3、特殊函数</h4><p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221127153504739.png" alt="image-20221127153504739" loading="lazy"></p>
-<p><strong>（1）</strong>[x]≤x.</p>
-<p><strong>（2）</strong>[x+y]&#x3D;[x]+[y]不是总成立的，但[x+m]&#x3D;[x]+m（其中m为整数）是一定成立的.</p>
 ]]></content>
       <categories>
         <category>notes</category>
