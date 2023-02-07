@@ -8944,20 +8944,260 @@
 <li>用例图和活动图—-UMLBehavioral里面的Use Case和Activity</li>
 <li>类图————-UML Structural里面的Class</li>
 <li>顺序图———–UMLBehavioral里面的Sequence</li>
-<li>编码————-UML Structural里面的Class</li>
+<li>编码————-UMLBehavioral里面的<strong>Activity</strong>，<strong>图片错了</strong></li>
 <li>测试————-你问我？直接写代码</li>
 <li>跟踪模型图——–UML Structural里面的Class</li>
 </ol>
 </blockquote>
 <blockquote>
 <p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207152117108.png" alt="image-20230207152117108" loading="lazy"></p>
+<p><strong>第七题为活动图</strong></p>
 </blockquote>
-<h3 id="五、九转软件工程"><a href="#五、九转软件工程" class="headerlink" title="五、九转软件工程"></a>五、九转软件工程</h3><h4 id="1-一转-需求图"><a href="#1-一转-需求图" class="headerlink" title="1. 一转 需求图"></a>1. 一转 需求图</h4><blockquote>
+<h3 id="五、九转软件工程"><a href="#五、九转软件工程" class="headerlink" title="五、九转软件工程"></a>五、九转软件工程</h3><blockquote>
+<p>记录1：ATM系统提供给银行的顾客服务、管理员维护，须安全登录控制。<br>    记录2：顾客<strong>可查询账户余额</strong>、<strong>改密</strong>（密码限为6位数字）、<strong>存款</strong>（数额是最小面值的整数倍）、<strong>取款</strong>(每天、每次取款限额)、<strong>转账</strong>（同类型账户之间可转，但相同账户不能转账）及<strong>打印凭据</strong>等事务。<br>    记录3：管理员可每周定期补钞、取钞，开、关ATM系统，维护期间（约10分钟）暂停服务。<br>    记录4：管理员强制通过日志信息每月定期检查ATM软、硬件是否正常运行，修理期间（约30分钟）暂停服务。<br>    记录5：ATM的所有用户都必须使用磁卡（模以输入卡号）登录，密码限错误输入3次，否则将被吞卡并锁定账号1个工作日。<br>    记录6：顾客每天限次登录，否则将拒绝登录和服务。存取款额度、面值必须符合现行金融政策规定或特别是提示顾客有效的货币种类和面值。</p>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>提示1：所有回答不限使用工具，但必须采用面向对象UML符号绘制，截图不要带有工具界面(EAPublish-&gt;&gt;Diagram Image-&gt;&gt;save to Clipboard,或选择图窗口，快捷键Ctr+B,在答案窗口直接C+V),并于图中标注学号或姓名，如EA显示作者细节，注册真实姓名和学号。每题可以贴多张图片，关键一两张最好(EA多窗口截图，比时PrtSc,再Ctl+V)。</p>
+</blockquote>
+<blockquote>
+<p>提示2：现假设您负责完成ATM的顾客<strong>查询余额</strong>功能的需求、分析、设计、编码和测试，依次完成以下各题，各题重点考虑查询及其相关因素。</p>
+</blockquote>
+<blockquote>
+<p>提示3：根据所给材料，结合各题的具体要求，运用面向对象软件工程的基本方法、过程和工具，以UML模型图形式进行回答，必要的文字说明可加分。</p>
+</blockquote>
+</blockquote>
+<h4 id="1-一转-需求图"><a href="#1-一转-需求图" class="headerlink" title="1. 一转 需求图"></a>1. 一转 需求图</h4><blockquote>
 <p>1.绘制需求工程分析的需求图(10.0分)</p>
-<p>要求：<br>    ①识别ATM功能性需求，<br>    ②根据自己使用ATM经验和有关金融政策的GB规范和业务规则，如密码限错误输入3次等，<br>    ③对ATM系统功能进行需求分析，3个以上层次，<br>    ④绘制系统查询功能相关的需求图，<br>    ⑤需求主要聚合关系（空心菱形），采用不同颜色标注需求的高、中、低优先级。</p>
+<p>要求：<br>    ①识别<strong>ATM功能性需求</strong>，<br>    ②根据自己使用ATM经验和有关金融政策的<strong>GB规范和业务规则</strong>，如密码限错误输入3次等，<br>    ③对ATM系统功能进行需求分析，<strong>3个以上层次</strong>，<br>    ④绘制<strong>系统查询功能相关</strong>的需求图，<br>    ⑤需求主要<strong>聚合关系（空心菱形）</strong>，采用不同颜色<strong>标注需求的高、中、低优先级</strong>。</p>
+</blockquote>
+<blockquote>
+<p><strong>解题步骤：</strong></p>
+<ol>
+<li><p>从记录中<strong>分析</strong>总需求和功能需求、业务逻辑。</p>
+<blockquote>
+<blockquote>
+<p>总需求：<strong>查询功能</strong></p>
+</blockquote>
+<blockquote>
+<p>子需求1-暂停服务判断功能需求：是否在<strong>维护期间（约10分钟）</strong>，是否在<strong>维修期间（约30分钟）</strong>，不在暂停服务期间可以进行登录。</p>
+<p>子需求2-登录功能需求：<strong>插卡</strong>相当于输入账号，<strong>输入密码</strong>。同时进行<strong>限次判断（每天登录次数）</strong>和<strong>吞卡判断（判断错误次数是否超过3次）</strong>。</p>
+<p>子需求3-选择功能需求：登录成功后<strong>显示事务功能</strong>，并提供<strong>选择事务</strong>。</p>
+<p>子需求4-查询余额功能需求：当客户选择查询余额功能时候，要<strong>显示余额信息</strong>，余额信息包括<strong>时间信息（时 分 秒，CST）</strong>、<strong>账户余额信息（十进制数字 元）</strong>、<strong>显示对余额改动功能（退出退卡，取出余额，转账等）</strong>。</p>
+<p>子需求5-退卡需求分析：<strong>弹出磁卡</strong>，供客户<strong>取走磁卡</strong>。</p>
+</blockquote>
+</blockquote>
+</li>
+<li><p>画出需求图</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207163945527.png" alt="image-20230207163945527" loading="lazy"></p>
+</li>
+<li><p>上色</p>
+<img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207165749611.png" alt="image-20230207165749611"/ loading="lazy">
+
+<blockquote>
+<p> <strong>我的答案：</strong></p>
+<p>文字备注：</p>
+<p>深绿色为容易</p>
+<p>蓝色为中等</p>
+<p>橙色为困难</p>
+<img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207165749611.png"/ loading="lazy">
+</blockquote>
+<blockquote>
+<blockquote>
+<p><strong>难点1：</strong>如何进行线的对齐？</p>
+<p>选中线-&gt;线的样式-&gt;树形-水平方向（方向自己看）</p>
+<img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207170254512.png" alt="image-20230207170254512" style="zoom: 50%;" / loading="lazy">
+</blockquote>
+<blockquote>
+<p><strong>难点2：</strong>如何上色？</p>
+<p>偷懒就直接填充颜色</p>
+<img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207170451654.png" alt="image-20230207170451654" style="zoom:33%;" / loading="lazy">
+
+<p>或者这里面慢慢改<img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207170527410.png" alt="image-20230207170527410" loading="lazy"></p>
+</blockquote>
+</blockquote>
+</li>
+</ol>
+</blockquote>
+<h4 id="2-二转-数据建模图"><a href="#2-二转-数据建模图" class="headerlink" title="2. 二转 数据建模图"></a>2. 二转 数据建模图</h4><blockquote>
+<p>2.绘制数据逻辑模型图（10分）</p>
+<p>要求：</p>
+<p>①识别出ATM实体：顾客Customer、银行卡Card、账号Account、日志Log、管理员Admin等，</p>
+<p>②识别出各实体必要的属性及其类型、缺省值等，</p>
+<p>③识别出实体之间的联系和权重，</p>
+<p>④分析ATM案例SimulatedBank类的inquiry方法关联的类，将查询操作的相关实体保存入库，针对查询建立数据逻辑模型。</p>
+</blockquote>
+<blockquote>
+<p><strong>解题步骤：</strong></p>
+<ol>
+<li><p>分析实体，<strong>他要求中的实体，画了就可以了</strong></p>
+</li>
+<li><p>画图连线并标记关系</p>
+</li>
+<li><p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207173203200.png" alt="image-20230207173203200" loading="lazy"></p>
+<blockquote>
+<p><strong>难点1：</strong>怎么添加属性？</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207173503971.png" alt="image-20230207173503971" loading="lazy"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207173549766.png" alt="image-20230207173549766" loading="lazy"></p>
+</blockquote>
+<blockquote>
+<p><strong>难点2：</strong>关系怎么标？</p>
+<p>1对1(1:1)，1对多(1:m)，多对1(m:1)，多对多(m:n)</p>
+<p><strong>在线的一端右键</strong></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207173740243.png" alt="image-20230207173740243" loading="lazy"></p>
+</blockquote>
+<blockquote>
+<p><strong>我的答案：</strong></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207173203200.png" alt="image-20230207173203200" loading="lazy"></p>
+</blockquote>
+</li>
+</ol>
+</blockquote>
+<h4 id="3-三转-层次结构图"><a href="#3-三转-层次结构图" class="headerlink" title="3. 三转 层次结构图"></a>3. 三转 层次结构图</h4><blockquote>
+<p>3.绘制系统体系结构的层次结构图（10分）</p>
+<p>要求：</p>
+<p>①至少分表现层、业务层、数据层3个层次，设计结构模型，包（Package）图符号绘制，包含必要的查询关联的类或组件或UI，</p>
+<p>②采用泳道，标注清晰层次，导入（import）或依赖的包关系，</p>
+<p>③综合考虑分层分包，不确定泳道的类则要给予说明。</p>
+<blockquote>
+<p><strong>我的答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207181118276.png" alt="image-20230207181118276" style="zoom:67%;" / loading="lazy"></p>
+</blockquote>
+<blockquote>
+<p><strong>难点1：</strong>怎么在包里面添加元素？</p>
+<p>在<strong>生成的包</strong>里面<strong>新建图</strong>，然后在<strong>图里面添加元素</strong>。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207183450037.png" alt="image-20230207183450037" loading="lazy"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207183202759.png" alt="image-20230207183202759" loading="lazy"></p>
+</blockquote>
+<blockquote>
+<p><strong>难点2：</strong>框框怎么画？</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207183332057.png" alt="image-20230207183332057" loading="lazy"></p>
+</blockquote>
+</blockquote>
+<h4 id="4-四转-用例图和活动图"><a href="#4-四转-用例图和活动图" class="headerlink" title="4. 四转 用例图和活动图"></a>4. 四转 用例图和活动图</h4><blockquote>
+<p>4.绘制面向对象分析与设计的用例建模图（10分）</p>
+<p>要求：</p>
+<p>①识别出参与者，</p>
+<p>②识别出用例，</p>
+<p>③识别出系统边界，顾客、账户及余额等数据存储于MySQL数据库中，</p>
+<p>④绘制查询账号余额用例规约（场景化窗口或者活动图）。</p>
+</blockquote>
+<blockquote>
+<p><strong>解题步骤：</strong></p>
+<ol>
+<li><p>分析参与人、用例、系统边界，并绘制用例图。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207190928888.png" alt="image-20230207190928888" loading="lazy"></p>
+</li>
+<li><p>绘制活动图</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207191118599.png" alt="image-20230207191118599" loading="lazy"></p>
+</li>
+</ol>
+</blockquote>
+<h4 id="5-五转-绘制类图"><a href="#5-五转-绘制类图" class="headerlink" title="5. 五转 绘制类图"></a>5. 五转 绘制类图</h4><blockquote>
+<p>5.绘制面向对象分析与设计的类图（10分）</p>
+<p>​       要求：</p>
+<p>​       ①识别出所有类(包括具体界面类)与查询相关类，及其必要的属性和方法，属性和方法都要求明确的定义，不完整定义将被扣分，</p>
+<p>​       ②识别出类间的关系，符号正确，联线整洁。父类或接口在上，子类或实现类在下，</p>
+<p>​       ③绘制全英文的详细类图，关系和符号表达准确无误，</p>
+<p>​       ④可逆向ATM案例为参考，加入依据需求分析而设计的新类，没有自己设计的类或重构的类会被扣分。</p>
+</blockquote>
+<blockquote>
+<p><strong>画个屁屁，直接逆向生成</strong></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207194743489.png" alt="image-20230207194743489" loading="lazy"></p>
+<blockquote>
+<p><strong>难点：</strong>怎么逆向生成？</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207194853015.png" alt="image-20230207194853015" loading="lazy"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207194908956.png" alt="image-20230207194908956" loading="lazy"></p>
+</blockquote>
+</blockquote>
+<h4 id="6-六转-绘制顺序图"><a href="#6-六转-绘制顺序图" class="headerlink" title="6. 六转 绘制顺序图"></a>6. 六转 绘制顺序图</h4><blockquote>
+<p>6.假设ATM系统的核心业务流程为顾客插卡，系统验卡，系统显示输入密码，顾客输入PIN，系统显示操作，顾客选择交易，顾客打印凭据，系统吐卡，顾客取卡，系统退回等待界面等基本活动。绘制顾客使用ATM系统查询账号余额的低阶顺序图。（15分）</p>
+<p>要求：</p>
+<p>①思考顾客所需的协作对象，</p>
+<p>②使用条件片段，</p>
+<p>③使用循环片段（Fragment），</p>
+<p>④各消息必须有明确的名称、参数、返回类型以及赋值对象等，</p>
+<p>⑤考虑对象的创建和销毁，返回消息为虚线箭头等，</p>
+<p>⑥EA可录制Record，但给出关键部分并清晰可读。</p>
 </blockquote>
 <blockquote>
 <p>解题步骤：</p>
+<ol>
+<li><p>根据SimulatedBank定位查找到源代码。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207200357347.png" alt="image-20230207200357347" loading="lazy"></p>
+</li>
+<li><p>找到代码</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">private</span> Status <span class="title function_">inquiry</span><span class="params">(Message message, Balances balances)</span></span><br><span class="line">  &#123;</span><br><span class="line">      <span class="type">int</span> <span class="variable">cardNumber</span> <span class="operator">=</span> message.getCard().getNumber(); </span><br><span class="line">   </span><br><span class="line">      <span class="type">int</span> <span class="variable">accountNumber</span> <span class="operator">=</span> ACCOUNT_NUMBER [ cardNumber ] [ message.getFromAccount() ];</span><br><span class="line">      <span class="keyword">if</span> (accountNumber == <span class="number">0</span>)</span><br><span class="line">          <span class="keyword">return</span> <span class="keyword">new</span> <span class="title class_">Failure</span>(<span class="string">&quot;Invalid account type&quot;</span>);</span><br><span class="line">      </span><br><span class="line">      <span class="comment">// Return requested balances</span></span><br><span class="line">      </span><br><span class="line">      balances.setBalances(BALANCE [ accountNumber ], </span><br><span class="line">                           AVAILABLE_BALANCE [ accountNumber ]);</span><br><span class="line">      </span><br><span class="line">      <span class="keyword">return</span> <span class="keyword">new</span> <span class="title class_">Success</span>();</span><br><span class="line">  &#125;</span><br><span class="line">   </span><br><span class="line">  <span class="comment">/** Representation for status of a transaction that succeeded</span></span><br><span class="line"><span class="comment">   */</span></span><br><span class="line">  <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">class</span> <span class="title class_">Success</span> <span class="keyword">extends</span> <span class="title class_">Status</span></span><br><span class="line">  &#123;</span><br><span class="line">      <span class="keyword">public</span> <span class="type">boolean</span> <span class="title function_">isSuccess</span><span class="params">()</span></span><br><span class="line">      &#123;</span><br><span class="line">          <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">      &#125;</span><br><span class="line">      </span><br><span class="line">      <span class="keyword">public</span> <span class="type">boolean</span> <span class="title function_">isInvalidPIN</span><span class="params">()</span></span><br><span class="line">      &#123;</span><br><span class="line">          <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">      &#125;</span><br><span class="line">      </span><br><span class="line">      <span class="keyword">public</span> String <span class="title function_">getMessage</span><span class="params">()</span></span><br><span class="line">      &#123;</span><br><span class="line">          <span class="keyword">return</span> <span class="literal">null</span>;</span><br><span class="line">      &#125;</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>跟着这两行代码画画顺序图。</p>
+<p>我只能画成这样</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207204659273.png" alt="image-20230207204659273" loading="lazy"></p>
+<p>标准答案是：<img src="https://p.ananas.chaoxing.com/star3/origin/9a4f07273e2e5d5283f34cdbd3c2302a.png" alt="alt 属性文本" loading="lazy"></p>
+</li>
+</ol>
+</blockquote>
+<h4 id="7-七转-编码"><a href="#7-七转-编码" class="headerlink" title="7. 七转 编码"></a>7. 七转 编码</h4><blockquote>
+<p>7.面向对象编码（10分）</p>
+<p>阅读ATM案例源码，绘制所有与查询Inquiry类相关的类及其关联图，包括Inquiry类的继承、聚合、关联、依赖等关系类。</p>
+<p>要求：</p>
+<p>①采用面向对象思想和走查阅读源码的方法，<strong>绘制</strong>Inquiry类及其相关的<strong>类图</strong>，</p>
+<p>②必要的属性和操作，</p>
+<p>③在SimulatedBank类结点下新建名为inquiry的<strong>行为模型（活动或顺序图）图</strong>，生成代码，</p>
+<p>④<strong>删除原inquiry操作</strong>，构建成功并<strong>测试inquiry功能正确</strong>。</p>
+</blockquote>
+<blockquote>
+<p><strong>我的方法：</strong>手动画一个源代码的<strong>活动图</strong>，再拿<strong>源代码</strong>截图，类图就把之前逆向工程那边的类图截取一部分，画太花时间了，<strong>考试时间充足</strong>的同学可以逝世。</p>
+<p><strong>我的答案：</strong></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207211241235.png" alt="image-20230207211241235" loading="lazy"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207211128582.png" alt="image-20230207211128582" loading="lazy"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207211203265.png" alt="image-20230207211203265" loading="lazy"></p>
+</blockquote>
+<h4 id="8-八转-测试"><a href="#8-八转-测试" class="headerlink" title="8. 八转 测试"></a>8. 八转 测试</h4><blockquote>
+<p>8.面向对象测试（15分）</p>
+<p>根据ATM案例功能和实现代码，设计查询的单元测试用例并编写测试程序。</p>
+<p>要求：</p>
+<p>①采用边界值和等价类测试技术设计测试用例，</p>
+<p>②使用JUnit框架单元测试，使用JUnit断言API，如assertEquals等完成测试，</p>
+<p>③SimulatedBank类的handleMessage方法进行单测，</p>
+<p>④给出覆盖率和复杂度报告（覆盖工具不限，或手工计算： 覆盖率&#x3D;（至少被执行一次的item数）&#x2F;item的总数）。</p>
+</blockquote>
+<blockquote>
+<p>EA12是不带测试的版本，我选择本地直接运行测试，有能力的同学可以选择EA15并编写测试用例。</p>
+<p><strong>我的答案：</strong></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207213012689.png" alt="image-20230207213012689" loading="lazy"></p>
+<p>余额0元</p>
+<blockquote>
+<p><strong>难点1：</strong>运行哪个文件？</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207213144050.png" alt="image-20230207213144050" loading="lazy"></p>
+<p><strong>难点2：</strong>怎么进入余额界面？</p>
+<p>先点<strong>插入卡片</strong>，然后<strong>输入整数数字</strong>，回车。返回界面后<strong>点ENTER</strong>，然后<strong>点击2，回车</strong>，再点击<strong>Check</strong>。</p>
+</blockquote>
+</blockquote>
+<h4 id="9-九转-绘制跟踪模型图"><a href="#9-九转-绘制跟踪模型图" class="headerlink" title="9. 九转 绘制跟踪模型图"></a>9. 九转 绘制跟踪模型图</h4><blockquote>
+<p>9.绘制从需求到测试的查询功能的跟踪模型图（10分）</p>
+<p>绘制需求、用例、鲁棒、界面、类图（MVC、DAO）、行为（活动或顺序图）、数据（逻辑、物理模型）、测试（单元、集成、系统、验收测试）、组件、部署等全程建模的跟踪模型图，设置并显示各种图的测试状态（必须是Pass）。</p>
+<p>要求：</p>
+<p>①跟踪符号采用系统默认或加上构造型《trace&#x2F;跟踪》或《realize&#x2F;实现》等规范符号，</p>
+<p>②各图以泳道或分区隔离，</p>
+<p>③测试要有完整的测试名称、输入、输出、结果等，</p>
+<p>④已有模型图采用链接或引用方式，未有模型图则需绘制。</p>
+</blockquote>
+<blockquote>
+<p>我的答案：<img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207215612617.png" alt="image-20230207215612617" loading="lazy"></p>
+<blockquote>
+<p><strong>难点1：</strong>怎么把包放进去？</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207215655759.png" alt="image-20230207215655759" loading="lazy"></p>
+<p>直接把要用的包甩进去</p>
+</blockquote>
+<blockquote>
+<p><strong>难点2：</strong>没有的界面包怎么办？</p>
+<p>新建一个包，再建图，放几个元素混一下就行。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207215809100.png" alt="image-20230207215809100" loading="lazy"></p>
+</blockquote>
+<blockquote>
+<p><strong>难点3：</strong>图片怎么上传？</p>
+<p>把图片保存到本地，从<img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207215900195.png" alt="image-20230207215900195" loading="lazy"></p>
+<p>上传到EA里面，再载入。</p>
+</blockquote>
 </blockquote>
 ]]></content>
       <categories>
