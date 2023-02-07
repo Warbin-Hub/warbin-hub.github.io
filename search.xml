@@ -8949,6 +8949,9 @@
 <li>跟踪模型图——–UML Structural里面的Class</li>
 </ol>
 </blockquote>
+<blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207152117108.png" alt="image-20230207152117108" loading="lazy"></p>
+</blockquote>
 <h3 id="五、九转软件工程"><a href="#五、九转软件工程" class="headerlink" title="五、九转软件工程"></a>五、九转软件工程</h3><h4 id="1-一转-需求图"><a href="#1-一转-需求图" class="headerlink" title="1. 一转 需求图"></a>1. 一转 需求图</h4><blockquote>
 <p>1.绘制需求工程分析的需求图(10.0分)</p>
 <p>要求：<br>    ①识别ATM功能性需求，<br>    ②根据自己使用ATM经验和有关金融政策的GB规范和业务规则，如密码限错误输入3次等，<br>    ③对ATM系统功能进行需求分析，3个以上层次，<br>    ④绘制系统查询功能相关的需求图，<br>    ⑤需求主要聚合关系（空心菱形），采用不同颜色标注需求的高、中、低优先级。</p>
