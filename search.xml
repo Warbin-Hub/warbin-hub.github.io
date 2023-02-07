@@ -8903,4 +8903,65 @@
         <tag>Postgraduate Advanced Mathematics</tag>
       </tags>
   </entry>
+  <entry>
+    <title>九转软件工程</title>
+    <url>/2023/02/01/%E4%B9%9D%E8%BD%AC%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/</url>
+    <content><![CDATA[<h3 id="一、复习资料"><a href="#一、复习资料" class="headerlink" title="一、复习资料"></a>一、复习资料</h3><p><a href="https://passport2.chaoxing.com/login?fid=&refer=https://www.baidu.com/link?url=_2oTjBy6KuITtZ_pxOCJSNle7HhiEVEWuyo8uMSrAlQyZTgZLx5nJVOGEz5QCxDt&wd=&eqid=eaf60506000996310000000563e1ef6b">超星学习通</a>的软件工程课程<img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207143101516.png" alt="image-20230207143101516" style="zoom: 80%;" / loading="lazy"></p>
+<h3 id="二、第二转-安装EA"><a href="#二、第二转-安装EA" class="headerlink" title="二、第二转 安装EA"></a>二、第二转 安装EA</h3><p><a href="https://pan.baidu.com/s/1Umb_2Sb0DfR4YX1eX5FHyA?pwd=opw2">百度网盘链接</a></p>
+<p>双击这个EA120_Reg_CN.msi进行软件的安装<img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207143717945.png" alt="image-20230207143717945" style="zoom: 50%;" / loading="lazy"></p>
+<p>并使用key.txt中的Registration Key进行破解</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207143823222.png" alt="image-20230207143823222" loading="lazy"></p>
+<h3 id="三、明确考点"><a href="#三、明确考点" class="headerlink" title="三、明确考点"></a>三、明确考点</h3><p>根据目前已知的消息，考试为<strong>ATM系统</strong>中<strong>一个功能</strong>的<strong>需求</strong>、<strong>分析</strong>、<strong>设计</strong>、<strong>编码</strong>和<strong>测试</strong>。</p>
+<ol>
+<li>绘制需求图</li>
+<li>绘制数据建模图</li>
+<li>绘制层次结构图</li>
+<li>绘制用例图和活动图</li>
+<li>绘制类图</li>
+<li>绘制顺序图</li>
+<li>编码</li>
+<li>测试</li>
+<li>绘制跟踪模型图</li>
+</ol>
+<p>此乃<strong>九转软件工程</strong>！我去除了大部分的软件工程的难度,但是我保留了一部分,我觉得保留一部分难度,才知道你学的是软件工程。</p>
+<h3 id="四、前期准备"><a href="#四、前期准备" class="headerlink" title="四、前期准备"></a>四、前期准备</h3><h4 id="1-新建项目"><a href="#1-新建项目" class="headerlink" title="1. 新建项目"></a>1. 新建项目</h4><p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207145244985.png" alt="image-20230207145244985" loading="lazy"></p>
+<h4 id="2-新建文件夹"><a href="#2-新建文件夹" class="headerlink" title="2. 新建文件夹"></a>2. 新建文件夹</h4><blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207145419352.png" alt="image-20230207145419352" loading="lazy"></p>
+</blockquote>
+<blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207145540768.png" alt="image-20230207145540768" loading="lazy"></p>
+</blockquote>
+<blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207145654740.png" alt="image-20230207145654740" loading="lazy"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207145858190.png" alt="image-20230207145858190" loading="lazy"></p>
+<p>建议考试的时候，先读题，看看是不是这几个图，然后把图的文件夹全建了，然后然后一个一个做。</p>
+</blockquote>
+<blockquote>
+<ol>
+<li>需求图————Extended里面的Requirements</li>
+<li>数据建模图——–UML Structural里面的Class</li>
+<li>层次结构图——–UML Structural里面的Package</li>
+<li>用例图和活动图—-UMLBehavioral里面的Use Case和Activity</li>
+<li>类图————-UML Structural里面的Class</li>
+<li>顺序图———–UMLBehavioral里面的Sequence</li>
+<li>编码————-UML Structural里面的Class</li>
+<li>测试————-你问我？直接写代码</li>
+<li>跟踪模型图——–UML Structural里面的Class</li>
+</ol>
+</blockquote>
+<h3 id="五、九转软件工程"><a href="#五、九转软件工程" class="headerlink" title="五、九转软件工程"></a>五、九转软件工程</h3><h4 id="1-一转-需求图"><a href="#1-一转-需求图" class="headerlink" title="1. 一转 需求图"></a>1. 一转 需求图</h4><blockquote>
+<p>1.绘制需求工程分析的需求图(10.0分)</p>
+<p>要求：<br>    ①识别ATM功能性需求，<br>    ②根据自己使用ATM经验和有关金融政策的GB规范和业务规则，如密码限错误输入3次等，<br>    ③对ATM系统功能进行需求分析，3个以上层次，<br>    ④绘制系统查询功能相关的需求图，<br>    ⑤需求主要聚合关系（空心菱形），采用不同颜色标注需求的高、中、低优先级。</p>
+</blockquote>
+<blockquote>
+<p>解题步骤：</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>notes</category>
+      </categories>
+      <tags>
+        <tag>Curriculum Software Engineering</tag>
+      </tags>
+  </entry>
 </search>
