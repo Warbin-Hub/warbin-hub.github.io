@@ -6,7 +6,7 @@
   <link href="https://warbin-hub.github.io/atom.xml" rel="self"/>
   
   <link href="https://warbin-hub.github.io/"/>
-  <updated>2023-02-07T14:25:38.639Z</updated>
+  <updated>2023-02-11T11:21:37.282Z</updated>
   <id>https://warbin-hub.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://warbin-hub.github.io/2023/02/01/%E4%B9%9D%E8%BD%AC%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/"/>
     <id>https://warbin-hub.github.io/2023/02/01/%E4%B9%9D%E8%BD%AC%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/</id>
     <published>2023-02-01T06:27:35.000Z</published>
-    <updated>2023-02-07T14:25:38.639Z</updated>
+    <updated>2023-02-11T11:21:37.282Z</updated>
     
     
       
@@ -34,10 +34,36 @@
     
     
     
-    <category term="notes" scheme="https://warbin-hub.github.io/categories/notes/"/>
+    <category term="Curriculum Software Engineering" scheme="https://warbin-hub.github.io/categories/Curriculum-Software-Engineering/"/>
     
     
-    <category term="Curriculum Software Engineering" scheme="https://warbin-hub.github.io/tags/Curriculum-Software-Engineering/"/>
+    <category term="finalexam" scheme="https://warbin-hub.github.io/tags/finalexam/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>编译原理期末复习</title>
+    <link href="https://warbin-hub.github.io/2023/01/05/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/"/>
+    <id>https://warbin-hub.github.io/2023/01/05/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/</id>
+    <published>2023-01-05T12:43:43.000Z</published>
+    <updated>2023-02-11T14:00:50.005Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;一、说明&quot;&gt;&lt;a href=&quot;#一、说明&quot; class=&quot;headerlink&quot; title=&quot;一、说明&quot;&gt;&lt;/a&gt;一、说明&lt;/h3&gt;&lt;p&gt;别多废话，背！&lt;/p&gt;
+&lt;h3 id=&quot;二、重点&quot;&gt;&lt;a href=&quot;#二、重点&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Principle of Compiler" scheme="https://warbin-hub.github.io/categories/Principle-of-Compiler/"/>
+    
+    
+    <category term="finalexam" scheme="https://warbin-hub.github.io/tags/finalexam/"/>
     
   </entry>
   
@@ -479,31 +505,6 @@
         
         
     <summary type="html">&lt;h3 id=&quot;一、计算机网络体系结构分层的必要性&quot;&gt;&lt;a href=&quot;#一、计算机网络体系结构分层的必要性&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="Computer Network" scheme="https://warbin-hub.github.io/categories/Computer-Network/"/>
-    
-    
-    <category term="postgraduate" scheme="https://warbin-hub.github.io/tags/postgraduate/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>1.6.1 常见的三种计算机网络体系结构</title>
-    <link href="https://warbin-hub.github.io/2022/12/09/%E5%B8%B8%E8%A7%81%E7%9A%84%E4%B8%89%E7%A7%8D%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/"/>
-    <id>https://warbin-hub.github.io/2022/12/09/%E5%B8%B8%E8%A7%81%E7%9A%84%E4%B8%89%E7%A7%8D%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/</id>
-    <published>2022-12-09T11:53:43.000Z</published>
-    <updated>2022-12-09T11:58:43.879Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;一、三种计算机网络体系结构&quot;&gt;&lt;a href=&quot;#一、三种计算机网络体系结构&quot; class=&quot;headerlink&quot;</summary>
         
       
     

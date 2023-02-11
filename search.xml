@@ -7880,82 +7880,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Contents of Principle of Compiler</title>
-    <url>/2022/10/14/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86%E7%9B%AE%E5%BD%95/</url>
-    <content><![CDATA[<h3 id="一、说明"><a href="#一、说明" class="headerlink" title="一、说明"></a>一、说明</h3><p>本目录是我课程编译原理具体笔记博客的一个导向目录。</p>
-<h3 id="二、目录链接"><a href="#二、目录链接" class="headerlink" title="二、目录链接"></a>二、目录链接</h3><h4 id="第一章-编译概述"><a href="#第一章-编译概述" class="headerlink" title="第一章 编译概述"></a>第一章 编译概述</h4><ul>
-<li>1.1 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">翻译程序与编译程序</a></li>
-<li>1.2 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">编译过程和编译程序的基本结构</a></li>
-<li>1.3 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">编译程序的生成过程</a></li>
-<li>1.4 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">编译技术在软件开发中的应用</a></li>
-</ul>
-<h4 id="第二章-文法和语言的基本知识"><a href="#第二章-文法和语言的基本知识" class="headerlink" title="第二章 文法和语言的基本知识"></a>第二章 文法和语言的基本知识</h4><ul>
-<li>2.1 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">概述</a></li>
-<li>2.2 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">字母表和字符串的基本概念</a><ul>
-<li>2.2.1 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">字母表和符号串</a></li>
-<li>2.2.2 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">符号串的运算</a></li>
-</ul>
-</li>
-<li>2.3 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">文法和语言的形式定义</a><ul>
-<li>2.3.1 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">形式语言</a></li>
-<li>2.3.2 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">文法的形式定义</a></li>
-<li>2.3.3 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">语言的形式定义</a></li>
-<li>2.3.4 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">规范推导和规范规约</a></li>
-<li>2.3.5 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">递归规则与文法的递归性</a></li>
-</ul>
-</li>
-<li>2.4 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">短语、直接短语和句柄</a><ul>
-<li>2.4.1 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">短语、直接短语</a></li>
-<li>2.4.2 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">句柄</a></li>
-</ul>
-</li>
-<li>2.5 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">语法树与文法的二义性</a><ul>
-<li>2.5.1 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">推导和语法树</a></li>
-<li>2.5.2 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">文法的二义性</a></li>
-<li>2.5.3 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">文法的二义性的消除</a></li>
-</ul>
-</li>
-<li>2.6 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">文法和语言的分类</a></li>
-<li>2.7 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">有关文法的实用限制和变换</a></li>
-</ul>
-<h4 id="第三章-词法分析与有穷自动机"><a href="#第三章-词法分析与有穷自动机" class="headerlink" title="第三章 词法分析与有穷自动机"></a>第三章 词法分析与有穷自动机</h4><ul>
-<li>3.1 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">词法分析程序的功能</a></li>
-<li>3.2 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">单词符号及输出单词的形式</a><ul>
-<li>3.2.1 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">语言的单词符号</a></li>
-<li>3.2.2 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">词法分析程序输出单词的形式</a></li>
-</ul>
-</li>
-<li>3.3 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">语言单词符号的两种定义方式</a><ul>
-<li>3.3.1 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">正规式与正规集</a></li>
-<li>3.3.2 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">正规文法与正规式</a></li>
-</ul>
-</li>
-<li>3.4 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">正规式与有穷自动机</a><ul>
-<li>3.4.1 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">确定有穷自动机（DFA）</a></li>
-<li>3.4.2 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">确定有穷自动机（NFA）</a></li>
-<li>3.4.3 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">由正规表达式R构造NFA</a></li>
-<li>3.4.4 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">NFA确定化为DFA的方法</a></li>
-<li>3.4.5 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">DFA的化简</a></li>
-<li>3.4.6 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">有穷自动机到正规式的转换</a></li>
-</ul>
-</li>
-<li>3.5 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">正规文法与有穷自动机</a><ul>
-<li>3.5.1 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">右线性正规文法到有穷自动机的转换方法</a></li>
-<li>3.5.2 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">左线性正规文法到有穷自动机的转换方法</a></li>
-<li>3.5.3 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">有穷自动机到正规文法的转换方法</a></li>
-</ul>
-</li>
-<li>3.6 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">词法分析程序的编写方法</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>catalogue</category>
-      </categories>
-      <tags>
-        <tag>curriculum</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>蓝桥杯Eclipse个人设置</title>
     <url>/2022/12/15/%E8%93%9D%E6%A1%A5%E6%9D%AFEclipse%E4%B8%AA%E4%BA%BA%E8%AE%BE%E7%BD%AE/</url>
     <content><![CDATA[<h3 id="1、自动补全"><a href="#1、自动补全" class="headerlink" title="1、自动补全"></a>1、自动补全</h3><p>编写代码时，自动提示完善代码。比如键盘输入‘s’,提示String等选项</p>
@@ -9201,10 +9125,238 @@
 </blockquote>
 ]]></content>
       <categories>
-        <category>notes</category>
+        <category>Curriculum Software Engineering</category>
       </categories>
       <tags>
-        <tag>Curriculum Software Engineering</tag>
+        <tag>finalexam</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>编译原理期末复习</title>
+    <url>/2023/01/05/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/</url>
+    <content><![CDATA[<h3 id="一、说明"><a href="#一、说明" class="headerlink" title="一、说明"></a>一、说明</h3><p>别多废话，背！</p>
+<h3 id="二、重点"><a href="#二、重点" class="headerlink" title="二、重点"></a>二、重点</h3><h4 id="第二章-文法和语言的基本知识"><a href="#第二章-文法和语言的基本知识" class="headerlink" title="第二章 文法和语言的基本知识"></a>第二章 文法和语言的基本知识</h4><blockquote>
+<p><strong>题目1：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211210522317.png" alt="image-20230211210522317" style="zoom: 33%;" / loading="lazy"></p>
+<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214218866.png" alt="image-20230211214218866" loading="lazy"></p>
+<p><strong>解析：</strong></p>
+</blockquote>
+<blockquote>
+<p><strong>题目2：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211211506831.png" alt="image-20230211211506831" loading="lazy"></p>
+<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214238671.png" alt="image-20230211214238671" loading="lazy"></p>
+<p><strong>解析：</strong></p>
+</blockquote>
+<blockquote>
+<p><strong>题目3：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211211540422.png" alt="image-20230211211540422" loading="lazy"></p>
+<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214246227.png" alt="image-20230211214246227" loading="lazy"></p>
+<p><strong>解析：</strong></p>
+</blockquote>
+<blockquote>
+<p><strong>题目4：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211211557960.png" alt="image-20230211211557960" loading="lazy"></p>
+<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214253834.png" alt="image-20230211214253834" loading="lazy"></p>
+<p><strong>解析：</strong></p>
+</blockquote>
+<blockquote>
+<p><strong>题目5：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211211734717.png" alt="image-20230211211734717" loading="lazy"></p>
+<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214301261.png" alt="image-20230211214301261" loading="lazy"></p>
+<p><strong>解析：</strong></p>
+</blockquote>
+<blockquote>
+<p><strong>题目6：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211211743230.png" alt="image-20230211211743230" loading="lazy"></p>
+<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214308500.png" alt="image-20230211214308500" loading="lazy"></p>
+<p><strong>解析：</strong></p>
+</blockquote>
+<blockquote>
+<p><strong>题目7：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211211752604.png" alt="image-20230211211752604" loading="lazy"></p>
+<p><strong>答案：<img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214316407.png" alt="image-20230211214316407" loading="lazy"></strong></p>
+<p><strong>解析：</strong></p>
+</blockquote>
+<blockquote>
+<p><strong>题目8：<img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211211801138.png" alt="image-20230211211801138" loading="lazy"></strong></p>
+<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214329160.png" alt="image-20230211214329160" loading="lazy"></p>
+<p><strong>解析：</strong></p>
+</blockquote>
+<blockquote>
+<p><strong>题目9：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211211811374.png" alt="image-20230211211811374" loading="lazy"></p>
+<p><strong>答案：<img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214337740.png" alt="image-20230211214337740" loading="lazy"></strong></p>
+<p><strong>解析：</strong></p>
+</blockquote>
+<blockquote>
+<p><strong>题目10：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211211820901.png" alt="image-20230211211820901" loading="lazy"></p>
+<p><strong>答案：<img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214343468.png" alt="image-20230211214343468" loading="lazy"></strong></p>
+<p><strong>解析：</strong></p>
+</blockquote>
+<blockquote>
+<p><strong>题目11：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211211830337.png" alt="image-20230211211830337" loading="lazy"></p>
+<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214353179.png" alt="image-20230211214353179" loading="lazy"></p>
+<p><strong>解析：</strong></p>
+</blockquote>
+<h4 id="第三章-词法分析与有穷自动机"><a href="#第三章-词法分析与有穷自动机" class="headerlink" title="第三章 词法分析与有穷自动机"></a>第三章 词法分析与有穷自动机</h4><blockquote>
+<p><strong>题目1：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211212048979.png" alt="image-20230211212048979" loading="lazy"></p>
+<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214555102.png" alt="image-20230211214555102" loading="lazy"><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214601997.png" alt="image-20230211214601997" loading="lazy"></p>
+<p><strong>解析：</strong></p>
+</blockquote>
+<blockquote>
+<p><strong>题目2：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211212623898.png" alt="image-20230211212623898" loading="lazy"></p>
+<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214508977.png" alt="image-20230211214508977" loading="lazy"><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214514610.png" alt="image-20230211214514610" loading="lazy"><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214529817.png" alt="image-20230211214529817" loading="lazy"><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214535209.png" alt="image-20230211214535209" loading="lazy"></p>
+<p><strong>解析：</strong></p>
+</blockquote>
+<blockquote>
+<p><strong>题目3：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211212631911.png" alt="image-20230211212631911" loading="lazy"><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211212642440.png" alt="image-20230211212642440" loading="lazy"></p>
+<p><strong>答案：<img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214435953.png" alt="image-20230211214435953" loading="lazy"><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214450363.png" alt="image-20230211214450363" loading="lazy"></strong></p>
+<p><strong>解析：</strong></p>
+</blockquote>
+<blockquote>
+<p><strong>题目4：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211212655222.png" alt="image-20230211212655222" loading="lazy"></p>
+<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214625847.png" alt="image-20230211214625847" loading="lazy"><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214632265.png" alt="image-20230211214632265" loading="lazy"></p>
+<p><strong>解析：</strong></p>
+</blockquote>
+<blockquote>
+<p><strong>题目5：<img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211212700374.png" alt="image-20230211212700374" loading="lazy"></strong></p>
+<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214648316.png" alt="image-20230211214648316" loading="lazy"></p>
+<p><strong>解析：</strong></p>
+</blockquote>
+<blockquote>
+<p><strong>题目6：<img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211212708386.png" alt="image-20230211212708386" loading="lazy"></strong></p>
+<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214653554.png" alt="image-20230211214653554" loading="lazy"><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214700163.png" alt="image-20230211214700163" loading="lazy"></p>
+<p><strong>解析：</strong></p>
+</blockquote>
+<blockquote>
+<p><strong>题目7：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211212712768.png" alt="image-20230211212712768" loading="lazy"></p>
+<p><strong>答案：<img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214709747.png" alt="image-20230211214709747" loading="lazy"></strong></p>
+<p><strong>解析：</strong></p>
+</blockquote>
+<blockquote>
+<p><strong>题目8：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211212721075.png" alt="image-20230211212721075" loading="lazy"></p>
+<p><strong>答案：<img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214715541.png" alt="image-20230211214715541" loading="lazy"></strong></p>
+<p><strong>解析：</strong></p>
+</blockquote>
+<blockquote>
+<p><strong>题目9：<img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211212726592.png" alt="image-20230211212726592" loading="lazy"></strong></p>
+<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214724307.png" alt="image-20230211214724307" loading="lazy"></p>
+<p><strong>解析：</strong></p>
+</blockquote>
+<blockquote>
+<p><strong>题目10：<img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211212731793.png" alt="image-20230211212731793" loading="lazy"></strong></p>
+<p><strong>答案：<img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214731395.png" alt="image-20230211214731395" loading="lazy"></strong></p>
+<p><strong>解析：</strong></p>
+</blockquote>
+<blockquote>
+<p><strong>题目11：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211212741944.png" alt="image-20230211212741944" loading="lazy"></p>
+<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214735912.png" alt="image-20230211214735912" loading="lazy"><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214746272.png" alt="image-20230211214746272" loading="lazy"></p>
+<p><strong>解析：</strong></p>
+</blockquote>
+<h4 id="第四章-语法分析"><a href="#第四章-语法分析" class="headerlink" title="第四章 语法分析"></a>第四章 语法分析</h4><blockquote>
+<p><strong>题目1：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211212935710.png" alt="image-20230211212935710" loading="lazy"></p>
+<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214842524.png" alt="image-20230211214842524" loading="lazy"><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214849719.png" alt="image-20230211214849719" loading="lazy"></p>
+<p><strong>解析：</strong></p>
+</blockquote>
+<blockquote>
+<p><strong>题目2：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211212944518.png" alt="image-20230211212944518" loading="lazy"></p>
+<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214912711.png" alt="image-20230211214912711" loading="lazy"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211215132807.png" alt="image-20230211215132807" loading="lazy"><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211215139772.png" alt="image-20230211215139772" loading="lazy"><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211215149316.png" alt="image-20230211215149316" loading="lazy"></p>
+<p><strong>解析：</strong></p>
+</blockquote>
+<blockquote>
+<p><strong>题目3：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211212954063.png" alt="image-20230211212954063" loading="lazy"><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211213006222.png" alt="image-20230211213006222" loading="lazy"></p>
+<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211215158322.png" alt="image-20230211215158322" loading="lazy"></p>
+<p><strong>解析：</strong></p>
+</blockquote>
+<blockquote>
+<p><strong>题目4：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211213232402.png" alt="image-20230211213232402" loading="lazy"></p>
+<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211215207231.png" alt="image-20230211215207231" loading="lazy"></p>
+<p><strong>解析：</strong></p>
+</blockquote>
+<blockquote>
+<p><strong>题目5：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211213241217.png" alt="image-20230211213241217" loading="lazy"></p>
+<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211215211781.png" alt="image-20230211215211781" loading="lazy"><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211215223991.png" alt="image-20230211215223991" loading="lazy"></p>
+<p><strong>解析：</strong></p>
+</blockquote>
+<blockquote>
+<p><strong>题目6：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211213248383.png" alt="image-20230211213248383" loading="lazy"></p>
+<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211215242050.png" alt="image-20230211215242050" loading="lazy"></p>
+<p><strong>解析：</strong></p>
+</blockquote>
+<blockquote>
+<p><strong>题目7：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211213255011.png" alt="image-20230211213255011" loading="lazy"></p>
+<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211215251098.png" alt="image-20230211215251098" loading="lazy"></p>
+<p><strong>解析：</strong></p>
+</blockquote>
+<blockquote>
+<p><strong>题目8：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211213301577.png" alt="image-20230211213301577" loading="lazy"></p>
+<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211215257972.png" alt="image-20230211215257972" loading="lazy"><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211215332141.png" alt="image-20230211215332141" loading="lazy"><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211215342614.png" alt="image-20230211215342614" loading="lazy"></p>
+<p><strong>解析：</strong></p>
+</blockquote>
+<blockquote>
+<p><strong>题目9：<img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211213307535.png" alt="image-20230211213307535" loading="lazy"><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211213314668.png" alt="image-20230211213314668" loading="lazy"></strong></p>
+<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211215305846.png" alt="image-20230211215305846" loading="lazy"><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211215353560.png" alt="image-20230211215353560" loading="lazy"></p>
+<p><strong>解析：</strong></p>
+</blockquote>
+<blockquote>
+<p><strong>题目10：<img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211213326701.png" alt="image-20230211213326701" loading="lazy"></strong></p>
+<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211215409383.png" alt="image-20230211215409383" loading="lazy"></p>
+<p><strong>解析：</strong></p>
+</blockquote>
+<blockquote>
+<p><strong>题目11：<img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211213332300.png" alt="image-20230211213332300" loading="lazy"></strong></p>
+<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211215419410.png" alt="image-20230211215419410" loading="lazy"></p>
+<p><strong>解析：</strong></p>
+</blockquote>
+<blockquote>
+<p><strong>题目12：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211213337000.png" alt="image-20230211213337000" loading="lazy"></p>
+<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211215426517.png" alt="image-20230211215426517" loading="lazy"><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211215434506.png" alt="image-20230211215434506" loading="lazy"></p>
+<p><strong>解析：</strong></p>
+</blockquote>
+<blockquote>
+<p><strong>题目13：<img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211213343082.png" alt="image-20230211213343082" loading="lazy"></strong></p>
+<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211215444034.png" alt="image-20230211215444034" loading="lazy"></p>
+<p><strong>解析：</strong></p>
+</blockquote>
+<blockquote>
+<p><strong>题目14：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211213349167.png" alt="image-20230211213349167" loading="lazy"></p>
+<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211215456198.png" alt="image-20230211215456198" loading="lazy"><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211215502807.png" alt="image-20230211215502807" loading="lazy"></p>
+<p><strong>解析：</strong></p>
+</blockquote>
+<h4 id="第五章-语法制导翻译技术和中间代码生成"><a href="#第五章-语法制导翻译技术和中间代码生成" class="headerlink" title="第五章 语法制导翻译技术和中间代码生成"></a>第五章 语法制导翻译技术和中间代码生成</h4><blockquote>
+<p><strong>题目1：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211213714221.png" alt="image-20230211213714221" loading="lazy"></p>
+<p><strong>答案：<img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211215514513.png" alt="image-20230211215514513" loading="lazy"></strong></p>
+<p><strong>解析：</strong></p>
+</blockquote>
+<blockquote>
+<p><strong>题目2：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211213721851.png" alt="image-20230211213721851" loading="lazy"></p>
+<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211215521038.png" alt="image-20230211215521038" loading="lazy"><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211215525880.png" alt="image-20230211215525880" loading="lazy"></p>
+<p><strong>解析：</strong></p>
+</blockquote>
+<blockquote>
+<p><strong>题目3：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211213732022.png" alt="image-20230211213732022" loading="lazy"></p>
+<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211215603367.png" alt="image-20230211215603367" loading="lazy"><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211215612032.png" alt="image-20230211215612032" loading="lazy"><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211215618700.png" alt="image-20230211215618700" loading="lazy"></p>
+<p><strong>解析：</strong></p>
+</blockquote>
+<blockquote>
+<p><strong>题目4：<img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211213738400.png" alt="image-20230211213738400" loading="lazy"></strong></p>
+<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211215625121.png" alt="image-20230211215625121" loading="lazy"></p>
+<p><strong>解析：</strong></p>
+</blockquote>
+<h4 id="第七章-代码优化"><a href="#第七章-代码优化" class="headerlink" title="第七章 代码优化"></a>第七章 代码优化</h4><blockquote>
+<p><strong>题目1：<img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211213834809.png" alt="image-20230211213834809" loading="lazy"></strong></p>
+<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211215940838.png" alt="image-20230211215940838" loading="lazy"><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211215944464.png" alt="image-20230211215944464" loading="lazy"></p>
+<p><strong>解析：</strong></p>
+</blockquote>
+<blockquote>
+<p><strong>题目2：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211213842530.png" alt="image-20230211213842530" loading="lazy"></p>
+<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211215931501.png" alt="image-20230211215931501" loading="lazy"></p>
+<p><strong>解析：</strong></p>
+</blockquote>
+<h4 id="第九章-目标代码生成"><a href="#第九章-目标代码生成" class="headerlink" title="第九章 目标代码生成"></a>第九章 目标代码生成</h4><blockquote>
+<p><strong>题目1：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211213856536.png" alt="image-20230211213856536" loading="lazy"></p>
+<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211220003659.png" alt="image-20230211220003659" loading="lazy"></p>
+<p><strong>解析：</strong></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Principle of Compiler</category>
+      </categories>
+      <tags>
+        <tag>finalexam</tag>
       </tags>
   </entry>
 </search>
