@@ -9135,221 +9135,229 @@
     <title>编译原理期末复习</title>
     <url>/2023/01/05/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/</url>
     <content><![CDATA[<h3 id="一、说明"><a href="#一、说明" class="headerlink" title="一、说明"></a>一、说明</h3><p>别多废话，背！</p>
-<h3 id="二、重点"><a href="#二、重点" class="headerlink" title="二、重点"></a>二、重点</h3><h4 id="第二章-文法和语言的基本知识"><a href="#第二章-文法和语言的基本知识" class="headerlink" title="第二章 文法和语言的基本知识"></a>第二章 文法和语言的基本知识</h4><blockquote>
-<p><strong>题目1：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211210522317.png" alt="image-20230211210522317" style="zoom: 33%;" / loading="lazy"></p>
-<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214218866.png" alt="image-20230211214218866" loading="lazy"></p>
-<p><strong>解析：</strong></p>
+<h3 id="二、重点"><a href="#二、重点" class="headerlink" title="二、重点"></a>二、重点</h3><h4 id="第二章-文法和语言的基本知识"><a href="#第二章-文法和语言的基本知识" class="headerlink" title="第二章 文法和语言的基本知识"></a>第二章 文法和语言的基本知识</h4><h5 id="2-1-文法二义性"><a href="#2-1-文法二义性" class="headerlink" title="2.1 文法二义性"></a>2.1 文法二义性</h5><blockquote>
+<p>你需要学会<strong>文法、规则、句子定义</strong>，<strong>二义性的定义</strong>，<strong>最左（最右）推导</strong>，<strong>绘制语法树</strong>。</p>
 </blockquote>
 <blockquote>
-<p><strong>题目2：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211211506831.png" alt="image-20230211211506831" loading="lazy"></p>
-<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214238671.png" alt="image-20230211214238671" loading="lazy"></p>
+<p><strong>题目1：</strong><img src="http://s1.vika.cn/space/2023/02/12/b179a287c5e3433587b4865baa2bfd7e" alt="image-20230211211734717" loading="lazy"></p>
+<p><strong>答案：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-202214301261.png" alt="image-202214301261" loading="lazy"></p>
 <p><strong>解析：</strong></p>
+<p>二义性的判断就是<strong>是否有两个最左（最右）推导能得到唯一的结果</strong>。</p>
+<p><strong>解题技巧1：</strong>就是从<strong>两个不同规则（|的两边）</strong>出发，画语法树。</p>
+<p>这道题就是<strong>分别选择了S→iS和S→iSeS</strong>开始推导，推导出<strong>相同的句子iiiei</strong>。</p>
 </blockquote>
 <blockquote>
-<p><strong>题目3：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211211540422.png" alt="image-20230211211540422" loading="lazy"></p>
-<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214246227.png" alt="image-20230211214246227" loading="lazy"></p>
+<p><strong>题目2：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/324.png" alt="324" loading="lazy"></p>
+<p><strong>答案：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20214329160.png" alt="image-20214329160" loading="lazy"></p>
 <p><strong>解析：</strong></p>
+<p>二义性的判断就是<strong>是否有两个最左（最右）推导能得到唯一的结果</strong>。</p>
+<p><strong>解题技巧2：</strong>就是从<strong>对称替换</strong>出发，画语法树。</p>
+<p>这道题就是<strong>分别选择了第一个表达式和第二个表达式替换</strong>推导，推导出<strong>相同的句子i+i*i</strong>。</p>
+</blockquote>
+<h5 id="2-2-求对应语言的上下文无关文法"><a href="#2-2-求对应语言的上下文无关文法" class="headerlink" title="2.2 求对应语言的上下文无关文法"></a>2.2 求对应语言的上下文无关文法</h5><blockquote>
+<p><strong>题目1：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-202311540422.png" alt="image-202311540422" loading="lazy"></p>
+<p><strong>答案：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-2246227.png" alt="image-2246227" loading="lazy"></p>
+<p><strong>解析：</strong>使用规则组成目标语言，有规律可循。先<strong>看次方</strong>分组，再看<strong>范围分类型</strong>。</p>
+<p><strong>解题技巧1：</strong></p>
+<p>注意几种规则能构成的结果</p>
+<blockquote>
+<p><strong>A→aA型</strong></p>
+<ol>
+<li>A→aA|€ 可以构成a<sup>n</sup>（n≧0）</li>
+<li>A→aA|a 可以构成a<sup>n</sup>（n≧1）</li>
+</ol>
 </blockquote>
 <blockquote>
-<p><strong>题目4：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211211557960.png" alt="image-20230211211557960" loading="lazy"></p>
-<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214253834.png" alt="image-20230211214253834" loading="lazy"></p>
-<p><strong>解析：</strong></p>
+<p><strong>A→aAb型</strong></p>
+<ol>
+<li>A→aAb|ab 可以构成a<sup>n</sup>b<sup>n</sup>（n≧1）</li>
+<li>A→aAb|€ 可以构成a<sup>n</sup>b<sup>n</sup>（n≧0）</li>
+</ol>
 </blockquote>
 <blockquote>
-<p><strong>题目5：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211211734717.png" alt="image-20230211211734717" loading="lazy"></p>
-<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214301261.png" alt="image-20230211214301261" loading="lazy"></p>
-<p><strong>解析：</strong></p>
+<p><strong>A→aAa型</strong></p>
+<ol>
+<li>A→aAa|a 可以构成a<sup>2n+1</sup>（n≧0）</li>
+</ol>
 </blockquote>
 <blockquote>
-<p><strong>题目6：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211211743230.png" alt="image-20230211211743230" loading="lazy"></p>
-<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214308500.png" alt="image-20230211214308500" loading="lazy"></p>
-<p><strong>解析：</strong></p>
+<p><strong>胸怀天下型</strong> S→aSb|€|bAa</p>
+<p>看第六题</p>
+<p>首先解决<strong>中间的夹心</strong>0<sup>m</sup>1<sup>m</sup>，是<strong>A→aAb型</strong>的<strong>A→aAb|€</strong></p>
+<p>然后先不管夹心，解决两边的1<sup>n</sup>0<sup>n</sup>,是<strong>A→aAb型</strong>的<strong>A→aAb|€</strong></p>
+<p>然后胸怀天下，将小三夹在中间，变成三人行。</p>
+<p><strong>（写的时候注意，S为最终结果，应为第一个规则开始，不能按照思路把A放在最上面。）</strong></p>
+<p>S→aSb|€|<strong>bAa</strong>（←这个bAa我个人认为可以直接换成A，<strong>考试按照书上bAa写</strong>，兄弟们可以私聊我）</p>
+<p>A→bAa|€</p>
+</blockquote>
+</blockquote>
+<h4 id="第三章-词法分析与有穷自动机"><a href="#第三章-词法分析与有穷自动机" class="headerlink" title="第三章 词法分析与有穷自动机"></a>第三章 词法分析与有穷自动机</h4><h5 id="3-1-求对应正规式的最小DFA"><a href="#3-1-求对应正规式的最小DFA" class="headerlink" title="3.1 求对应正规式的最小DFA"></a>3.1 求对应正规式的最小DFA</h5><blockquote>
+<p>你需要学习<strong>正规表达式→NFA→DFA→DFA的化简</strong>每一个步骤的解题方法。</p>
 </blockquote>
 <blockquote>
-<p><strong>题目7：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211211752604.png" alt="image-20230211211752604" loading="lazy"></p>
-<p><strong>答案：<img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214316407.png" alt="image-20230211214316407" loading="lazy"></strong></p>
-<p><strong>解析：</strong></p>
+<p>正规表达式→NFA</p>
+<p><strong>规则：</strong></p>
+<p><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216190502163.png" alt="image-20230216190502163" loading="lazy"></p>
+<p><strong>流程：</strong></p>
+<p><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216190538923.png" alt="image-20230216190538923" loading="lazy"></p>
+<p>没啥难度，<strong>按照规则画流程</strong>，展开就行</p>
 </blockquote>
 <blockquote>
-<p><strong>题目8：<img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211211801138.png" alt="image-20230211211801138" loading="lazy"></strong></p>
-<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214329160.png" alt="image-20230211214329160" loading="lazy"></p>
-<p><strong>解析：</strong></p>
+<p>NFA→DFA</p>
+<ol>
+<li>理解<strong>€-CLOSURE（{Z}）</strong>：从<strong>Z节点</strong>出发，所有的<strong>€条件</strong>可抵达的节点。</li>
+</ol>
+<p><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216192523653.png" alt="image-20230216192523653" loading="lazy"></p>
+<ol start="2">
+<li>理解<strong>€-CLOSURE（{X,Z}，a条件）</strong>：从<strong>X节点</strong>和<strong>Z节点</strong>出发，所有的<strong>a条件</strong>可抵达的节点。</li>
+</ol>
+<p>例题：<img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216191420780.png" alt="image-20230216191420780" loading="lazy"></p>
+<p><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216192650004.png" alt="image-20230216192650004" loading="lazy"></p>
+<p>分析：从X出发，a条件<strong>哪都不能抵达</strong>。从0出发，a条件抵达<strong>0</strong>。从1出发，a条件抵达<strong>2</strong>。</p>
+<p><strong>流程：</strong></p>
+<ol>
+<li><p>表示开始状态（初态），添加到Q&#96;。</p>
+</li>
+<li><p>进行f&#96;（初态，可使用的移动条件（<strong>本题为a和b</strong>）），分别移动记录结果，并把<strong>结果状态</strong>加入到Q·。</p>
+</li>
+<li><p>对新加入的结果状态进行f&#96;（结果状态，可使用的移动条件（<strong>本题为a和b</strong>）），得出新的结果状态，<strong>判断是否已经加入Q·</strong>！</p>
+</li>
+<li><p>直到没有新的结果状态。</p>
+</li>
+<li><p>命名Q·里面状态，画图。</p>
+<p><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216193934872.png" alt="image-20230216193934872" loading="lazy"></p>
+<p>解释：<strong>A状态</strong>满足<strong>a条件</strong>能抵达**{0，1，2}，也就是B状态<strong>，满足</strong>b条件<strong>能抵达</strong>{0，1}<strong>，也就是</strong>C状态**。画图A指向B和C。同理，画出所有状态的路线。</p>
+</li>
+</ol>
 </blockquote>
 <blockquote>
-<p><strong>题目9：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211211811374.png" alt="image-20230211211811374" loading="lazy"></p>
-<p><strong>答案：<img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214337740.png" alt="image-20230211214337740" loading="lazy"></strong></p>
-<p><strong>解析：</strong></p>
+<p>DFA的化简</p>
+<ol>
+<li><p><strong>终态集</strong>和<strong>非终态集</strong>的划分。（是否包含了终态结，就是<strong>两个圈</strong>的，本题是Y）</p>
+<p><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216194416248.png" alt="image-20230216194416248" loading="lazy"></p>
+<p><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216194447358.png" alt="image-20230216194447358" loading="lazy"></p>
+</li>
+<li><p>对<strong>能划分的集合</strong>（本题是{A，B，C，D}），进行可使用的移动条件（<strong>本题为a和b</strong>）的转移。如果转移结果<strong>不在</strong>子集合里面，<strong>挑出异常状态，单独成集合</strong>。</p>
+</li>
+<li><p>直到被划分集合中的转移结果都在子集中，将<strong>多元素集合取一个代表</strong>，代替所有元素被连线。（看书上例3.16）</p>
+</li>
+</ol>
 </blockquote>
 <blockquote>
-<p><strong>题目10：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211211820901.png" alt="image-20230211211820901" loading="lazy"></p>
-<p><strong>答案：<img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214343468.png" alt="image-20230211214343468" loading="lazy"></strong></p>
-<p><strong>解析：</strong></p>
+<p><strong>题目1：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216195510782.png" alt="image-20230216195510782" loading="lazy"></p>
+<p><strong>答案：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216205313799.png" alt="image-20230216205313799" loading="lazy"></p>
+<p><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216205334485.png" alt="image-20230216205334485" loading="lazy"></p>
+<p><strong>解题技巧：</strong>根据时间和卷面大小，只写红色大括号内的内容。</p>
+</blockquote>
+<h5 id="3-2-正规式等价性"><a href="#3-2-正规式等价性" class="headerlink" title="3.2 正规式等价性"></a>3.2 正规式等价性</h5><blockquote>
+<p>求最小DFA，同上。</p>
 </blockquote>
 <blockquote>
-<p><strong>题目11：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211211830337.png" alt="image-20230211211830337" loading="lazy"></p>
-<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214353179.png" alt="image-20230211214353179" loading="lazy"></p>
-<p><strong>解析：</strong></p>
+<p><strong>题目1：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216205621286.png" alt="image-20230216205621286" loading="lazy"></p>
+<p><strong>答案：</strong>因为最小DFA相同，所以等价。</p>
+<p><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216211118871.png" alt="image-20230216211118871" loading="lazy"></p>
 </blockquote>
-<h4 id="第三章-词法分析与有穷自动机"><a href="#第三章-词法分析与有穷自动机" class="headerlink" title="第三章 词法分析与有穷自动机"></a>第三章 词法分析与有穷自动机</h4><blockquote>
-<p><strong>题目1：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211212048979.png" alt="image-20230211212048979" loading="lazy"></p>
-<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214555102.png" alt="image-20230211214555102" loading="lazy"><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214601997.png" alt="image-20230211214601997" loading="lazy"></p>
-<p><strong>解析：</strong></p>
-</blockquote>
-<blockquote>
-<p><strong>题目2：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211212623898.png" alt="image-20230211212623898" loading="lazy"></p>
-<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214508977.png" alt="image-20230211214508977" loading="lazy"><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214514610.png" alt="image-20230211214514610" loading="lazy"><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214529817.png" alt="image-20230211214529817" loading="lazy"><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214535209.png" alt="image-20230211214535209" loading="lazy"></p>
-<p><strong>解析：</strong></p>
-</blockquote>
-<blockquote>
-<p><strong>题目3：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211212631911.png" alt="image-20230211212631911" loading="lazy"><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211212642440.png" alt="image-20230211212642440" loading="lazy"></p>
-<p><strong>答案：<img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214435953.png" alt="image-20230211214435953" loading="lazy"><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214450363.png" alt="image-20230211214450363" loading="lazy"></strong></p>
-<p><strong>解析：</strong></p>
+<h4 id="第四章-语法分析"><a href="#第四章-语法分析" class="headerlink" title="第四章 语法分析"></a>第四章 语法分析</h4><h5 id="4-1-求文法中非终结符的FIRST集和FOLLOW集"><a href="#4-1-求文法中非终结符的FIRST集和FOLLOW集" class="headerlink" title="4.1 求文法中非终结符的FIRST集和FOLLOW集"></a>4.1 求文法中非终结符的FIRST集和FOLLOW集</h5><blockquote>
+<p><strong>First（A）的推导规则：</strong>A的推导规则内，最前面的小写字母（终结符），遇到大写字母（非终结符）就First（）。</p>
+<ol>
+<li><p>A→a        First（A）&#x3D;{a}</p>
+</li>
+<li><p>A→a|€      First（A）&#x3D;{a}∪{€}&#x3D;{a，€}</p>
+</li>
+<li><p>A→CDb      First（A）&#x3D;First（C）∪First（D）∪{b}</p>
+</li>
+</ol>
 </blockquote>
 <blockquote>
-<p><strong>题目4：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211212655222.png" alt="image-20230211212655222" loading="lazy"></p>
-<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214625847.png" alt="image-20230211214625847" loading="lazy"><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214632265.png" alt="image-20230211214632265" loading="lazy"></p>
-<p><strong>解析：</strong></p>
+<p><strong>FOLLOW（A）的推导规则：</strong>整个G文法内，出现A的后面的小写字母（终结符）。如果后面是大写字母B（非终结符），就看First(B)里面所有的非€字符。若在其他规则中A在最后一个，或者后面的大写字母有€，C→acA，则FOLLOW（C）全部包含。</p>
+<ol>
+<li><p>看A后面出现的小写字母 例如     C→avAc   就是{c}</p>
+</li>
+<li><p>看A后面出现的大写字母 例如     D→aAD    First（D）中所有非空字符</p>
+</li>
+<li><p>看A后面是否为最后一个，或者后面的大写字母可以变成€    </p>
+<p>E→dA</p>
+<p>E→dAG   G→可以推导成→€</p>
+<p>则包含FOLLOW（E）</p>
+</li>
+</ol>
 </blockquote>
 <blockquote>
-<p><strong>题目5：<img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211212700374.png" alt="image-20230211212700374" loading="lazy"></strong></p>
-<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214648316.png" alt="image-20230211214648316" loading="lazy"></p>
-<p><strong>解析：</strong></p>
+<p><strong>题目1：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216224551634.png" alt="image-20230216224551634" loading="lazy"></p>
+<p><strong>答案：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216224728030.png" alt="image-20230216224728030" loading="lazy"></p>
 </blockquote>
 <blockquote>
-<p><strong>题目6：<img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211212708386.png" alt="image-20230211212708386" loading="lazy"></strong></p>
-<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214653554.png" alt="image-20230211214653554" loading="lazy"><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214700163.png" alt="image-20230211214700163" loading="lazy"></p>
-<p><strong>解析：</strong></p>
+<p><strong>题目2：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216224631607.png" alt="image-20230216224631607" loading="lazy"></p>
+<p><strong>答案：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216224738147.png" alt="image-20230216224738147" loading="lazy"></p>
+</blockquote>
+<h5 id="4-2构造文法对应的LR分析表"><a href="#4-2构造文法对应的LR分析表" class="headerlink" title="4.2构造文法对应的LR分析表"></a>4.2构造文法对应的LR分析表</h5><blockquote>
+<p><strong>首先</strong>需要学会</p>
+<p><strong>圆点规则：</strong></p>
+<ol>
+<li>A→a·       一个规则右边符号串a分析完了，句柄形成，应规约</li>
+<li>A→a<sub>1</sub>·a<sub>2 </sub>    a<sub>1</sub>分析完，期待a<sub>2 </sub></li>
+<li>A→·a       期待a</li>
+<li>A→·        对空规则</li>
+</ol>
+<p><strong>LR（0）项目分类：</strong></p>
+<p><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216231718041.png" alt="image-20230216231718041" loading="lazy"></p>
 </blockquote>
 <blockquote>
-<p><strong>题目7：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211212712768.png" alt="image-20230211212712768" loading="lazy"></p>
-<p><strong>答案：<img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214709747.png" alt="image-20230211214709747" loading="lazy"></strong></p>
-<p><strong>解析：</strong></p>
+<p><strong>其次</strong>要学会</p>
+<p><strong>闭包函数CLOSURE(I)：</strong></p>
+<p><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216232311300.png" alt="image-20230216232311300" loading="lazy"></p>
+<p><strong>规则：</strong></p>
+<ol>
+<li><strong>初态</strong>就是期待所有字符，<strong>每条规则都期待插入</strong>字符。</li>
+<li>如果遇到CLOSURE({A→a·Bb})，B是非终结符，“未知的非终结符”，那么把B规则的<strong>全部进行需求</strong>。可以认为CLOSURE是贪婪的。</li>
+</ol>
+<p><strong>状态转移函数GO：</strong></p>
+<p><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216232355890.png" alt="image-20230216232355890" loading="lazy"></p>
+<p>就是GO（I，a），就是在I中规则，通过<strong>插入（进位）a</strong>字符，也就是<strong>·后移有a</strong>。变成CLOSURE（{A→a·Ab，B→a·Bb}），<strong>再考虑CLOSURE的贪婪需求</strong>，把A,B规则进行全部需求。</p>
 </blockquote>
 <blockquote>
-<p><strong>题目8：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211212721075.png" alt="image-20230211212721075" loading="lazy"></p>
-<p><strong>答案：<img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214715541.png" alt="image-20230211214715541" loading="lazy"></strong></p>
-<p><strong>解析：</strong></p>
+<p><strong>然后</strong>要会画</p>
+<p><strong>构造文法规范句型活前缀DFA的方法：</strong></p>
+<p><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216233820424.png" alt="image-20230216233820424" loading="lazy"></p>
+<p>和前面<strong>NFA→DFA</strong>有异曲同工之处，不过只要看·往后移动的条件，从初态I<sub>0 </sub>开始，·往后移（使用GO（I0,S|A|B|a|c|d）），形成新的I，直到不能生成新的I。</p>
 </blockquote>
 <blockquote>
-<p><strong>题目9：<img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211212726592.png" alt="image-20230211212726592" loading="lazy"></strong></p>
-<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214724307.png" alt="image-20230211214724307" loading="lazy"></p>
-<p><strong>解析：</strong></p>
+<p><strong>最后</strong>要会画</p>
+<p><strong>LR（0）分析表：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216234723796.png" alt="image-20230216234723796" loading="lazy"></p>
+<p><strong>SLR(1)分析表：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216235007914.png" alt="image-20230216235007914" loading="lazy"></p>
+<p><strong>LR（1）分析表：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216235045535.png" alt="image-20230216235045535" loading="lazy"></p>
+<p><strong>LALR(1)分析表：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216235209986.png" alt="image-20230216235209986" loading="lazy"></p>
+</blockquote>
+<h4 id="第五章-语法制导翻译技术和中间代码生成"><a href="#第五章-语法制导翻译技术和中间代码生成" class="headerlink" title="第五章 语法制导翻译技术和中间代码生成"></a>第五章 语法制导翻译技术和中间代码生成</h4><h5 id="5-1-求对应文法的语义动作"><a href="#5-1-求对应文法的语义动作" class="headerlink" title="5.1 求对应文法的语义动作"></a>5.1 求对应文法的语义动作</h5><blockquote>
+<p>学习知识点内容：</p>
+<p><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230217001016440.png" alt="image-20230217001016440" loading="lazy"></p>
+<p><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230217001850549.png" alt="image-20230217001850549" loading="lazy"></p>
+<p><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230217001812996.png" alt="image-20230217001812996" loading="lazy"></p>
 </blockquote>
 <blockquote>
-<p><strong>题目10：<img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211212731793.png" alt="image-20230211212731793" loading="lazy"></strong></p>
-<p><strong>答案：<img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214731395.png" alt="image-20230211214731395" loading="lazy"></strong></p>
-<p><strong>解析：</strong></p>
+<p><strong>题目：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230217001430058.png" alt="image-20230217001430058" loading="lazy"></p>
+<p><strong>答案：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230217001540240.png" alt="image-20230217001540240" loading="lazy"></p>
+<p><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230217001552372.png" alt="image-20230217001552372" loading="lazy"></p>
 </blockquote>
 <blockquote>
-<p><strong>题目11：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211212741944.png" alt="image-20230211212741944" loading="lazy"></p>
-<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214735912.png" alt="image-20230211214735912" loading="lazy"><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214746272.png" alt="image-20230211214746272" loading="lazy"></p>
-<p><strong>解析：</strong></p>
+<p><strong>题目：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230217001456157.png" alt="image-20230217001456157" loading="lazy"></p>
+<p><strong>答案：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230217001523079.png" alt="image-20230217001523079" loading="lazy"></p>
 </blockquote>
-<h4 id="第四章-语法分析"><a href="#第四章-语法分析" class="headerlink" title="第四章 语法分析"></a>第四章 语法分析</h4><blockquote>
-<p><strong>题目1：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211212935710.png" alt="image-20230211212935710" loading="lazy"></p>
-<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214842524.png" alt="image-20230211214842524" loading="lazy"><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214849719.png" alt="image-20230211214849719" loading="lazy"></p>
-<p><strong>解析：</strong></p>
+<h4 id="第七章-代码优化"><a href="#第七章-代码优化" class="headerlink" title="第七章 代码优化"></a>第七章 代码优化</h4><h5 id="7-1-将程序段划分为基本块并作出程序流图、"><a href="#7-1-将程序段划分为基本块并作出程序流图、" class="headerlink" title="7.1 将程序段划分为基本块并作出程序流图、"></a>7.1 将程序段划分为基本块并作出程序流图、</h5><blockquote>
+<p><strong>题目：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230217001956518.png" alt="image-20230217001956518" loading="lazy"></p>
+<p><strong>答案：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230217002052232.png" alt="image-20230217002052232" loading="lazy"></p>
 </blockquote>
-<blockquote>
-<p><strong>题目2：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211212944518.png" alt="image-20230211212944518" loading="lazy"></p>
-<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211214912711.png" alt="image-20230211214912711" loading="lazy"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211215132807.png" alt="image-20230211215132807" loading="lazy"><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211215139772.png" alt="image-20230211215139772" loading="lazy"><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211215149316.png" alt="image-20230211215149316" loading="lazy"></p>
-<p><strong>解析：</strong></p>
+<h5 id="7-2-求流图中各结点的必经结点集、回边、循环"><a href="#7-2-求流图中各结点的必经结点集、回边、循环" class="headerlink" title="7.2 求流图中各结点的必经结点集、回边、循环"></a>7.2 求流图中各结点的必经结点集、回边、循环</h5><blockquote>
+<p><strong>题目：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230217002029529.png" alt="image-20230217002029529" loading="lazy"></p>
+<p><strong>答案：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230217002104110.png" alt="image-20230217002104110" loading="lazy"></p>
+<p><strong>解释：</strong></p>
+<p><strong>必经节点集：</strong>字面意思，D（B）是集合D里面添加B节点，如果前往B节点并有不需的节点，就去掉。</p>
+<p>**B<sub>2 </sub>DOM B<sub>7 </sub>**，B2是B7的必经节点，是回边的条件。</p>
+<p><strong>循环：</strong>定义<strong>麻烦别看，肉眼观察</strong></p>
 </blockquote>
-<blockquote>
-<p><strong>题目3：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211212954063.png" alt="image-20230211212954063" loading="lazy"><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211213006222.png" alt="image-20230211213006222" loading="lazy"></p>
-<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211215158322.png" alt="image-20230211215158322" loading="lazy"></p>
-<p><strong>解析：</strong></p>
-</blockquote>
-<blockquote>
-<p><strong>题目4：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211213232402.png" alt="image-20230211213232402" loading="lazy"></p>
-<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211215207231.png" alt="image-20230211215207231" loading="lazy"></p>
-<p><strong>解析：</strong></p>
-</blockquote>
-<blockquote>
-<p><strong>题目5：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211213241217.png" alt="image-20230211213241217" loading="lazy"></p>
-<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211215211781.png" alt="image-20230211215211781" loading="lazy"><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211215223991.png" alt="image-20230211215223991" loading="lazy"></p>
-<p><strong>解析：</strong></p>
-</blockquote>
-<blockquote>
-<p><strong>题目6：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211213248383.png" alt="image-20230211213248383" loading="lazy"></p>
-<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211215242050.png" alt="image-20230211215242050" loading="lazy"></p>
-<p><strong>解析：</strong></p>
-</blockquote>
-<blockquote>
-<p><strong>题目7：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211213255011.png" alt="image-20230211213255011" loading="lazy"></p>
-<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211215251098.png" alt="image-20230211215251098" loading="lazy"></p>
-<p><strong>解析：</strong></p>
-</blockquote>
-<blockquote>
-<p><strong>题目8：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211213301577.png" alt="image-20230211213301577" loading="lazy"></p>
-<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211215257972.png" alt="image-20230211215257972" loading="lazy"><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211215332141.png" alt="image-20230211215332141" loading="lazy"><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211215342614.png" alt="image-20230211215342614" loading="lazy"></p>
-<p><strong>解析：</strong></p>
-</blockquote>
-<blockquote>
-<p><strong>题目9：<img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211213307535.png" alt="image-20230211213307535" loading="lazy"><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211213314668.png" alt="image-20230211213314668" loading="lazy"></strong></p>
-<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211215305846.png" alt="image-20230211215305846" loading="lazy"><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211215353560.png" alt="image-20230211215353560" loading="lazy"></p>
-<p><strong>解析：</strong></p>
-</blockquote>
-<blockquote>
-<p><strong>题目10：<img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211213326701.png" alt="image-20230211213326701" loading="lazy"></strong></p>
-<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211215409383.png" alt="image-20230211215409383" loading="lazy"></p>
-<p><strong>解析：</strong></p>
-</blockquote>
-<blockquote>
-<p><strong>题目11：<img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211213332300.png" alt="image-20230211213332300" loading="lazy"></strong></p>
-<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211215419410.png" alt="image-20230211215419410" loading="lazy"></p>
-<p><strong>解析：</strong></p>
-</blockquote>
-<blockquote>
-<p><strong>题目12：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211213337000.png" alt="image-20230211213337000" loading="lazy"></p>
-<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211215426517.png" alt="image-20230211215426517" loading="lazy"><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211215434506.png" alt="image-20230211215434506" loading="lazy"></p>
-<p><strong>解析：</strong></p>
-</blockquote>
-<blockquote>
-<p><strong>题目13：<img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211213343082.png" alt="image-20230211213343082" loading="lazy"></strong></p>
-<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211215444034.png" alt="image-20230211215444034" loading="lazy"></p>
-<p><strong>解析：</strong></p>
-</blockquote>
-<blockquote>
-<p><strong>题目14：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211213349167.png" alt="image-20230211213349167" loading="lazy"></p>
-<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211215456198.png" alt="image-20230211215456198" loading="lazy"><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211215502807.png" alt="image-20230211215502807" loading="lazy"></p>
-<p><strong>解析：</strong></p>
-</blockquote>
-<h4 id="第五章-语法制导翻译技术和中间代码生成"><a href="#第五章-语法制导翻译技术和中间代码生成" class="headerlink" title="第五章 语法制导翻译技术和中间代码生成"></a>第五章 语法制导翻译技术和中间代码生成</h4><blockquote>
-<p><strong>题目1：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211213714221.png" alt="image-20230211213714221" loading="lazy"></p>
-<p><strong>答案：<img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211215514513.png" alt="image-20230211215514513" loading="lazy"></strong></p>
-<p><strong>解析：</strong></p>
-</blockquote>
-<blockquote>
-<p><strong>题目2：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211213721851.png" alt="image-20230211213721851" loading="lazy"></p>
-<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211215521038.png" alt="image-20230211215521038" loading="lazy"><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211215525880.png" alt="image-20230211215525880" loading="lazy"></p>
-<p><strong>解析：</strong></p>
-</blockquote>
-<blockquote>
-<p><strong>题目3：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211213732022.png" alt="image-20230211213732022" loading="lazy"></p>
-<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211215603367.png" alt="image-20230211215603367" loading="lazy"><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211215612032.png" alt="image-20230211215612032" loading="lazy"><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211215618700.png" alt="image-20230211215618700" loading="lazy"></p>
-<p><strong>解析：</strong></p>
-</blockquote>
-<blockquote>
-<p><strong>题目4：<img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211213738400.png" alt="image-20230211213738400" loading="lazy"></strong></p>
-<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211215625121.png" alt="image-20230211215625121" loading="lazy"></p>
-<p><strong>解析：</strong></p>
-</blockquote>
-<h4 id="第七章-代码优化"><a href="#第七章-代码优化" class="headerlink" title="第七章 代码优化"></a>第七章 代码优化</h4><blockquote>
-<p><strong>题目1：<img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211213834809.png" alt="image-20230211213834809" loading="lazy"></strong></p>
-<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211215940838.png" alt="image-20230211215940838" loading="lazy"><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211215944464.png" alt="image-20230211215944464" loading="lazy"></p>
-<p><strong>解析：</strong></p>
-</blockquote>
-<blockquote>
-<p><strong>题目2：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211213842530.png" alt="image-20230211213842530" loading="lazy"></p>
-<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211215931501.png" alt="image-20230211215931501" loading="lazy"></p>
-<p><strong>解析：</strong></p>
-</blockquote>
-<h4 id="第九章-目标代码生成"><a href="#第九章-目标代码生成" class="headerlink" title="第九章 目标代码生成"></a>第九章 目标代码生成</h4><blockquote>
-<p><strong>题目1：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211213856536.png" alt="image-20230211213856536" loading="lazy"></p>
-<p><strong>答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230211220003659.png" alt="image-20230211220003659" loading="lazy"></p>
-<p><strong>解析：</strong></p>
+<h4 id="第九章目标代码生成"><a href="#第九章目标代码生成" class="headerlink" title="第九章目标代码生成"></a>第九章目标代码生成</h4><h5 id="9-1-用简答代码生成器生成目标代码"><a href="#9-1-用简答代码生成器生成目标代码" class="headerlink" title="9.1 用简答代码生成器生成目标代码"></a>9.1 用简答代码生成器生成目标代码</h5><blockquote>
+<p><strong>题目：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230217003037621.png" alt="image-20230217003037621" loading="lazy"></p>
+<p><strong>答案：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230217003022269.png" alt="image-20230217003022269" loading="lazy"></p>
 </blockquote>
 ]]></content>
       <categories>
