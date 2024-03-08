@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>只因</title>
+  
+  
+  <link href="https://warbin-hub.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://warbin-hub.github.io/"/>
+  <updated>2024-03-08T10:35:32.457Z</updated>
+  <id>https://warbin-hub.github.io/</id>
+  
+  <author>
+    <name>Warbin</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Catalogue</title>
+    <link href="https://warbin-hub.github.io/2024/03/08/%E6%80%BB%E7%9B%AE%E5%BD%95/"/>
+    <id>https://warbin-hub.github.io/2024/03/08/%E6%80%BB%E7%9B%AE%E5%BD%95/</id>
+    <published>2024-03-08T06:30:49.000Z</published>
+    <updated>2024-03-08T10:35:32.457Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;一、说明&quot;&gt;&lt;a href=&quot;#一、说明&quot; class=&quot;headerlink&quot; title=&quot;一、说明&quot;&gt;&lt;/a&gt;一、说明&lt;/h3&gt;&lt;p&gt;本目录是我所有系列博客目录的一个总汇目录。&lt;/p&gt;
+&lt;h3 id=&quot;二、目录链接&quot;&gt;&lt;a href=&quot;#二、目录链接&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="catalogue" scheme="https://warbin-hub.github.io/categories/catalogue/"/>
+    
+    
+    <category term="catalogue" scheme="https://warbin-hub.github.io/tags/catalogue/"/>
+    
+  </entry>
+  
+</feed>
