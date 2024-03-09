@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Catalogue</title>
+    <title>总目录</title>
     <url>/2024/03/08/%E6%80%BB%E7%9B%AE%E5%BD%95/</url>
     <content><![CDATA[<h3 id="一、说明"><a href="#一、说明" class="headerlink" title="一、说明"></a>一、说明</h3><p>本目录是我所有系列博客目录的一个总汇目录。</p>
 <h3 id="二、目录链接"><a href="#二、目录链接" class="headerlink" title="二、目录链接"></a>二、目录链接</h3><ol>
@@ -16,7 +16,7 @@
         <category>catalogue</category>
       </categories>
       <tags>
-        <tag>catalogue</tag>
+        <tag>all</tag>
       </tags>
   </entry>
 </search>
