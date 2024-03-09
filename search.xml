@@ -1,35 +1,776 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>总目录</title>
-    <url>/2024/03/08/%E6%80%BB%E7%9B%AE%E5%BD%95/</url>
-    <content><![CDATA[<h3 id="一、说明"><a href="#一、说明" class="headerlink" title="一、说明"></a>一、说明</h3><p>本目录是我所有系列博客目录的一个总汇目录。</p>
-<h3 id="二、目录链接"><a href="#二、目录链接" class="headerlink" title="二、目录链接"></a>二、目录链接</h3><ol>
-<li>小说</li>
-<li>心得</li>
-<li>读后感</li>
-<li>观后感</li>
-<li>学习笔记</li>
+    <title>申论-大作文</title>
+    <url>/2024/03/08/%E7%94%B3%E8%AE%BA%E5%A4%A7%E4%BD%9C%E6%96%87/</url>
+    <content><![CDATA[<h3 id="一、说明"><a href="#一、说明" class="headerlink" title="一、说明"></a>一、说明</h3><p>1. </p>
+]]></content>
+      <categories>
+        <category>essay</category>
+      </categories>
+      <tags>
+        <tag>study</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>九转软件工程</title>
+    <url>/2023/02/01/%E4%B9%9D%E8%BD%AC%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/</url>
+    <content><![CDATA[<h3 id="一、开卷资料"><a href="#一、开卷资料" class="headerlink" title="一、开卷资料"></a>一、开卷资料</h3><h3 id="二、安装EA"><a href="#二、安装EA" class="headerlink" title="二、安装EA"></a>二、安装EA</h3><h3 id="三、明确考点"><a href="#三、明确考点" class="headerlink" title="三、明确考点"></a>三、明确考点</h3><p>根据目前已知的消息，考试为<strong>ATM系统</strong>中<strong>一个功能</strong>的<strong>需求</strong>、<strong>分析</strong>、<strong>设计</strong>、<strong>编码</strong>和<strong>测试</strong>。</p>
+<ol>
+<li>绘制需求图</li>
+<li>绘制数据建模图</li>
+<li>绘制层次结构图</li>
+<li>绘制用例图和活动图</li>
+<li>绘制类图</li>
+<li>绘制顺序图</li>
+<li>编码</li>
+<li>测试</li>
+<li>绘制跟踪模型图</li>
+</ol>
+<p>此乃<strong>九转软件工程</strong>！我去除了大部分的软件工程的难度,但是我保留了一部分,我觉得保留一部分难度,才知道你学的是软件工程。</p>
+<h3 id="四、前期准备"><a href="#四、前期准备" class="headerlink" title="四、前期准备"></a>四、前期准备</h3><h4 id="1-新建项目"><a href="#1-新建项目" class="headerlink" title="1. 新建项目"></a>1. 新建项目</h4><p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207145244985.png" alt="image-20230207145244985" loading="lazy"></p>
+<h4 id="2-新建文件夹"><a href="#2-新建文件夹" class="headerlink" title="2. 新建文件夹"></a>2. 新建文件夹</h4><blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207145419352.png" alt="image-20230207145419352" loading="lazy"></p>
+</blockquote>
+<blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207145540768.png" alt="image-20230207145540768" loading="lazy"></p>
+</blockquote>
+<blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207145654740.png" alt="image-20230207145654740" loading="lazy"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207145858190.png" alt="image-20230207145858190" loading="lazy"></p>
+<p>建议考试的时候，先读题，看看是不是这几个图，然后把图的文件夹全建了，然后然后一个一个做。</p>
+</blockquote>
+<blockquote>
+<ol>
+<li>需求图————Extended里面的Requirements</li>
+<li>数据建模图——–UML Structural里面的Class</li>
+<li>层次结构图——–UML Structural里面的Package</li>
+<li>用例图和活动图—-UMLBehavioral里面的Use Case和Activity</li>
+<li>类图————-UML Structural里面的Class</li>
+<li>顺序图———–UMLBehavioral里面的Sequence</li>
+<li>编码————-UMLBehavioral里面的Activity</li>
+<li>测试————-你问我？直接写代码</li>
+<li>跟踪模型图——–UML Structural里面的Class</li>
+</ol>
+</blockquote>
+<blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207152117108.png" alt="image-20230207152117108" loading="lazy"></p>
+<p><strong>第七题为活动图</strong></p>
+</blockquote>
+<h3 id="五、九转软件工程"><a href="#五、九转软件工程" class="headerlink" title="五、九转软件工程"></a>五、九转软件工程</h3><blockquote>
+<p>记录1：ATM系统提供给银行的顾客服务、管理员维护，须安全登录控制。<br>    记录2：顾客<strong>可查询账户余额</strong>、<strong>改密</strong>（密码限为6位数字）、<strong>存款</strong>（数额是最小面值的整数倍）、<strong>取款</strong>(每天、每次取款限额)、<strong>转账</strong>（同类型账户之间可转，但相同账户不能转账）及<strong>打印凭据</strong>等事务。<br>    记录3：管理员可每周定期补钞、取钞，开、关ATM系统，维护期间（约10分钟）暂停服务。<br>    记录4：管理员强制通过日志信息每月定期检查ATM软、硬件是否正常运行，修理期间（约30分钟）暂停服务。<br>    记录5：ATM的所有用户都必须使用磁卡（模以输入卡号）登录，密码限错误输入3次，否则将被吞卡并锁定账号1个工作日。<br>    记录6：顾客每天限次登录，否则将拒绝登录和服务。存取款额度、面值必须符合现行金融政策规定或特别是提示顾客有效的货币种类和面值。</p>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>提示1：所有回答不限使用工具，但必须采用面向对象UML符号绘制，截图不要带有工具界面(EAPublish-&gt;&gt;Diagram Image-&gt;&gt;save to Clipboard,或选择图窗口，快捷键Ctr+B,在答案窗口直接C+V),并于图中标注学号或姓名，如EA显示作者细节，注册真实姓名和学号。每题可以贴多张图片，关键一两张最好(EA多窗口截图，比时PrtSc,再Ctl+V)。</p>
+</blockquote>
+<blockquote>
+<p>提示2：现假设您负责完成ATM的顾客<strong>查询余额</strong>功能的需求、分析、设计、编码和测试，依次完成以下各题，各题重点考虑查询及其相关因素。</p>
+</blockquote>
+<blockquote>
+<p>提示3：根据所给材料，结合各题的具体要求，运用面向对象软件工程的基本方法、过程和工具，以UML模型图形式进行回答，必要的文字说明可加分。</p>
+</blockquote>
+</blockquote>
+<h4 id="1-一转-需求图"><a href="#1-一转-需求图" class="headerlink" title="1. 一转 需求图"></a>1. 一转 需求图</h4><blockquote>
+<p>1.绘制需求工程分析的需求图(10.0分)</p>
+<p>要求：<br>    ①识别<strong>ATM功能性需求</strong>，<br>    ②根据自己使用ATM经验和有关金融政策的<strong>GB规范和业务规则</strong>，如密码限错误输入3次等，<br>    ③对ATM系统功能进行需求分析，<strong>3个以上层次</strong>，<br>    ④绘制<strong>系统查询功能相关</strong>的需求图，<br>    ⑤需求主要<strong>聚合关系（空心菱形）</strong>，采用不同颜色<strong>标注需求的高、中、低优先级</strong>。</p>
+</blockquote>
+<blockquote>
+<p><strong>解题步骤：</strong></p>
+<ol>
+<li><p>从记录中<strong>分析</strong>总需求和功能需求、业务逻辑。</p>
+<blockquote>
+<blockquote>
+<p>总需求：<strong>查询功能</strong></p>
+</blockquote>
+<blockquote>
+<p>子需求1-暂停服务判断功能需求：是否在<strong>维护期间（约10分钟）</strong>，是否在<strong>维修期间（约30分钟）</strong>，不在暂停服务期间可以进行登录。</p>
+<p>子需求2-登录功能需求：<strong>插卡</strong>相当于输入账号，<strong>输入密码</strong>。同时进行<strong>限次判断（每天登录次数）</strong>和<strong>吞卡判断（判断错误次数是否超过3次）</strong>。</p>
+<p>子需求3-选择功能需求：登录成功后<strong>显示事务功能</strong>，并提供<strong>选择事务</strong>。</p>
+<p>子需求4-查询余额功能需求：当客户选择查询余额功能时候，要<strong>显示余额信息</strong>，余额信息包括<strong>时间信息（时 分 秒，CST）</strong>、<strong>账户余额信息（十进制数字 元）</strong>、<strong>显示对余额改动功能（退出退卡，取出余额，转账等）</strong>。</p>
+<p>子需求5-退卡需求分析：<strong>弹出磁卡</strong>，供客户<strong>取走磁卡</strong>。</p>
+</blockquote>
+</blockquote>
+</li>
+<li><p>画出需求图</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207163945527.png" alt="image-20230207163945527" loading="lazy"></p>
+</li>
+<li><p>上色</p>
+<img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207165749611.png" alt="image-20230207165749611"/ loading="lazy">
+
+<blockquote>
+<p> <strong>我的答案：</strong></p>
+<p>文字备注：</p>
+<p>深绿色为容易</p>
+<p>蓝色为中等</p>
+<p>橙色为困难</p>
+<img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207165749611.png"/ loading="lazy">
+</blockquote>
+<blockquote>
+<blockquote>
+<p><strong>难点1：</strong>如何进行线的对齐？</p>
+<p>选中线-&gt;线的样式-&gt;树形-水平方向（方向自己看）</p>
+<img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207170254512.png" alt="image-20230207170254512" style="zoom: 50%;" / loading="lazy">
+</blockquote>
+<blockquote>
+<p><strong>难点2：</strong>如何上色？</p>
+<p>偷懒就直接填充颜色</p>
+<img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207170451654.png" alt="image-20230207170451654" style="zoom:33%;" / loading="lazy">
+
+<p>或者这里面慢慢改<img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207170527410.png" alt="image-20230207170527410" loading="lazy"></p>
+</blockquote>
+</blockquote>
+</li>
+</ol>
+</blockquote>
+<h4 id="2-二转-数据建模图"><a href="#2-二转-数据建模图" class="headerlink" title="2. 二转 数据建模图"></a>2. 二转 数据建模图</h4><blockquote>
+<p>2.绘制数据逻辑模型图（10分）</p>
+<p>要求：</p>
+<p>①识别出ATM实体：顾客Customer、银行卡Card、账号Account、日志Log、管理员Admin等，</p>
+<p>②识别出各实体必要的属性及其类型、缺省值等，</p>
+<p>③识别出实体之间的联系和权重，</p>
+<p>④分析ATM案例SimulatedBank类的inquiry方法关联的类，将查询操作的相关实体保存入库，针对查询建立数据逻辑模型。</p>
+</blockquote>
+<blockquote>
+<p><strong>解题步骤：</strong></p>
+<ol>
+<li><p>分析实体，<strong>他要求中的实体，画了就可以了</strong></p>
+</li>
+<li><p>画图连线并标记关系</p>
+</li>
+<li><p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207173203200.png" alt="image-20230207173203200" loading="lazy"></p>
+<blockquote>
+<p><strong>难点1：</strong>怎么添加属性？</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207173503971.png" alt="image-20230207173503971" loading="lazy"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207173549766.png" alt="image-20230207173549766" loading="lazy"></p>
+</blockquote>
+<blockquote>
+<p><strong>难点2：</strong>关系怎么标？</p>
+<p>1对1(1:1)，1对多(1:m)，多对1(m:1)，多对多(m:n)</p>
+<p><strong>在线的一端右键</strong></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207173740243.png" alt="image-20230207173740243" loading="lazy"></p>
+</blockquote>
+<blockquote>
+<p><strong>我的答案：</strong></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207173203200.png" alt="image-20230207173203200" loading="lazy"></p>
+</blockquote>
+</li>
+</ol>
+</blockquote>
+<h4 id="3-三转-层次结构图"><a href="#3-三转-层次结构图" class="headerlink" title="3. 三转 层次结构图"></a>3. 三转 层次结构图</h4><blockquote>
+<p>3.绘制系统体系结构的层次结构图（10分）</p>
+<p>要求：</p>
+<p>①至少分表现层、业务层、数据层3个层次，设计结构模型，包（Package）图符号绘制，包含必要的查询关联的类或组件或UI，</p>
+<p>②采用泳道，标注清晰层次，导入（import）或依赖的包关系，</p>
+<p>③综合考虑分层分包，不确定泳道的类则要给予说明。</p>
+<blockquote>
+<p><strong>我的答案：</strong><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207181118276.png" alt="image-20230207181118276" style="zoom:67%;" / loading="lazy"></p>
+</blockquote>
+<blockquote>
+<p><strong>难点1：</strong>怎么在包里面添加元素？</p>
+<p>在<strong>生成的包</strong>里面<strong>新建图</strong>，然后在<strong>图里面添加元素</strong>。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207183450037.png" alt="image-20230207183450037" loading="lazy"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207183202759.png" alt="image-20230207183202759" loading="lazy"></p>
+</blockquote>
+<blockquote>
+<p><strong>难点2：</strong>框框怎么画？</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207183332057.png" alt="image-20230207183332057" loading="lazy"></p>
+</blockquote>
+</blockquote>
+<h4 id="4-四转-用例图和活动图"><a href="#4-四转-用例图和活动图" class="headerlink" title="4. 四转 用例图和活动图"></a>4. 四转 用例图和活动图</h4><blockquote>
+<p>4.绘制面向对象分析与设计的用例建模图（10分）</p>
+<p>要求：</p>
+<p>①识别出参与者，</p>
+<p>②识别出用例，</p>
+<p>③识别出系统边界，顾客、账户及余额等数据存储于MySQL数据库中，</p>
+<p>④绘制查询账号余额用例规约（场景化窗口或者活动图）。</p>
+</blockquote>
+<blockquote>
+<p><strong>解题步骤：</strong></p>
+<ol>
+<li><p>分析参与人、用例、系统边界，并绘制用例图。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207190928888.png" alt="image-20230207190928888" loading="lazy"></p>
+</li>
+<li><p>绘制活动图</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207191118599.png" alt="image-20230207191118599" loading="lazy"></p>
+</li>
+</ol>
+</blockquote>
+<h4 id="5-五转-绘制类图"><a href="#5-五转-绘制类图" class="headerlink" title="5. 五转 绘制类图"></a>5. 五转 绘制类图</h4><blockquote>
+<p>5.绘制面向对象分析与设计的类图（10分）</p>
+<p>​       要求：</p>
+<p>​       ①识别出所有类(包括具体界面类)与查询相关类，及其必要的属性和方法，属性和方法都要求明确的定义，不完整定义将被扣分，</p>
+<p>​       ②识别出类间的关系，符号正确，联线整洁。父类或接口在上，子类或实现类在下，</p>
+<p>​       ③绘制全英文的详细类图，关系和符号表达准确无误，</p>
+<p>​       ④可逆向ATM案例为参考，加入依据需求分析而设计的新类，没有自己设计的类或重构的类会被扣分。</p>
+</blockquote>
+<blockquote>
+<p><strong>画个屁屁，直接逆向生成</strong></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207194743489.png" alt="image-20230207194743489" loading="lazy"></p>
+<blockquote>
+<p><strong>难点：</strong>怎么逆向生成？</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207194853015.png" alt="image-20230207194853015" loading="lazy"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207194908956.png" alt="image-20230207194908956" loading="lazy"></p>
+</blockquote>
+</blockquote>
+<h4 id="6-六转-绘制顺序图"><a href="#6-六转-绘制顺序图" class="headerlink" title="6. 六转 绘制顺序图"></a>6. 六转 绘制顺序图</h4><blockquote>
+<p>6.假设ATM系统的核心业务流程为顾客插卡，系统验卡，系统显示输入密码，顾客输入PIN，系统显示操作，顾客选择交易，顾客打印凭据，系统吐卡，顾客取卡，系统退回等待界面等基本活动。绘制顾客使用ATM系统查询账号余额的低阶顺序图。（15分）</p>
+<p>要求：</p>
+<p>①思考顾客所需的协作对象，</p>
+<p>②使用条件片段，</p>
+<p>③使用循环片段（Fragment），</p>
+<p>④各消息必须有明确的名称、参数、返回类型以及赋值对象等，</p>
+<p>⑤考虑对象的创建和销毁，返回消息为虚线箭头等，</p>
+<p>⑥EA可录制Record，但给出关键部分并清晰可读。</p>
+</blockquote>
+<blockquote>
+<p>解题步骤：</p>
+<ol>
+<li><p>根据SimulatedBank定位查找到源代码。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207200357347.png" alt="image-20230207200357347" loading="lazy"></p>
+</li>
+<li><p>找到代码</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">private</span> Status <span class="title function_">inquiry</span><span class="params">(Message message, Balances balances)</span></span><br><span class="line">  &#123;</span><br><span class="line">      <span class="type">int</span> <span class="variable">cardNumber</span> <span class="operator">=</span> message.getCard().getNumber(); </span><br><span class="line">   </span><br><span class="line">      <span class="type">int</span> <span class="variable">accountNumber</span> <span class="operator">=</span> ACCOUNT_NUMBER [ cardNumber ] [ message.getFromAccount() ];</span><br><span class="line">      <span class="keyword">if</span> (accountNumber == <span class="number">0</span>)</span><br><span class="line">          <span class="keyword">return</span> <span class="keyword">new</span> <span class="title class_">Failure</span>(<span class="string">&quot;Invalid account type&quot;</span>);</span><br><span class="line">      </span><br><span class="line">      <span class="comment">// Return requested balances</span></span><br><span class="line">      </span><br><span class="line">      balances.setBalances(BALANCE [ accountNumber ], </span><br><span class="line">                           AVAILABLE_BALANCE [ accountNumber ]);</span><br><span class="line">      </span><br><span class="line">      <span class="keyword">return</span> <span class="keyword">new</span> <span class="title class_">Success</span>();</span><br><span class="line">  &#125;</span><br><span class="line">   </span><br><span class="line">  <span class="comment">/** Representation for status of a transaction that succeeded</span></span><br><span class="line"><span class="comment">   */</span></span><br><span class="line">  <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">class</span> <span class="title class_">Success</span> <span class="keyword">extends</span> <span class="title class_">Status</span></span><br><span class="line">  &#123;</span><br><span class="line">      <span class="keyword">public</span> <span class="type">boolean</span> <span class="title function_">isSuccess</span><span class="params">()</span></span><br><span class="line">      &#123;</span><br><span class="line">          <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">      &#125;</span><br><span class="line">      </span><br><span class="line">      <span class="keyword">public</span> <span class="type">boolean</span> <span class="title function_">isInvalidPIN</span><span class="params">()</span></span><br><span class="line">      &#123;</span><br><span class="line">          <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">      &#125;</span><br><span class="line">      </span><br><span class="line">      <span class="keyword">public</span> String <span class="title function_">getMessage</span><span class="params">()</span></span><br><span class="line">      &#123;</span><br><span class="line">          <span class="keyword">return</span> <span class="literal">null</span>;</span><br><span class="line">      &#125;</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>跟着这两行代码画画顺序图。</p>
+<p>我只能画成这样</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207204659273.png" alt="image-20230207204659273" loading="lazy"></p>
+<p>标准答案是：<img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207222533635.png" alt="image-20230207222533635" loading="lazy"></p>
+</li>
+</ol>
+</blockquote>
+<h4 id="7-七转-编码"><a href="#7-七转-编码" class="headerlink" title="7. 七转 编码"></a>7. 七转 编码</h4><blockquote>
+<p>7.面向对象编码（10分）</p>
+<p>阅读ATM案例源码，绘制所有与查询Inquiry类相关的类及其关联图，包括Inquiry类的继承、聚合、关联、依赖等关系类。</p>
+<p>要求：</p>
+<p>①采用面向对象思想和走查阅读源码的方法，<strong>绘制</strong>Inquiry类及其相关的<strong>类图</strong>，</p>
+<p>②必要的属性和操作，</p>
+<p>③在SimulatedBank类结点下新建名为inquiry的<strong>行为模型（活动或顺序图）图</strong>，生成代码，</p>
+<p>④<strong>删除原inquiry操作</strong>，构建成功并<strong>测试inquiry功能正确</strong>。</p>
+</blockquote>
+<blockquote>
+<p><strong>我的方法：</strong>手动画一个源代码的<strong>活动图</strong>，再拿<strong>源代码</strong>截图，类图就把之前逆向工程那边的类图截取一部分，画太花时间了，<strong>考试时间充足</strong>的同学可以逝世。</p>
+<p><strong>我的答案：</strong></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207211241235.png" alt="image-20230207211241235" loading="lazy"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207211128582.png" alt="image-20230207211128582" loading="lazy"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207211203265.png" alt="image-20230207211203265" loading="lazy"></p>
+</blockquote>
+<h4 id="8-八转-测试"><a href="#8-八转-测试" class="headerlink" title="8. 八转 测试"></a>8. 八转 测试</h4><blockquote>
+<p>8.面向对象测试（15分）</p>
+<p>根据ATM案例功能和实现代码，设计查询的单元测试用例并编写测试程序。</p>
+<p>要求：</p>
+<p>①采用边界值和等价类测试技术设计测试用例，</p>
+<p>②使用JUnit框架单元测试，使用JUnit断言API，如assertEquals等完成测试，</p>
+<p>③SimulatedBank类的handleMessage方法进行单测，</p>
+<p>④给出覆盖率和复杂度报告（覆盖工具不限，或手工计算： 覆盖率&#x3D;（至少被执行一次的item数）&#x2F;item的总数）。</p>
+</blockquote>
+<blockquote>
+<p>EA12是不带测试的版本，我选择本地直接运行测试，有能力的同学可以选择EA15并编写测试用例。</p>
+<p><strong>我的答案：</strong></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207213012689.png" alt="image-20230207213012689" loading="lazy"></p>
+<p>余额0元</p>
+<blockquote>
+<p><strong>难点1：</strong>运行哪个文件？</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207213144050.png" alt="image-20230207213144050" loading="lazy"></p>
+<p><strong>难点2：</strong>怎么进入余额界面？</p>
+<p>先点<strong>插入卡片</strong>，然后<strong>输入整数数字</strong>，回车。返回界面后<strong>点ENTER</strong>，然后<strong>点击2，回车</strong>，再点击<strong>Check</strong>。</p>
+</blockquote>
+</blockquote>
+<h4 id="9-九转-绘制跟踪模型图"><a href="#9-九转-绘制跟踪模型图" class="headerlink" title="9. 九转 绘制跟踪模型图"></a>9. 九转 绘制跟踪模型图</h4><blockquote>
+<p>9.绘制从需求到测试的查询功能的跟踪模型图（10分）</p>
+<p>绘制需求、用例、鲁棒、界面、类图（MVC、DAO）、行为（活动或顺序图）、数据（逻辑、物理模型）、测试（单元、集成、系统、验收测试）、组件、部署等全程建模的跟踪模型图，设置并显示各种图的测试状态（必须是Pass）。</p>
+<p>要求：</p>
+<p>①跟踪符号采用系统默认或加上构造型《trace&#x2F;跟踪》或《realize&#x2F;实现》等规范符号，</p>
+<p>②各图以泳道或分区隔离，</p>
+<p>③测试要有完整的测试名称、输入、输出、结果等，</p>
+<p>④已有模型图采用链接或引用方式，未有模型图则需绘制。</p>
+</blockquote>
+<blockquote>
+<p>我的答案：<img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207215612617.png" alt="image-20230207215612617" loading="lazy"></p>
+<blockquote>
+<p><strong>难点1：</strong>怎么把包放进去？</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207215655759.png" alt="image-20230207215655759" loading="lazy"></p>
+<p>直接把要用的包甩进去</p>
+</blockquote>
+<blockquote>
+<p><strong>难点2：</strong>没有的界面包怎么办？</p>
+<p>新建一个包，再建图，放几个元素混一下就行。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207215809100.png" alt="image-20230207215809100" loading="lazy"></p>
+</blockquote>
+<blockquote>
+<p><strong>难点3：</strong>图片怎么上传？</p>
+<p>把图片保存到本地，从<img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20230207215900195.png" alt="image-20230207215900195" loading="lazy"></p>
+<p>上传到EA里面，再载入。</p>
+</blockquote>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Curriculum Software Engineering</category>
+      </categories>
+      <tags>
+        <tag>finalexam</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Typora`s user guide</title>
+    <url>/2022/10/11/Typora%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[<h3 id="一、说明"><a href="#一、说明" class="headerlink" title="一、说明"></a>一、说明</h3><p>在使用Typora可以复制粘贴。</p>
+<span id="more"></span>
+
+<h3 id="二、语法"><a href="#二、语法" class="headerlink" title="二、语法"></a>二、语法</h3><h4 id="1-标题"><a href="#1-标题" class="headerlink" title="1. 标题"></a>1. 标题</h4><blockquote>
+<p>根据#个数来 <kbd>Ctrl</kbd> + <kbd>数字</kbd></p>
+</blockquote>
+<h4 id="2-字体"><a href="#2-字体" class="headerlink" title="2. 字体"></a>2. 字体</h4><blockquote>
+<p><em>斜体</em> <code> *斜体*</code> <code> _斜体_</code> <kbd>Ctrl</kbd> + <kbd>I</kbd></p>
+<p><strong>粗体</strong> <code> **斜体**</code> <code> __斜体__</code> <kbd>Ctrl</kbd> + <kbd>B</kbd></p>
+<p><em><strong>粗斜体</strong></em> <code> ***斜体***</code> <code> ___斜体___</code> <kbd>Ctrl</kbd> + <kbd>B</kbd> + <kbd>I</kbd></p>
+<p><del>删除文本</del> <code> ~~删除文本~~</code> <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>5</kbd></p>
+<p><u>下划线</u> <code> &lt;u&gt;下划线&lt;/u&gt;</code>  <kbd>Ctrl</kbd> + <kbd>U</kbd></p>
+</blockquote>
+<h4 id="3-分割线"><a href="#3-分割线" class="headerlink" title="3. 分割线"></a>3. 分割线</h4><p><code> +++</code>         <code> (CSDN不能用)</code></p>
+<p>+++</p>
+<p><code> ---</code></p>
+<hr>
+<p><code> ***</code></p>
+<hr>
+<h4 id="4-列表"><a href="#4-列表" class="headerlink" title="4. 列表"></a>4. 列表</h4><h5 id="4-1-无序列表"><a href="#4-1-无序列表" class="headerlink" title="4.1 无序列表"></a>4.1 无序列表</h5><ul>
+<li>第一项             <code>* 文字 </code> 或者 <code>- 文字</code> 或者 <code>+ 文字</code></li>
+<li>第二项</li>
+</ul>
+<h5 id="4-2-有序列表"><a href="#4-2-有序列表" class="headerlink" title="4.2 有序列表"></a>4.2 有序列表</h5><ol>
+<li>第一项             <code>1. 文字</code></li>
+<li>第二项</li>
+</ol>
+<h5 id="4-3-嵌套列表"><a href="#4-3-嵌套列表" class="headerlink" title="4.3 嵌套列表"></a>4.3 嵌套列表</h5><ul>
+<li>一                     <code>1. 文字</code> + <kbd>Enter</kbd> &#x2F; <kbd>Tab</kbd> <ul>
+<li>1<ul>
+<li>1.1</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="5-区块"><a href="#5-区块" class="headerlink" title="5. 区块"></a>5. 区块</h4><blockquote>
+<p>区块            <code>&gt;</code></p>
+<blockquote>
+<p>也可以嵌套</p>
+</blockquote>
+</blockquote>
+<h4 id="6-代码"><a href="#6-代码" class="headerlink" title="6. 代码"></a>6. 代码</h4><h5 id="6-1-一行代码"><a href="#6-1-一行代码" class="headerlink" title="6.1 一行代码"></a>6.1 一行代码</h5><p><code> printf(&quot;Hello World!&quot;)</code>  <code> 用一对`框住</code></p>
+<h5 id="6-2-代码段"><a href="#6-2-代码段" class="headerlink" title="6.2 代码段"></a>6.2 代码段</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># include &lt;stdio.h&gt; </span><br><span class="line">void main()&#123; </span><br><span class="line">	printf(&quot;Hello world!\n&quot;); </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">三个`+ Enter / 空格</span><br></pre></td></tr></table></figure>
+
+<h4 id="7-链接"><a href="#7-链接" class="headerlink" title="7. 链接"></a>7. 链接</h4><p><a href="https://www.baidu.com/">百度</a>  <code> [百度](https://www.baidu.com/)</code></p>
+<p><a href="https://www.baidu.com/">https://www.baidu.com/</a> <code> &lt;https://www.baidu.com/&gt;</code></p>
+<p><a href="./LinkTest.md">打开LinkTest.md文档</a> <code> [打开LinkTest.md文档](./LinkTest.md)</code></p>
+<p><a href="./img/LinkTest.png">打开LinkTest.png照片</a><code> [打开LinkTest.png照片](./img/LinkTest.png)</code></p>
+<p>补充知识：一个小圆点<code>.</code>表示当前目录，故<code>./LinkTest.md</code>表示当前目录下的LinkTest.md文件，<code>./img/LinkTest.png</code>表示当前目录下的img文件下的LinkTest.png文件。两个小圆点<code>..</code>表示上一级目录。</p>
+<p>[跳转到第七章](####7. 链接) <code>链接文字](#标题文字)</code></p>
+<h4 id="8、图片"><a href="#8、图片" class="headerlink" title="8、图片"></a>8、图片</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![alt 属性文本](图片地址)</span><br><span class="line">![alt 属性文本](图片地址 &quot;可选标题&quot;)</span><br></pre></td></tr></table></figure>
+
+<h4 id="9、表格"><a href="#9、表格" class="headerlink" title="9、表格"></a>9、表格</h4><table>
+<thead>
+<tr>
+<th>表头</th>
+<th>表头</th>
+<th>表头</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>单元格</td>
+<td>单元格</td>
+<td>单元格</td>
+</tr>
+<tr>
+<td>单元格</td>
+<td>单元格</td>
+<td>单元格</td>
+</tr>
+</tbody></table>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">|表头|表头|表头|</span><br><span class="line">|---|---|----|</span><br><span class="line">|单元格|单元格|单元格|</span><br><span class="line">|单元格|单元格|单元格|</span><br></pre></td></tr></table></figure>
+
+<table>
+<thead>
+<tr>
+<th align="left">左对齐</th>
+<th align="right">右对齐</th>
+<th align="center">中间对齐</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">单元格</td>
+<td align="right">单元格</td>
+<td align="center">单元格</td>
+</tr>
+<tr>
+<td align="left">单元格</td>
+<td align="right">单元格</td>
+<td align="center">单元格</td>
+</tr>
+</tbody></table>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">|左对齐|右对齐|中间对齐|</span><br><span class="line">|:---|---:|:----:|</span><br><span class="line">|单元格|单元格|单元格|</span><br><span class="line">|单元格|单元格|单元格|</span><br></pre></td></tr></table></figure>
+
+<p><kbd>Ctrl</kbd> + <kbd>T</kbd></p>
+<h4 id="10-数学公式"><a href="#10-数学公式" class="headerlink" title="10. 数学公式"></a>10. 数学公式</h4><h5 id="10-1-数学格式的展示"><a href="#10-1-数学格式的展示" class="headerlink" title="10.1 数学格式的展示"></a>10.1 数学格式的展示</h5><p>这个是行内的$ 数学公式 $</p>
+<p><code>$ 数学公式 $</code><br>$$<br>数学公式<br>$$</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$$ </span><br><span class="line">数学公式 </span><br><span class="line">$$</span><br></pre></td></tr></table></figure>
+
+<h5 id="10-2-上标下标"><a href="#10-2-上标下标" class="headerlink" title="10.2 上标下标"></a>10.2 上标下标</h5><p>H<sub>2</sub>O下标：<code>&lt;sub&gt;（内容）&lt;/sub&gt;</code></p>
+<p>a<sup>2</sup>上标： <code>&lt;sup&gt;（内容）&lt;/sup&gt;</code></p>
+<h5 id="10-3-根号"><a href="#10-3-根号" class="headerlink" title="10.3 根号"></a>10.3 根号</h5><p><code>暂时用不上</code></p>
+<h5 id="10-4-上下水平线"><a href="#10-4-上下水平线" class="headerlink" title="10.4 上下水平线"></a>10.4 上下水平线</h5><p><code>暂时用不上</code></p>
+<h5 id="10-5-上线水平大括号"><a href="#10-5-上线水平大括号" class="headerlink" title="10.5 上线水平大括号"></a>10.5 上线水平大括号</h5><p><code>暂时用不上</code></p>
+<h5 id="10-6-向量符号"><a href="#10-6-向量符号" class="headerlink" title="10.6 向量符号"></a>10.6 向量符号</h5><p><code>暂时用不上</code></p>
+<h5 id="10-7-分数"><a href="#10-7-分数" class="headerlink" title="10.7 分数"></a>10.7 分数</h5><p><code>暂时用不上</code></p>
+<h5 id="10-8-积分运算符"><a href="#10-8-积分运算符" class="headerlink" title="10.8 积分运算符"></a>10.8 积分运算符</h5><p><code>暂时用不上</code></p>
+<h5 id="10-9-求和运算符"><a href="#10-9-求和运算符" class="headerlink" title="10.9 求和运算符"></a>10.9 求和运算符</h5><p><code>暂时用不上</code></p>
+<h5 id="10-10-连乘运算符"><a href="#10-10-连乘运算符" class="headerlink" title="10.10 连乘运算符"></a>10.10 连乘运算符</h5><p><code>暂时用不上</code></p>
+<h5 id="10-11-特殊符号"><a href="#10-11-特殊符号" class="headerlink" title="10.11 特殊符号"></a>10.11 特殊符号</h5><p><code>暂时用不上</code></p>
+<h5 id="10-12-矩阵表示"><a href="#10-12-矩阵表示" class="headerlink" title="10.12 矩阵表示"></a>10.12 矩阵表示</h5><p><code>暂时用不上</code></p>
+<h5 id="10-13-方程组"><a href="#10-13-方程组" class="headerlink" title="10.13 方程组"></a>10.13 方程组</h5><p><code>暂时用不上</code></p>
+<h5 id="10-14-分段函数"><a href="#10-14-分段函数" class="headerlink" title="10.14 分段函数"></a>10.14 分段函数</h5><p><code>暂时用不上</code></p>
+<h4 id="11-HTML"><a href="#11-HTML" class="headerlink" title="11. HTML"></a>11. HTML</h4><h5 id="11-1-改变字体颜色及大小"><a href="#11-1-改变字体颜色及大小" class="headerlink" title="11.1 改变字体颜色及大小"></a>11.1 改变字体颜色及大小</h5><p><font size=3 color="red">字体颜色为红色，大小为3</font></p>
+<p><font size=4 color="blue">字体颜色为蓝色，大小为4</font></p>
+<p><font size=6 color="violet">字体颜色为紫罗兰，大小为6</font></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;font size=3 color=&quot;red&quot;&gt;字体颜色为红色，大小为3&lt;/font&gt;</span><br><span class="line">&lt;font size=4 color=&quot;blue&quot;&gt;字体颜色为蓝色，大小为4&lt;/font&gt;</span><br><span class="line">&lt;font size=6 color=&quot;violet&quot;&gt;字体颜色为紫罗兰，大小为6&lt;/font&gt;</span><br></pre></td></tr></table></figure>
+
+<h5 id="11-2-改变对齐方式"><a href="#11-2-改变对齐方式" class="headerlink" title="11.2 改变对齐方式"></a>11.2 改变对齐方式</h5><p align="left">左对齐</p>
+<p align="center">中间对齐</p>
+<p align="right">右对齐</p>
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;p align=&quot;left&quot;&gt;左对齐&lt;/p&gt;</span><br><span class="line">&lt;p align=&quot;center&quot;&gt;中间对齐&lt;/p&gt;</span><br><span class="line">&lt;p align=&quot;right&quot;&gt;右对齐&lt;/p&gt;</span><br></pre></td></tr></table></figure>
+
+<h5 id="11-3-插入图像"><a href="#11-3-插入图像" class="headerlink" title="11.3 插入图像"></a>11.3 插入图像</h5><p><code>&lt;img src=&quot;img/1.jpg&quot; width=30 height=30 style=&quot;float:left&quot;/&gt;</code></p>
+<h4 id="12-拓展用法"><a href="#12-拓展用法" class="headerlink" title="12. 拓展用法"></a>12. 拓展用法</h4><p>#####12.1 插入emoji表情</p>
+<p>:happy:的语法为<code>:happy:</code></p>
+<p>🦀的语法为<code>:crab:</code></p>
+<p>🐴的语法为<code>:horse:</code></p>
+<h5 id="12-2-插入目录（我不需要）"><a href="#12-2-插入目录（我不需要）" class="headerlink" title="12.2 插入目录（我不需要）"></a>12.2 插入目录（我不需要）</h5><h5 id="12-3-文本高亮"><a href="#12-3-文本高亮" class="headerlink" title="12.3 文本高亮"></a>12.3 文本高亮</h5><p>&#x3D;&#x3D;要高亮的文本&#x3D;&#x3D;</p>
+<p><code>==要高亮的文本==</code></p>
+]]></content>
+      <categories>
+        <category>Tools_Technology</category>
+      </categories>
+      <tags>
+        <tag>technology</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>编译原理期末复习</title>
+    <url>/2023/01/05/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/</url>
+    <content><![CDATA[<h3 id="一、说明"><a href="#一、说明" class="headerlink" title="一、说明"></a>一、说明</h3><p>别多废话，背！</p>
+<h3 id="二、重点"><a href="#二、重点" class="headerlink" title="二、重点"></a>二、重点</h3><h4 id="第二章-文法和语言的基本知识"><a href="#第二章-文法和语言的基本知识" class="headerlink" title="第二章 文法和语言的基本知识"></a>第二章 文法和语言的基本知识</h4><h5 id="2-1-文法二义性"><a href="#2-1-文法二义性" class="headerlink" title="2.1 文法二义性"></a>2.1 文法二义性</h5><blockquote>
+<p>你需要学会<strong>文法、规则、句子定义</strong>，<strong>二义性的定义</strong>，<strong>最左（最右）推导</strong>，<strong>绘制语法树</strong>。</p>
+</blockquote>
+<blockquote>
+<p><strong>题目1：</strong><img src="http://s1.vika.cn/space/2023/02/12/b179a287c5e3433587b4865baa2bfd7e" alt="image-20230211211734717" loading="lazy"></p>
+<p><strong>答案：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-202214301261.png" alt="image-202214301261" loading="lazy"></p>
+<p><strong>解析：</strong></p>
+<p>二义性的判断就是<strong>是否有两个最左（最右）推导能得到唯一的结果</strong>。</p>
+<p><strong>解题技巧1：</strong>就是从<strong>两个不同规则（|的两边）</strong>出发，画语法树。</p>
+<p>这道题就是<strong>分别选择了S→iS和S→iSeS</strong>开始推导，推导出<strong>相同的句子iiiei</strong>。</p>
+</blockquote>
+<blockquote>
+<p><strong>题目2：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/324.png" alt="324" loading="lazy"></p>
+<p><strong>答案：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20214329160.png" alt="image-20214329160" loading="lazy"></p>
+<p><strong>解析：</strong></p>
+<p>二义性的判断就是<strong>是否有两个最左（最右）推导能得到唯一的结果</strong>。</p>
+<p><strong>解题技巧2：</strong>就是从<strong>对称替换</strong>出发，画语法树。</p>
+<p>这道题就是<strong>分别选择了第一个表达式和第二个表达式替换</strong>推导，推导出<strong>相同的句子i+i*i</strong>。</p>
+</blockquote>
+<h5 id="2-2-求对应语言的上下文无关文法"><a href="#2-2-求对应语言的上下文无关文法" class="headerlink" title="2.2 求对应语言的上下文无关文法"></a>2.2 求对应语言的上下文无关文法</h5><blockquote>
+<p><strong>题目1：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-202311540422.png" alt="image-202311540422" loading="lazy"></p>
+<p><strong>答案：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-2246227.png" alt="image-2246227" loading="lazy"></p>
+<p><strong>解析：</strong>使用规则组成目标语言，有规律可循。先<strong>看次方</strong>分组，再看<strong>范围分类型</strong>。</p>
+<p><strong>解题技巧1：</strong></p>
+<p>注意几种规则能构成的结果</p>
+<blockquote>
+<p><strong>A→aA型</strong></p>
+<ol>
+<li>A→aA|€ 可以构成a<sup>n</sup>（n≧0）</li>
+<li>A→aA|a 可以构成a<sup>n</sup>（n≧1）</li>
+</ol>
+</blockquote>
+<blockquote>
+<p><strong>A→aAb型</strong></p>
+<ol>
+<li>A→aAb|ab 可以构成a<sup>n</sup>b<sup>n</sup>（n≧1）</li>
+<li>A→aAb|€ 可以构成a<sup>n</sup>b<sup>n</sup>（n≧0）</li>
+</ol>
+</blockquote>
+<blockquote>
+<p><strong>A→aAa型</strong></p>
+<ol>
+<li>A→aAa|a 可以构成a<sup>2n+1</sup>（n≧0）</li>
+</ol>
+</blockquote>
+<blockquote>
+<p><strong>胸怀天下型</strong> S→aSb|€|bAa</p>
+<p>看第六题</p>
+<p>首先解决<strong>中间的夹心</strong>0<sup>m</sup>1<sup>m</sup>，是<strong>A→aAb型</strong>的<strong>A→aAb|€</strong></p>
+<p>然后先不管夹心，解决两边的1<sup>n</sup>0<sup>n</sup>,是<strong>A→aAb型</strong>的<strong>A→aAb|€</strong></p>
+<p>然后胸怀天下，将小三夹在中间，变成三人行。</p>
+<p><strong>（写的时候注意，S为最终结果，应为第一个规则开始，不能按照思路把A放在最上面。）</strong></p>
+<p>S→aSb|€|<strong>bAa</strong>（←这个bAa我个人认为可以直接换成A，<strong>考试按照书上bAa写</strong>，兄弟们可以私聊我）</p>
+<p>A→bAa|€</p>
+</blockquote>
+</blockquote>
+<h4 id="第三章-词法分析与有穷自动机"><a href="#第三章-词法分析与有穷自动机" class="headerlink" title="第三章 词法分析与有穷自动机"></a>第三章 词法分析与有穷自动机</h4><h5 id="3-1-求对应正规式的最小DFA"><a href="#3-1-求对应正规式的最小DFA" class="headerlink" title="3.1 求对应正规式的最小DFA"></a>3.1 求对应正规式的最小DFA</h5><blockquote>
+<p>你需要学习<strong>正规表达式→NFA→DFA→DFA的化简</strong>每一个步骤的解题方法。</p>
+</blockquote>
+<blockquote>
+<p>正规表达式→NFA</p>
+<p><strong>规则：</strong></p>
+<p><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216190502163.png" alt="image-20230216190502163" loading="lazy"></p>
+<p><strong>流程：</strong></p>
+<p><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216190538923.png" alt="image-20230216190538923" loading="lazy"></p>
+<p>没啥难度，<strong>按照规则画流程</strong>，展开就行</p>
+</blockquote>
+<blockquote>
+<p>NFA→DFA</p>
+<ol>
+<li>理解<strong>€-CLOSURE（{Z}）</strong>：从<strong>Z节点</strong>出发，所有的<strong>€条件</strong>可抵达的节点。</li>
+</ol>
+<p><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216192523653.png" alt="image-20230216192523653" loading="lazy"></p>
+<ol start="2">
+<li>理解<strong>€-CLOSURE（{X,Z}，a条件）</strong>：从<strong>X节点</strong>和<strong>Z节点</strong>出发，所有的<strong>a条件</strong>可抵达的节点。</li>
+</ol>
+<p>例题：<img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216191420780.png" alt="image-20230216191420780" loading="lazy"></p>
+<p><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216192650004.png" alt="image-20230216192650004" loading="lazy"></p>
+<p>分析：从X出发，a条件<strong>哪都不能抵达</strong>。从0出发，a条件抵达<strong>0</strong>。从1出发，a条件抵达<strong>2</strong>。</p>
+<p><strong>流程：</strong></p>
+<ol>
+<li><p>表示开始状态（初态），添加到Q&#96;。</p>
+</li>
+<li><p>进行f&#96;（初态，可使用的移动条件（<strong>本题为a和b</strong>）），分别移动记录结果，并把<strong>结果状态</strong>加入到Q·。</p>
+</li>
+<li><p>对新加入的结果状态进行f&#96;（结果状态，可使用的移动条件（<strong>本题为a和b</strong>）），得出新的结果状态，<strong>判断是否已经加入Q·</strong>！</p>
+</li>
+<li><p>直到没有新的结果状态。</p>
+</li>
+<li><p>命名Q·里面状态，画图。</p>
+<p><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216193934872.png" alt="image-20230216193934872" loading="lazy"></p>
+<p>解释：<strong>A状态</strong>满足<strong>a条件</strong>能抵达**{0，1，2}，也就是B状态<strong>，满足</strong>b条件<strong>能抵达</strong>{0，1}<strong>，也就是</strong>C状态**。画图A指向B和C。同理，画出所有状态的路线。</p>
+</li>
+</ol>
+</blockquote>
+<blockquote>
+<p>DFA的化简</p>
+<ol>
+<li><p><strong>终态集</strong>和<strong>非终态集</strong>的划分。（是否包含了终态结，就是<strong>两个圈</strong>的，本题是Y）</p>
+<p><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216194416248.png" alt="image-20230216194416248" loading="lazy"></p>
+<p><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216194447358.png" alt="image-20230216194447358" loading="lazy"></p>
+</li>
+<li><p>对<strong>能划分的集合</strong>（本题是{A，B，C，D}），进行可使用的移动条件（<strong>本题为a和b</strong>）的转移。如果转移结果<strong>不在</strong>子集合里面，<strong>挑出异常状态，单独成集合</strong>。</p>
+</li>
+<li><p>直到被划分集合中的转移结果都在子集中，将<strong>多元素集合取一个代表</strong>，代替所有元素被连线。（看书上例3.16）</p>
+</li>
+</ol>
+</blockquote>
+<blockquote>
+<p><strong>题目1：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216195510782.png" alt="image-20230216195510782" loading="lazy"></p>
+<p><strong>答案：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216205313799.png" alt="image-20230216205313799" loading="lazy"></p>
+<p><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216205334485.png" alt="image-20230216205334485" loading="lazy"></p>
+<p><strong>解题技巧：</strong>根据时间和卷面大小，只写红色大括号内的内容。</p>
+</blockquote>
+<h5 id="3-2-正规式等价性"><a href="#3-2-正规式等价性" class="headerlink" title="3.2 正规式等价性"></a>3.2 正规式等价性</h5><blockquote>
+<p>求最小DFA，同上。</p>
+</blockquote>
+<blockquote>
+<p><strong>题目1：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216205621286.png" alt="image-20230216205621286" loading="lazy"></p>
+<p><strong>答案：</strong>因为最小DFA相同，所以等价。</p>
+<p><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216211118871.png" alt="image-20230216211118871" loading="lazy"></p>
+</blockquote>
+<h4 id="第四章-语法分析"><a href="#第四章-语法分析" class="headerlink" title="第四章 语法分析"></a>第四章 语法分析</h4><h5 id="4-1-求文法中非终结符的FIRST集和FOLLOW集"><a href="#4-1-求文法中非终结符的FIRST集和FOLLOW集" class="headerlink" title="4.1 求文法中非终结符的FIRST集和FOLLOW集"></a>4.1 求文法中非终结符的FIRST集和FOLLOW集</h5><blockquote>
+<p><strong>First（A）的推导规则：</strong>A的推导规则内，最前面的小写字母（终结符），遇到大写字母（非终结符）就First（）。</p>
+<ol>
+<li><p>A→a        First（A）&#x3D;{a}</p>
+</li>
+<li><p>A→a|€      First（A）&#x3D;{a}∪{€}&#x3D;{a，€}</p>
+</li>
+<li><p>A→CDb      First（A）&#x3D;First（C）∪First（D）∪{b}</p>
+</li>
+</ol>
+</blockquote>
+<blockquote>
+<p><strong>FOLLOW（A）的推导规则：</strong>整个G文法内，出现A的后面的小写字母（终结符）。如果后面是大写字母B（非终结符），就看First(B)里面所有的非€字符。若在其他规则中A在最后一个，或者后面的大写字母有€，C→acA，则FOLLOW（C）全部包含。</p>
+<ol>
+<li><p>看A后面出现的小写字母 例如     C→avAc   就是{c}</p>
+</li>
+<li><p>看A后面出现的大写字母 例如     D→aAD    First（D）中所有非空字符</p>
+</li>
+<li><p>看A后面是否为最后一个，或者后面的大写字母可以变成€    </p>
+<p>E→dA</p>
+<p>E→dAG   G→可以推导成→€</p>
+<p>则包含FOLLOW（E）</p>
+</li>
+</ol>
+</blockquote>
+<blockquote>
+<p><strong>题目1：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216224551634.png" alt="image-20230216224551634" loading="lazy"></p>
+<p><strong>答案：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216224728030.png" alt="image-20230216224728030" loading="lazy"></p>
+</blockquote>
+<blockquote>
+<p><strong>题目2：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216224631607.png" alt="image-20230216224631607" loading="lazy"></p>
+<p><strong>答案：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216224738147.png" alt="image-20230216224738147" loading="lazy"></p>
+</blockquote>
+<h5 id="4-2构造文法对应的LR分析表"><a href="#4-2构造文法对应的LR分析表" class="headerlink" title="4.2构造文法对应的LR分析表"></a>4.2构造文法对应的LR分析表</h5><blockquote>
+<p><strong>首先</strong>需要学会</p>
+<p><strong>圆点规则：</strong></p>
+<ol>
+<li>A→a·       一个规则右边符号串a分析完了，句柄形成，应规约</li>
+<li>A→a<sub>1</sub>·a<sub>2 </sub>    a<sub>1</sub>分析完，期待a<sub>2 </sub></li>
+<li>A→·a       期待a</li>
+<li>A→·        对空规则</li>
+</ol>
+<p><strong>LR（0）项目分类：</strong></p>
+<p><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216231718041.png" alt="image-20230216231718041" loading="lazy"></p>
+</blockquote>
+<blockquote>
+<p><strong>其次</strong>要学会</p>
+<p><strong>闭包函数CLOSURE(I)：</strong></p>
+<p><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216232311300.png" alt="image-20230216232311300" loading="lazy"></p>
+<p><strong>规则：</strong></p>
+<ol>
+<li><strong>初态</strong>就是期待所有字符，<strong>每条规则都期待插入</strong>字符。</li>
+<li>如果遇到CLOSURE({A→a·Bb})，B是非终结符，“未知的非终结符”，那么把B规则的<strong>全部进行需求</strong>。可以认为CLOSURE是贪婪的。</li>
+</ol>
+<p><strong>状态转移函数GO：</strong></p>
+<p><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216232355890.png" alt="image-20230216232355890" loading="lazy"></p>
+<p>就是GO（I，a），就是在I中规则，通过<strong>插入（进位）a</strong>字符，也就是<strong>·后移有a</strong>。变成CLOSURE（{A→a·Ab，B→a·Bb}），<strong>再考虑CLOSURE的贪婪需求</strong>，把A,B规则进行全部需求。</p>
+</blockquote>
+<blockquote>
+<p><strong>然后</strong>要会画</p>
+<p><strong>构造文法规范句型活前缀DFA的方法：</strong></p>
+<p><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216233820424.png" alt="image-20230216233820424" loading="lazy"></p>
+<p>和前面<strong>NFA→DFA</strong>有异曲同工之处，不过只要看·往后移动的条件，从初态I<sub>0 </sub>开始，·往后移（使用GO（I0,S|A|B|a|c|d）），形成新的I，直到不能生成新的I。</p>
+</blockquote>
+<blockquote>
+<p><strong>最后</strong>要会画</p>
+<p><strong>LR（0）分析表：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216234723796.png" alt="image-20230216234723796" loading="lazy"></p>
+<p><strong>SLR(1)分析表：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216235007914.png" alt="image-20230216235007914" loading="lazy"></p>
+<p><strong>LR（1）分析表：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216235045535.png" alt="image-20230216235045535" loading="lazy"></p>
+<p><strong>LALR(1)分析表：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216235209986.png" alt="image-20230216235209986" loading="lazy"></p>
+</blockquote>
+<h4 id="第五章-语法制导翻译技术和中间代码生成"><a href="#第五章-语法制导翻译技术和中间代码生成" class="headerlink" title="第五章 语法制导翻译技术和中间代码生成"></a>第五章 语法制导翻译技术和中间代码生成</h4><h5 id="5-1-求对应文法的语义动作"><a href="#5-1-求对应文法的语义动作" class="headerlink" title="5.1 求对应文法的语义动作"></a>5.1 求对应文法的语义动作</h5><blockquote>
+<p>学习知识点内容：</p>
+<p><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230217001016440.png" alt="image-20230217001016440" loading="lazy"></p>
+<p><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230217001850549.png" alt="image-20230217001850549" loading="lazy"></p>
+<p><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230217001812996.png" alt="image-20230217001812996" loading="lazy"></p>
+</blockquote>
+<blockquote>
+<p><strong>题目：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230217001430058.png" alt="image-20230217001430058" loading="lazy"></p>
+<p><strong>答案：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230217001540240.png" alt="image-20230217001540240" loading="lazy"></p>
+<p><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230217001552372.png" alt="image-20230217001552372" loading="lazy"></p>
+</blockquote>
+<blockquote>
+<p><strong>题目：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230217001456157.png" alt="image-20230217001456157" loading="lazy"></p>
+<p><strong>答案：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230217001523079.png" alt="image-20230217001523079" loading="lazy"></p>
+</blockquote>
+<h4 id="第七章-代码优化"><a href="#第七章-代码优化" class="headerlink" title="第七章 代码优化"></a>第七章 代码优化</h4><h5 id="7-1-将程序段划分为基本块并作出程序流图、"><a href="#7-1-将程序段划分为基本块并作出程序流图、" class="headerlink" title="7.1 将程序段划分为基本块并作出程序流图、"></a>7.1 将程序段划分为基本块并作出程序流图、</h5><blockquote>
+<p><strong>题目：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230217001956518.png" alt="image-20230217001956518" loading="lazy"></p>
+<p><strong>答案：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230217002052232.png" alt="image-20230217002052232" loading="lazy"></p>
+</blockquote>
+<h5 id="7-2-求流图中各结点的必经结点集、回边、循环"><a href="#7-2-求流图中各结点的必经结点集、回边、循环" class="headerlink" title="7.2 求流图中各结点的必经结点集、回边、循环"></a>7.2 求流图中各结点的必经结点集、回边、循环</h5><blockquote>
+<p><strong>题目：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230217002029529.png" alt="image-20230217002029529" loading="lazy"></p>
+<p><strong>答案：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230217002104110.png" alt="image-20230217002104110" loading="lazy"></p>
+<p><strong>解释：</strong></p>
+<p><strong>必经节点集：</strong>字面意思，D（B）是集合D里面添加B节点，如果前往B节点并有不需的节点，就去掉。</p>
+<p>**B<sub>2 </sub>DOM B<sub>7 </sub>**，B2是B7的必经节点，是回边的条件。</p>
+<p><strong>循环：</strong>定义<strong>麻烦别看，肉眼观察</strong></p>
+</blockquote>
+<h4 id="第九章目标代码生成"><a href="#第九章目标代码生成" class="headerlink" title="第九章目标代码生成"></a>第九章目标代码生成</h4><h5 id="9-1-用简答代码生成器生成目标代码"><a href="#9-1-用简答代码生成器生成目标代码" class="headerlink" title="9.1 用简答代码生成器生成目标代码"></a>9.1 用简答代码生成器生成目标代码</h5><blockquote>
+<p><strong>题目：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230217003037621.png" alt="image-20230217003037621" loading="lazy"></p>
+<p><strong>答案：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230217003022269.png" alt="image-20230217003022269" loading="lazy">                                                                                                                                                                                                                                                   </p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Principle of Compiler</category>
+      </categories>
+      <tags>
+        <tag>finalexam</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>蓝桥杯Eclipse个人设置</title>
+    <url>/2022/12/15/%E8%93%9D%E6%A1%A5%E6%9D%AFEclipse%E4%B8%AA%E4%BA%BA%E8%AE%BE%E7%BD%AE/</url>
+    <content><![CDATA[<h3 id="1、自动补全"><a href="#1、自动补全" class="headerlink" title="1、自动补全"></a>1、自动补全</h3><p>编写代码时，自动提示完善代码。比如键盘输入‘s’,提示String等选项</p>
+<p>操作步骤：window -&gt;Perferences -&gt;Java -&gt; Editor -&gt; Content Assist</p>
+<p>Auto activation triggers for java 参数 填写<code>**.()&#123;&#125;abcdefghijklmnopqrstuvwxyz</code></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221215212531534.png" alt="image-20221215212531534" loading="lazy"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221215212556536.png" alt="image-20221215212556536" loading="lazy"></p>
+<h3 id="2、快捷键"><a href="#2、快捷键" class="headerlink" title="2、快捷键"></a>2、快捷键</h3><blockquote>
+<p> 操作步骤：<strong>Window - &gt;Preferences -&gt; General -&gt; Keys</strong></p>
+<ol>
+<li>quick fixed available（快速修复错误): 光标放在出错的代码位置，然后<strong>ctrl+1</strong>，在按<strong>enter</strong>键，即可快速智能修复。</li>
+<li>注释：ctrl+&#x2F;，取消注释 Ctrl+&#x2F;</li>
+<li>Alt+Shift+R 重命名 ，尤其是变量或类的重命名</li>
+<li>Ctrl+Shift+X 把当前选中的文本全部变为大写</li>
+<li>Ctrl+Shift+Y 把当前选中的文本全部变为小写</li>
+<li>Ctrl+L 定位在某行</li>
+<li>Ctrl+2，L为本地变量赋值,用过idea的同学都知道，idea中有一个 .var的变量自动赋值功能非常好用，eclipse中ctrl+2,L的功能和其类似。</li>
+<li>代码编辑区缩放，类似我们常用的快捷键组合Ctrl+鼠标滚轮。eclipse中（笔记本）使用Ctrl+ -代码编辑区缩小，Ctrl+&#x3D;放大。</li>
+</ol>
+</blockquote>
+]]></content>
+      <categories>
+        <category>catalogue</category>
+      </categories>
+      <tags>
+        <tag>Blue Bridge Cup</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>蓝桥杯备赛</title>
+    <url>/2022/12/08/%E8%93%9D%E6%A1%A5%E6%9D%AF%E5%A4%87%E8%B5%9B/</url>
+    <content><![CDATA[<h3 id="一、说明"><a href="#一、说明" class="headerlink" title="一、说明"></a>一、说明</h3><p>本目录是我蓝桥杯备赛的总目录。</p>
+<p>蓝桥杯历年省赛真题：<a href="http://oj.ecustacm.cn/viewnews.php?id=1021">蓝桥杯历年省赛真题</a></p>
+<p>AcWing：<a href="https://www.acwing.com/about/">AcWing</a></p>
+<p>尚硅谷 数据结构与算法（Java数据结构与算法）：<a href="https://www.bilibili.com/video/BV1E4411H73v/?spm_id_from=333.788.recommend_more_video.0&vd_source=b67e806ce2d472466c131e4de446b801">尚硅谷 数据结构与算法（Java数据结构与算法）</a></p>
+<blockquote>
+<p>比赛环境说明：</p>
+<p>eclipse-java-2020-06-R-win32-x86_64</p>
+<p>jdk-8u261-windows-x64</p>
+<p>JDK 1.8 API</p>
+</blockquote>
+<p>IDE美化：<a href="/2022/12/15/%E8%93%9D%E6%A1%A5%E6%9D%AFEclipse%E4%B8%AA%E4%BA%BA%E8%AE%BE%E7%BD%AE/" title="蓝桥杯Eclipse个人设置">蓝桥杯Eclipse个人设置</a></p>
+<h3 id="二、数据结构笔记目录"><a href="#二、数据结构笔记目录" class="headerlink" title="二、数据结构笔记目录"></a>二、数据结构笔记目录</h3><ol>
+<li>数组</li>
+<li>字符串</li>
+<li>队列</li>
+<li>栈</li>
+<li>链表</li>
+<li>哈希表</li>
+<li>数<ul>
+<li>二叉树</li>
+<li>多叉树</li>
+<li>字典树</li>
+</ul>
+</li>
+</ol>
+<h3 id="三、算法笔记目录"><a href="#三、算法笔记目录" class="headerlink" title="三、算法笔记目录"></a>三、算法笔记目录</h3><ol>
+<li>八大排序</li>
+<li>双指针</li>
+<li>查找</li>
+<li>分治</li>
+<li>动态规划</li>
+<li>递归</li>
+<li>回溯</li>
+<li>贪心</li>
+<li>位运算</li>
+<li>DFS</li>
+<li>BFS</li>
+<li>图</li>
+<li>暴力遍历</li>
+<li>枚举</li>
 </ol>
 ]]></content>
       <categories>
         <category>catalogue</category>
       </categories>
       <tags>
-        <tag>all</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>行测目录</title>
-    <url>/2024/03/09/%E8%A1%8C%E6%B5%8B%E6%80%BB%E7%9B%AE%E5%BD%95/</url>
-    <content><![CDATA[<h3 id="一、说明"><a href="#一、说明" class="headerlink" title="一、说明"></a>一、说明</h3><p>本目录是行测学习的一个总汇目录。</p>
-<h3 id="二、目录链接"><a href="#二、目录链接" class="headerlink" title="二、目录链接"></a>二、目录链接</h3><p>1. </p>
-]]></content>
-      <categories>
-        <category>catalogue</category>
-      </categories>
-      <tags>
-        <tag>study</tag>
+        <tag>Blue Bridge Cup</tag>
       </tags>
   </entry>
 </search>

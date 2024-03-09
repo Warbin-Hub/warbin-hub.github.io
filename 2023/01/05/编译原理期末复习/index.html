@@ -1,0 +1,336 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="theme-color" content="#0078E7"><meta name="author" content="Warbin"><meta name="copyright" content="Warbin"><meta name="generator" content="Hexo 6.3.0"><meta name="theme" content="hexo-theme-yun"><title>编译原理期末复习 | 只因</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@900&amp;display=swap" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/star-markdown-css@0.4.1/dist/yun/yun-markdown.min.css"><link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/prism-theme-vars/base.css"><script src="https://fastly.jsdelivr.net/npm/scrollreveal/dist/scrollreveal.min.js" defer></script><script>function initScrollReveal() {
+  [".post-card",".markdown-body img"].forEach((target)=> {
+    ScrollReveal().reveal(target);
+  })
+}
+document.addEventListener("DOMContentLoaded", initScrollReveal);
+document.addEventListener("pjax:success", initScrollReveal);
+</script><script src="https://fastly.jsdelivr.net/npm/pjax@latest/pjax.min.js" defer></script><script src="/js/pjax.js" defer type="module"></script><script src="https://fastly.jsdelivr.net/npm/vue@2.6.14"></script><link rel="icon" type="image/png" href="/icon.ico"><link rel="mask-icon" href="/icon.ico" color="#0078E7"><link rel="preload" href="/css/hexo-theme-yun.css" as="style"><link rel="prefetch" href="/js/sidebar.js" as="script"><link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin><link rel="preconnect" href="https://fastly.jsdelivr.net/npm/" crossorigin><script id="yun-config">
+    window.Yun = {}
+    window.CONFIG = {"hostname":"warbin-hub.github.io","root":"/","title":"照水冰如鉴","version":"1.10.9","mode":"auto","copycode":true,"page":{"isPost":true},"i18n":{"placeholder":"搜索...","empty":"找不到您查询的内容: ${query}","hits":"找到 ${hits} 条结果","hits_time":"找到 ${hits} 条结果（用时 ${time} 毫秒）"},"anonymous_image":"https://cdn.yunyoujun.cn/img/avatar/none.jpg","say":{"api":"https://el-bot-api.vercel.app/api/words/young"},"fireworks":{"colors":null},"vendors":{"host":"https://fastly.jsdelivr.net/npm/","darken":"https://fastly.jsdelivr.net/npm/darken@1.5.0"}};
+  </script><link rel="stylesheet" href="/css/hexo-theme-yun.css"><script src="/js/hexo-theme-yun.js" type="module"></script><link rel="alternate" href="/atom.xml" title="只因" type="application/atom+xml"><meta name="description" content="一、说明别多废话，背！ 二、重点第二章 文法和语言的基本知识2.1 文法二义性 你需要学会文法、规则、句子定义，二义性的定义，最左（最右）推导，绘制语法树。   题目1： 答案： 解析： 二义性的判断就是是否有两个最左（最右）推导能得到唯一的结果。 解题技巧1：就是从两个不同规则（|的两边）出发，画语法树。 这道题就是分别选择了S→iS和S→iSeS开始推导，推导出相同的句子iiiei。   题目">
+<meta property="og:type" content="article">
+<meta property="og:title" content="编译原理期末复习">
+<meta property="og:url" content="https://warbin-hub.github.io/2023/01/05/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/index.html">
+<meta property="og:site_name" content="只因">
+<meta property="og:description" content="一、说明别多废话，背！ 二、重点第二章 文法和语言的基本知识2.1 文法二义性 你需要学会文法、规则、句子定义，二义性的定义，最左（最右）推导，绘制语法树。   题目1： 答案： 解析： 二义性的判断就是是否有两个最左（最右）推导能得到唯一的结果。 解题技巧1：就是从两个不同规则（|的两边）出发，画语法树。 这道题就是分别选择了S→iS和S→iSeS开始推导，推导出相同的句子iiiei。   题目">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://s1.vika.cn/space/2023/02/12/b179a287c5e3433587b4865baa2bfd7e">
+<meta property="og:image" content="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-202214301261.png">
+<meta property="og:image" content="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/324.png">
+<meta property="og:image" content="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20214329160.png">
+<meta property="og:image" content="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-202311540422.png">
+<meta property="og:image" content="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-2246227.png">
+<meta property="og:image" content="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216190502163.png">
+<meta property="og:image" content="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216190538923.png">
+<meta property="og:image" content="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216192523653.png">
+<meta property="og:image" content="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216191420780.png">
+<meta property="og:image" content="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216192650004.png">
+<meta property="og:image" content="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216193934872.png">
+<meta property="og:image" content="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216194416248.png">
+<meta property="og:image" content="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216194447358.png">
+<meta property="og:image" content="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216195510782.png">
+<meta property="og:image" content="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216205313799.png">
+<meta property="og:image" content="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216205334485.png">
+<meta property="og:image" content="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216205621286.png">
+<meta property="og:image" content="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216211118871.png">
+<meta property="og:image" content="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216224551634.png">
+<meta property="og:image" content="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216224728030.png">
+<meta property="og:image" content="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216224631607.png">
+<meta property="og:image" content="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216224738147.png">
+<meta property="og:image" content="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216231718041.png">
+<meta property="og:image" content="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216232311300.png">
+<meta property="og:image" content="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216232355890.png">
+<meta property="og:image" content="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216233820424.png">
+<meta property="og:image" content="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216234723796.png">
+<meta property="og:image" content="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216235007914.png">
+<meta property="og:image" content="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216235045535.png">
+<meta property="og:image" content="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216235209986.png">
+<meta property="og:image" content="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230217001016440.png">
+<meta property="og:image" content="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230217001850549.png">
+<meta property="og:image" content="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230217001812996.png">
+<meta property="og:image" content="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230217001430058.png">
+<meta property="og:image" content="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230217001540240.png">
+<meta property="og:image" content="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230217001552372.png">
+<meta property="og:image" content="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230217001456157.png">
+<meta property="og:image" content="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230217001523079.png">
+<meta property="og:image" content="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230217001956518.png">
+<meta property="og:image" content="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230217002052232.png">
+<meta property="og:image" content="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230217002029529.png">
+<meta property="og:image" content="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230217002104110.png">
+<meta property="og:image" content="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230217003037621.png">
+<meta property="og:image" content="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230217003022269.png">
+<meta property="article:published_time" content="2023-01-05T12:43:43.000Z">
+<meta property="article:modified_time" content="2023-08-20T14:14:05.932Z">
+<meta property="article:author" content="Warbin">
+<meta property="article:tag" content="finalexam">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://s1.vika.cn/space/2023/02/12/b179a287c5e3433587b4865baa2bfd7e"><script>(function() {
+  if (CONFIG.mode !== 'auto') return
+  const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+  const setting = localStorage.getItem('darken-mode') || 'auto'
+  if (setting === 'dark' || (prefersDark && setting !== 'light'))
+    document.documentElement.classList.toggle('dark', true)
+})()</script></head><body><script src="https://code.iconify.design/2/2.1.1/iconify.min.js"></script><script>// Define global variable
+IconifyProviders = {
+  // Empty prefix: overwrite default API provider configuration
+  '': {
+    // Use custom API first, use Iconify public API as backup
+    resources: [
+        'https://api.iconify.design',
+    ],
+    // Wait for 1 second before switching API hosts
+    rotate: 1000,
+  },
+};</script><script defer src="https://fastly.jsdelivr.net/npm/animejs@latest"></script><script defer src="/js/ui/fireworks.js" type="module"></script><canvas class="fireworks"></canvas><div class="container"><a class="sidebar-toggle hty-icon-button" id="menu-btn"><div class="hamburger hamburger--spin" type="button"><span class="hamburger-box"><span class="hamburger-inner"></span></span></div></a><div class="sidebar-toggle sidebar-overlay"></div><aside class="sidebar"><script src="/js/sidebar.js" type="module"></script><ul class="sidebar-nav"><li class="sidebar-nav-item sidebar-nav-toc hty-icon-button sidebar-nav-active" data-target="post-toc-wrap" title="文章目录"><span class="icon iconify" data-icon="ri:list-ordered"></span></li><li class="sidebar-nav-item sidebar-nav-overview hty-icon-button" data-target="site-overview-wrap" title="站点概览"><span class="icon iconify" data-icon="ri:passport-line"></span></li></ul><div class="sidebar-panel" id="site-overview-wrap"><div class="site-info fix-top"><a class="site-author-avatar" href="/about/" title="Warbin"><img width="96" loading="lazy" src="/head.jpg" alt="Warbin"><span class="site-author-status" title="略略略">😭</span></a><div class="site-author-name"><a href="/about/">Warbin</a></div><span class="site-name">只因</span><sub class="site-subtitle"></sub><div class="site-description"></div></div><nav class="site-state"><a class="site-state-item hty-icon-button icon-home" href="/" title="我的主页"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:home-4-line"></span></span></a><div class="site-state-item"><a href="/archives/" title="归档"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:archive-line"></span></span><span class="site-state-item-count">6</span></a></div><div class="site-state-item"><a href="/categories/" title="分类"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:folder-2-line"></span></span><span class="site-state-item-count">5</span></a></div><div class="site-state-item"><a href="/tags/" title="标签"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="site-state-item-count">4</span></a></div><a class="site-state-item hty-icon-button" href="https://warbin-hub.github.io/" title="文档"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:settings-line"></span></span></a></nav><hr style="margin-bottom:0.5rem"><br><a class="links-item hty-icon-button" id="toggle-mode-btn" href="javascript:;" title="Mode" style="color: #f1cb64"><span class="icon iconify" data-icon="ri:contrast-2-line"></span></a></div><div class="sidebar-panel sidebar-panel-active" id="post-toc-wrap"><div class="post-toc"><div class="post-toc-content"><ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E8%AF%B4%E6%98%8E"><span class="toc-text">一、说明</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E9%87%8D%E7%82%B9"><span class="toc-text">二、重点</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E6%96%87%E6%B3%95%E5%92%8C%E8%AF%AD%E8%A8%80%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%9F%A5%E8%AF%86"><span class="toc-text">第二章 文法和语言的基本知识</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#2-1-%E6%96%87%E6%B3%95%E4%BA%8C%E4%B9%89%E6%80%A7"><span class="toc-text">2.1 文法二义性</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#2-2-%E6%B1%82%E5%AF%B9%E5%BA%94%E8%AF%AD%E8%A8%80%E7%9A%84%E4%B8%8A%E4%B8%8B%E6%96%87%E6%97%A0%E5%85%B3%E6%96%87%E6%B3%95"><span class="toc-text">2.2 求对应语言的上下文无关文法</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%AC%AC%E4%B8%89%E7%AB%A0-%E8%AF%8D%E6%B3%95%E5%88%86%E6%9E%90%E4%B8%8E%E6%9C%89%E7%A9%B7%E8%87%AA%E5%8A%A8%E6%9C%BA"><span class="toc-text">第三章 词法分析与有穷自动机</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#3-1-%E6%B1%82%E5%AF%B9%E5%BA%94%E6%AD%A3%E8%A7%84%E5%BC%8F%E7%9A%84%E6%9C%80%E5%B0%8FDFA"><span class="toc-text">3.1 求对应正规式的最小DFA</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#3-2-%E6%AD%A3%E8%A7%84%E5%BC%8F%E7%AD%89%E4%BB%B7%E6%80%A7"><span class="toc-text">3.2 正规式等价性</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%AC%AC%E5%9B%9B%E7%AB%A0-%E8%AF%AD%E6%B3%95%E5%88%86%E6%9E%90"><span class="toc-text">第四章 语法分析</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#4-1-%E6%B1%82%E6%96%87%E6%B3%95%E4%B8%AD%E9%9D%9E%E7%BB%88%E7%BB%93%E7%AC%A6%E7%9A%84FIRST%E9%9B%86%E5%92%8CFOLLOW%E9%9B%86"><span class="toc-text">4.1 求文法中非终结符的FIRST集和FOLLOW集</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#4-2%E6%9E%84%E9%80%A0%E6%96%87%E6%B3%95%E5%AF%B9%E5%BA%94%E7%9A%84LR%E5%88%86%E6%9E%90%E8%A1%A8"><span class="toc-text">4.2构造文法对应的LR分析表</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%AC%AC%E4%BA%94%E7%AB%A0-%E8%AF%AD%E6%B3%95%E5%88%B6%E5%AF%BC%E7%BF%BB%E8%AF%91%E6%8A%80%E6%9C%AF%E5%92%8C%E4%B8%AD%E9%97%B4%E4%BB%A3%E7%A0%81%E7%94%9F%E6%88%90"><span class="toc-text">第五章 语法制导翻译技术和中间代码生成</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#5-1-%E6%B1%82%E5%AF%B9%E5%BA%94%E6%96%87%E6%B3%95%E7%9A%84%E8%AF%AD%E4%B9%89%E5%8A%A8%E4%BD%9C"><span class="toc-text">5.1 求对应文法的语义动作</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%AC%AC%E4%B8%83%E7%AB%A0-%E4%BB%A3%E7%A0%81%E4%BC%98%E5%8C%96"><span class="toc-text">第七章 代码优化</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#7-1-%E5%B0%86%E7%A8%8B%E5%BA%8F%E6%AE%B5%E5%88%92%E5%88%86%E4%B8%BA%E5%9F%BA%E6%9C%AC%E5%9D%97%E5%B9%B6%E4%BD%9C%E5%87%BA%E7%A8%8B%E5%BA%8F%E6%B5%81%E5%9B%BE%E3%80%81"><span class="toc-text">7.1 将程序段划分为基本块并作出程序流图、</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#7-2-%E6%B1%82%E6%B5%81%E5%9B%BE%E4%B8%AD%E5%90%84%E7%BB%93%E7%82%B9%E7%9A%84%E5%BF%85%E7%BB%8F%E7%BB%93%E7%82%B9%E9%9B%86%E3%80%81%E5%9B%9E%E8%BE%B9%E3%80%81%E5%BE%AA%E7%8E%AF"><span class="toc-text">7.2 求流图中各结点的必经结点集、回边、循环</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%AC%AC%E4%B9%9D%E7%AB%A0%E7%9B%AE%E6%A0%87%E4%BB%A3%E7%A0%81%E7%94%9F%E6%88%90"><span class="toc-text">第九章目标代码生成</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#9-1-%E7%94%A8%E7%AE%80%E7%AD%94%E4%BB%A3%E7%A0%81%E7%94%9F%E6%88%90%E5%99%A8%E7%94%9F%E6%88%90%E7%9B%AE%E6%A0%87%E4%BB%A3%E7%A0%81"><span class="toc-text">9.1 用简答代码生成器生成目标代码</span></a></li></ol></li></ol></li></ol></div></div></div></aside><main class="sidebar-translate" id="content"><div id="post"><article class="hty-card post-block" itemscope itemtype="https://schema.org/Article" style="--smc-primary:#0078E7;"><link itemprop="mainEntityOfPage" href="https://Warbin-Hub.github.io/2023/01/05/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/"><span hidden itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="name" content="Warbin"><meta itemprop="description"></span><span hidden itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="只因"></span><header class="post-header"><h1 class="post-title" itemprop="name headline">编译原理期末复习</h1><div class="post-meta"><div class="post-time"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:calendar-line"></span></span> <time title="创建时间：2023-01-05 20:43:43" itemprop="dateCreated datePublished" datetime="2023-01-05T20:43:43+08:00">2023-01-05</time><span class="post-meta-divider">-</span><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:calendar-2-line"></span></span> <time title="修改时间：2023-08-20 22:14:05" itemprop="dateModified" datetime="2023-08-20T22:14:05+08:00">2023-08-20</time></div><div class="post-classify"><span class="post-category"> <span class="post-meta-item-icon" style="margin-right:3px;"><span class="icon iconify" data-icon="ri:folder-line"></span></span><span itemprop="about" itemscope itemtype="https://schema.org/Thing"><a class="category-item" href="/categories/Principle-of-Compiler/" style="--text-color:var(--hty-text-color)" itemprop="url" rel="index"><span itemprop="text">Principle of Compiler</span></a></span></span><span class="post-tag"><span class="post-meta-divider">-</span><a class="tag-item" href="/tags/finalexam/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="tag-name">finalexam</span></a></span></div></div></header><section class="post-body" itemprop="articleBody"><div class="post-content markdown-body"><h3 id="一、说明"><a href="#一、说明" class="headerlink" title="一、说明"></a>一、说明</h3><p>别多废话，背！</p>
+<h3 id="二、重点"><a href="#二、重点" class="headerlink" title="二、重点"></a>二、重点</h3><h4 id="第二章-文法和语言的基本知识"><a href="#第二章-文法和语言的基本知识" class="headerlink" title="第二章 文法和语言的基本知识"></a>第二章 文法和语言的基本知识</h4><h5 id="2-1-文法二义性"><a href="#2-1-文法二义性" class="headerlink" title="2.1 文法二义性"></a>2.1 文法二义性</h5><blockquote>
+<p>你需要学会<strong>文法、规则、句子定义</strong>，<strong>二义性的定义</strong>，<strong>最左（最右）推导</strong>，<strong>绘制语法树</strong>。</p>
+</blockquote>
+<blockquote>
+<p><strong>题目1：</strong><img src="http://s1.vika.cn/space/2023/02/12/b179a287c5e3433587b4865baa2bfd7e" alt="image-20230211211734717" loading="lazy"></p>
+<p><strong>答案：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-202214301261.png" alt="image-202214301261" loading="lazy"></p>
+<p><strong>解析：</strong></p>
+<p>二义性的判断就是<strong>是否有两个最左（最右）推导能得到唯一的结果</strong>。</p>
+<p><strong>解题技巧1：</strong>就是从<strong>两个不同规则（|的两边）</strong>出发，画语法树。</p>
+<p>这道题就是<strong>分别选择了S→iS和S→iSeS</strong>开始推导，推导出<strong>相同的句子iiiei</strong>。</p>
+</blockquote>
+<blockquote>
+<p><strong>题目2：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/324.png" alt="324" loading="lazy"></p>
+<p><strong>答案：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20214329160.png" alt="image-20214329160" loading="lazy"></p>
+<p><strong>解析：</strong></p>
+<p>二义性的判断就是<strong>是否有两个最左（最右）推导能得到唯一的结果</strong>。</p>
+<p><strong>解题技巧2：</strong>就是从<strong>对称替换</strong>出发，画语法树。</p>
+<p>这道题就是<strong>分别选择了第一个表达式和第二个表达式替换</strong>推导，推导出<strong>相同的句子i+i*i</strong>。</p>
+</blockquote>
+<h5 id="2-2-求对应语言的上下文无关文法"><a href="#2-2-求对应语言的上下文无关文法" class="headerlink" title="2.2 求对应语言的上下文无关文法"></a>2.2 求对应语言的上下文无关文法</h5><blockquote>
+<p><strong>题目1：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-202311540422.png" alt="image-202311540422" loading="lazy"></p>
+<p><strong>答案：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-2246227.png" alt="image-2246227" loading="lazy"></p>
+<p><strong>解析：</strong>使用规则组成目标语言，有规律可循。先<strong>看次方</strong>分组，再看<strong>范围分类型</strong>。</p>
+<p><strong>解题技巧1：</strong></p>
+<p>注意几种规则能构成的结果</p>
+<blockquote>
+<p><strong>A→aA型</strong></p>
+<ol>
+<li>A→aA|€ 可以构成a<sup>n</sup>（n≧0）</li>
+<li>A→aA|a 可以构成a<sup>n</sup>（n≧1）</li>
+</ol>
+</blockquote>
+<blockquote>
+<p><strong>A→aAb型</strong></p>
+<ol>
+<li>A→aAb|ab 可以构成a<sup>n</sup>b<sup>n</sup>（n≧1）</li>
+<li>A→aAb|€ 可以构成a<sup>n</sup>b<sup>n</sup>（n≧0）</li>
+</ol>
+</blockquote>
+<blockquote>
+<p><strong>A→aAa型</strong></p>
+<ol>
+<li>A→aAa|a 可以构成a<sup>2n+1</sup>（n≧0）</li>
+</ol>
+</blockquote>
+<blockquote>
+<p><strong>胸怀天下型</strong> S→aSb|€|bAa</p>
+<p>看第六题</p>
+<p>首先解决<strong>中间的夹心</strong>0<sup>m</sup>1<sup>m</sup>，是<strong>A→aAb型</strong>的<strong>A→aAb|€</strong></p>
+<p>然后先不管夹心，解决两边的1<sup>n</sup>0<sup>n</sup>,是<strong>A→aAb型</strong>的<strong>A→aAb|€</strong></p>
+<p>然后胸怀天下，将小三夹在中间，变成三人行。</p>
+<p><strong>（写的时候注意，S为最终结果，应为第一个规则开始，不能按照思路把A放在最上面。）</strong></p>
+<p>S→aSb|€|<strong>bAa</strong>（←这个bAa我个人认为可以直接换成A，<strong>考试按照书上bAa写</strong>，兄弟们可以私聊我）</p>
+<p>A→bAa|€</p>
+</blockquote>
+</blockquote>
+<h4 id="第三章-词法分析与有穷自动机"><a href="#第三章-词法分析与有穷自动机" class="headerlink" title="第三章 词法分析与有穷自动机"></a>第三章 词法分析与有穷自动机</h4><h5 id="3-1-求对应正规式的最小DFA"><a href="#3-1-求对应正规式的最小DFA" class="headerlink" title="3.1 求对应正规式的最小DFA"></a>3.1 求对应正规式的最小DFA</h5><blockquote>
+<p>你需要学习<strong>正规表达式→NFA→DFA→DFA的化简</strong>每一个步骤的解题方法。</p>
+</blockquote>
+<blockquote>
+<p>正规表达式→NFA</p>
+<p><strong>规则：</strong></p>
+<p><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216190502163.png" alt="image-20230216190502163" loading="lazy"></p>
+<p><strong>流程：</strong></p>
+<p><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216190538923.png" alt="image-20230216190538923" loading="lazy"></p>
+<p>没啥难度，<strong>按照规则画流程</strong>，展开就行</p>
+</blockquote>
+<blockquote>
+<p>NFA→DFA</p>
+<ol>
+<li>理解<strong>€-CLOSURE（{Z}）</strong>：从<strong>Z节点</strong>出发，所有的<strong>€条件</strong>可抵达的节点。</li>
+</ol>
+<p><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216192523653.png" alt="image-20230216192523653" loading="lazy"></p>
+<ol start="2">
+<li>理解<strong>€-CLOSURE（{X,Z}，a条件）</strong>：从<strong>X节点</strong>和<strong>Z节点</strong>出发，所有的<strong>a条件</strong>可抵达的节点。</li>
+</ol>
+<p>例题：<img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216191420780.png" alt="image-20230216191420780" loading="lazy"></p>
+<p><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216192650004.png" alt="image-20230216192650004" loading="lazy"></p>
+<p>分析：从X出发，a条件<strong>哪都不能抵达</strong>。从0出发，a条件抵达<strong>0</strong>。从1出发，a条件抵达<strong>2</strong>。</p>
+<p><strong>流程：</strong></p>
+<ol>
+<li><p>表示开始状态（初态），添加到Q&#96;。</p>
+</li>
+<li><p>进行f&#96;（初态，可使用的移动条件（<strong>本题为a和b</strong>）），分别移动记录结果，并把<strong>结果状态</strong>加入到Q·。</p>
+</li>
+<li><p>对新加入的结果状态进行f&#96;（结果状态，可使用的移动条件（<strong>本题为a和b</strong>）），得出新的结果状态，<strong>判断是否已经加入Q·</strong>！</p>
+</li>
+<li><p>直到没有新的结果状态。</p>
+</li>
+<li><p>命名Q·里面状态，画图。</p>
+<p><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216193934872.png" alt="image-20230216193934872" loading="lazy"></p>
+<p>解释：<strong>A状态</strong>满足<strong>a条件</strong>能抵达**{0，1，2}，也就是B状态<strong>，满足</strong>b条件<strong>能抵达</strong>{0，1}<strong>，也就是</strong>C状态**。画图A指向B和C。同理，画出所有状态的路线。</p>
+</li>
+</ol>
+</blockquote>
+<blockquote>
+<p>DFA的化简</p>
+<ol>
+<li><p><strong>终态集</strong>和<strong>非终态集</strong>的划分。（是否包含了终态结，就是<strong>两个圈</strong>的，本题是Y）</p>
+<p><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216194416248.png" alt="image-20230216194416248" loading="lazy"></p>
+<p><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216194447358.png" alt="image-20230216194447358" loading="lazy"></p>
+</li>
+<li><p>对<strong>能划分的集合</strong>（本题是{A，B，C，D}），进行可使用的移动条件（<strong>本题为a和b</strong>）的转移。如果转移结果<strong>不在</strong>子集合里面，<strong>挑出异常状态，单独成集合</strong>。</p>
+</li>
+<li><p>直到被划分集合中的转移结果都在子集中，将<strong>多元素集合取一个代表</strong>，代替所有元素被连线。（看书上例3.16）</p>
+</li>
+</ol>
+</blockquote>
+<blockquote>
+<p><strong>题目1：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216195510782.png" alt="image-20230216195510782" loading="lazy"></p>
+<p><strong>答案：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216205313799.png" alt="image-20230216205313799" loading="lazy"></p>
+<p><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216205334485.png" alt="image-20230216205334485" loading="lazy"></p>
+<p><strong>解题技巧：</strong>根据时间和卷面大小，只写红色大括号内的内容。</p>
+</blockquote>
+<h5 id="3-2-正规式等价性"><a href="#3-2-正规式等价性" class="headerlink" title="3.2 正规式等价性"></a>3.2 正规式等价性</h5><blockquote>
+<p>求最小DFA，同上。</p>
+</blockquote>
+<blockquote>
+<p><strong>题目1：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216205621286.png" alt="image-20230216205621286" loading="lazy"></p>
+<p><strong>答案：</strong>因为最小DFA相同，所以等价。</p>
+<p><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216211118871.png" alt="image-20230216211118871" loading="lazy"></p>
+</blockquote>
+<h4 id="第四章-语法分析"><a href="#第四章-语法分析" class="headerlink" title="第四章 语法分析"></a>第四章 语法分析</h4><h5 id="4-1-求文法中非终结符的FIRST集和FOLLOW集"><a href="#4-1-求文法中非终结符的FIRST集和FOLLOW集" class="headerlink" title="4.1 求文法中非终结符的FIRST集和FOLLOW集"></a>4.1 求文法中非终结符的FIRST集和FOLLOW集</h5><blockquote>
+<p><strong>First（A）的推导规则：</strong>A的推导规则内，最前面的小写字母（终结符），遇到大写字母（非终结符）就First（）。</p>
+<ol>
+<li><p>A→a        First（A）&#x3D;{a}</p>
+</li>
+<li><p>A→a|€      First（A）&#x3D;{a}∪{€}&#x3D;{a，€}</p>
+</li>
+<li><p>A→CDb      First（A）&#x3D;First（C）∪First（D）∪{b}</p>
+</li>
+</ol>
+</blockquote>
+<blockquote>
+<p><strong>FOLLOW（A）的推导规则：</strong>整个G文法内，出现A的后面的小写字母（终结符）。如果后面是大写字母B（非终结符），就看First(B)里面所有的非€字符。若在其他规则中A在最后一个，或者后面的大写字母有€，C→acA，则FOLLOW（C）全部包含。</p>
+<ol>
+<li><p>看A后面出现的小写字母 例如     C→avAc   就是{c}</p>
+</li>
+<li><p>看A后面出现的大写字母 例如     D→aAD    First（D）中所有非空字符</p>
+</li>
+<li><p>看A后面是否为最后一个，或者后面的大写字母可以变成€    </p>
+<p>E→dA</p>
+<p>E→dAG   G→可以推导成→€</p>
+<p>则包含FOLLOW（E）</p>
+</li>
+</ol>
+</blockquote>
+<blockquote>
+<p><strong>题目1：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216224551634.png" alt="image-20230216224551634" loading="lazy"></p>
+<p><strong>答案：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216224728030.png" alt="image-20230216224728030" loading="lazy"></p>
+</blockquote>
+<blockquote>
+<p><strong>题目2：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216224631607.png" alt="image-20230216224631607" loading="lazy"></p>
+<p><strong>答案：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216224738147.png" alt="image-20230216224738147" loading="lazy"></p>
+</blockquote>
+<h5 id="4-2构造文法对应的LR分析表"><a href="#4-2构造文法对应的LR分析表" class="headerlink" title="4.2构造文法对应的LR分析表"></a>4.2构造文法对应的LR分析表</h5><blockquote>
+<p><strong>首先</strong>需要学会</p>
+<p><strong>圆点规则：</strong></p>
+<ol>
+<li>A→a·       一个规则右边符号串a分析完了，句柄形成，应规约</li>
+<li>A→a<sub>1</sub>·a<sub>2 </sub>    a<sub>1</sub>分析完，期待a<sub>2 </sub></li>
+<li>A→·a       期待a</li>
+<li>A→·        对空规则</li>
+</ol>
+<p><strong>LR（0）项目分类：</strong></p>
+<p><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216231718041.png" alt="image-20230216231718041" loading="lazy"></p>
+</blockquote>
+<blockquote>
+<p><strong>其次</strong>要学会</p>
+<p><strong>闭包函数CLOSURE(I)：</strong></p>
+<p><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216232311300.png" alt="image-20230216232311300" loading="lazy"></p>
+<p><strong>规则：</strong></p>
+<ol>
+<li><strong>初态</strong>就是期待所有字符，<strong>每条规则都期待插入</strong>字符。</li>
+<li>如果遇到CLOSURE({A→a·Bb})，B是非终结符，“未知的非终结符”，那么把B规则的<strong>全部进行需求</strong>。可以认为CLOSURE是贪婪的。</li>
+</ol>
+<p><strong>状态转移函数GO：</strong></p>
+<p><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216232355890.png" alt="image-20230216232355890" loading="lazy"></p>
+<p>就是GO（I，a），就是在I中规则，通过<strong>插入（进位）a</strong>字符，也就是<strong>·后移有a</strong>。变成CLOSURE（{A→a·Ab，B→a·Bb}），<strong>再考虑CLOSURE的贪婪需求</strong>，把A,B规则进行全部需求。</p>
+</blockquote>
+<blockquote>
+<p><strong>然后</strong>要会画</p>
+<p><strong>构造文法规范句型活前缀DFA的方法：</strong></p>
+<p><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216233820424.png" alt="image-20230216233820424" loading="lazy"></p>
+<p>和前面<strong>NFA→DFA</strong>有异曲同工之处，不过只要看·往后移动的条件，从初态I<sub>0 </sub>开始，·往后移（使用GO（I0,S|A|B|a|c|d）），形成新的I，直到不能生成新的I。</p>
+</blockquote>
+<blockquote>
+<p><strong>最后</strong>要会画</p>
+<p><strong>LR（0）分析表：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216234723796.png" alt="image-20230216234723796" loading="lazy"></p>
+<p><strong>SLR(1)分析表：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216235007914.png" alt="image-20230216235007914" loading="lazy"></p>
+<p><strong>LR（1）分析表：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216235045535.png" alt="image-20230216235045535" loading="lazy"></p>
+<p><strong>LALR(1)分析表：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230216235209986.png" alt="image-20230216235209986" loading="lazy"></p>
+</blockquote>
+<h4 id="第五章-语法制导翻译技术和中间代码生成"><a href="#第五章-语法制导翻译技术和中间代码生成" class="headerlink" title="第五章 语法制导翻译技术和中间代码生成"></a>第五章 语法制导翻译技术和中间代码生成</h4><h5 id="5-1-求对应文法的语义动作"><a href="#5-1-求对应文法的语义动作" class="headerlink" title="5.1 求对应文法的语义动作"></a>5.1 求对应文法的语义动作</h5><blockquote>
+<p>学习知识点内容：</p>
+<p><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230217001016440.png" alt="image-20230217001016440" loading="lazy"></p>
+<p><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230217001850549.png" alt="image-20230217001850549" loading="lazy"></p>
+<p><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230217001812996.png" alt="image-20230217001812996" loading="lazy"></p>
+</blockquote>
+<blockquote>
+<p><strong>题目：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230217001430058.png" alt="image-20230217001430058" loading="lazy"></p>
+<p><strong>答案：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230217001540240.png" alt="image-20230217001540240" loading="lazy"></p>
+<p><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230217001552372.png" alt="image-20230217001552372" loading="lazy"></p>
+</blockquote>
+<blockquote>
+<p><strong>题目：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230217001456157.png" alt="image-20230217001456157" loading="lazy"></p>
+<p><strong>答案：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230217001523079.png" alt="image-20230217001523079" loading="lazy"></p>
+</blockquote>
+<h4 id="第七章-代码优化"><a href="#第七章-代码优化" class="headerlink" title="第七章 代码优化"></a>第七章 代码优化</h4><h5 id="7-1-将程序段划分为基本块并作出程序流图、"><a href="#7-1-将程序段划分为基本块并作出程序流图、" class="headerlink" title="7.1 将程序段划分为基本块并作出程序流图、"></a>7.1 将程序段划分为基本块并作出程序流图、</h5><blockquote>
+<p><strong>题目：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230217001956518.png" alt="image-20230217001956518" loading="lazy"></p>
+<p><strong>答案：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230217002052232.png" alt="image-20230217002052232" loading="lazy"></p>
+</blockquote>
+<h5 id="7-2-求流图中各结点的必经结点集、回边、循环"><a href="#7-2-求流图中各结点的必经结点集、回边、循环" class="headerlink" title="7.2 求流图中各结点的必经结点集、回边、循环"></a>7.2 求流图中各结点的必经结点集、回边、循环</h5><blockquote>
+<p><strong>题目：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230217002029529.png" alt="image-20230217002029529" loading="lazy"></p>
+<p><strong>答案：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230217002104110.png" alt="image-20230217002104110" loading="lazy"></p>
+<p><strong>解释：</strong></p>
+<p><strong>必经节点集：</strong>字面意思，D（B）是集合D里面添加B节点，如果前往B节点并有不需的节点，就去掉。</p>
+<p>**B<sub>2 </sub>DOM B<sub>7 </sub>**，B2是B7的必经节点，是回边的条件。</p>
+<p><strong>循环：</strong>定义<strong>麻烦别看，肉眼观察</strong></p>
+</blockquote>
+<h4 id="第九章目标代码生成"><a href="#第九章目标代码生成" class="headerlink" title="第九章目标代码生成"></a>第九章目标代码生成</h4><h5 id="9-1-用简答代码生成器生成目标代码"><a href="#9-1-用简答代码生成器生成目标代码" class="headerlink" title="9.1 用简答代码生成器生成目标代码"></a>9.1 用简答代码生成器生成目标代码</h5><blockquote>
+<p><strong>题目：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230217003037621.png" alt="image-20230217003037621" loading="lazy"></p>
+<p><strong>答案：</strong><img src="http://warbin.coding.net/p/1/shared-depot/myblog/git/raw/main/image-20230217003022269.png" alt="image-20230217003022269" loading="lazy">                                                                                                                                                                                                                                                   </p>
+</blockquote>
+</div></section></article><div class="post-nav"><div class="post-nav-item"><a class="post-nav-prev" href="/2023/02/01/%E4%B9%9D%E8%BD%AC%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/" rel="prev" title="九转软件工程"><span class="icon iconify" data-icon="ri:arrow-left-s-line"></span><span class="post-nav-text">九转软件工程</span></a></div><div class="post-nav-item"><a class="post-nav-next" href="/2022/12/15/%E8%93%9D%E6%A1%A5%E6%9D%AFEclipse%E4%B8%AA%E4%BA%BA%E8%AE%BE%E7%BD%AE/" rel="next" title="蓝桥杯Eclipse个人设置"><span class="post-nav-text">蓝桥杯Eclipse个人设置</span><span class="icon iconify" data-icon="ri:arrow-right-s-line"></span></a></div></div></div><div class="hty-card" id="comment"></div></main><footer class="sidebar-translate" id="footer"><div class="copyright"><span>&copy; 2022 – 2024 </span><span class="with-love" id="animate" title="欢迎"><span class="icon iconify" data-icon="ri:cloud-line"></span></span><span class="author"> Warbin</span></div><div class="live-time"><span>本博客已萌萌哒地运行</span><span id="display_live_time"></span><span class="moe-text">(●'◡'●)</span><script>function blog_live_time() {
+  setTimeout(blog_live_time, 1000);
+  const start = new Date('2022-10-11T22:24:00');
+  const now = new Date();
+  const timeDiff = (now.getTime() - start.getTime());
+  const msPerMinute = 60 * 1000;
+  const msPerHour = 60 * msPerMinute;
+  const msPerDay = 24 * msPerHour;
+  const passDay = Math.floor(timeDiff / msPerDay);
+  const passHour = Math.floor((timeDiff % msPerDay) / 60 / 60 / 1000);
+  const passMinute = Math.floor((timeDiff % msPerHour) / 60 / 1000);
+  const passSecond = Math.floor((timeDiff % msPerMinute) / 1000);
+  display_live_time.innerHTML = ` ${passDay} 天 ${passHour} 小时 ${passMinute} 分 ${passSecond} 秒`;
+}
+blog_live_time();
+</script></div></footer></div><a class="hty-icon-button" id="back-to-top" aria-label="back-to-top" href="#"><span class="icon iconify" data-icon="ri:arrow-up-s-line"></span><svg class="progress-circle-container" viewBox="0 0 100 100"><circle class="progress-circle" id="progressCircle" cx="50" cy="50" r="48" fill="none" stroke="#0078E7" stroke-width="2" stroke-linecap="round"></circle></svg></a><script>function initMourn() {
+  const date = new Date();
+  const today = (date.getMonth() + 1) + "-" + date.getDate()
+  const mourn_days = ["4-4","9-18"]
+  if (mourn_days.includes(today)) {
+    document.documentElement.style.filter = "grayscale(1)";
+  }
+}
+initMourn();</script><script src="https://fastly.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js"></script><script>const images = [...document.querySelectorAll('.markdown-body img')]
+mediumZoom(images)</script><style>.medium-zoom-image {
+  z-index: 99;
+}</style><script async>window.onload=function(){var a=document.createElement('script'),b=document.getElementsByTagName('script')[0];a.type='text/javascript',a.async=!0,a.src='/sw-register.js?v='+Date.now(),b.parentNode.insertBefore(a,b)};</script></body></html>
