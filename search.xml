@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>申论-大作文</title>
-    <url>/2024/03/08/%E7%94%B3%E8%AE%BA%E5%A4%A7%E4%BD%9C%E6%96%87/</url>
-    <content><![CDATA[<h3 id="一、说明"><a href="#一、说明" class="headerlink" title="一、说明"></a>一、说明</h3><p>1. </p>
-]]></content>
-      <categories>
-        <category>essay</category>
-      </categories>
-      <tags>
-        <tag>study</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>九转软件工程</title>
     <url>/2023/02/01/%E4%B9%9D%E8%BD%AC%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/</url>
     <content><![CDATA[<h3 id="一、开卷资料"><a href="#一、开卷资料" class="headerlink" title="一、开卷资料"></a>一、开卷资料</h3><h3 id="二、安装EA"><a href="#二、安装EA" class="headerlink" title="二、安装EA"></a>二、安装EA</h3><h3 id="三、明确考点"><a href="#三、明确考点" class="headerlink" title="三、明确考点"></a>三、明确考点</h3><p>根据目前已知的消息，考试为<strong>ATM系统</strong>中<strong>一个功能</strong>的<strong>需求</strong>、<strong>分析</strong>、<strong>设计</strong>、<strong>编码</strong>和<strong>测试</strong>。</p>
@@ -457,6 +445,136 @@
       </tags>
   </entry>
   <entry>
+    <title>蓝桥杯Eclipse个人设置</title>
+    <url>/2022/12/15/%E8%93%9D%E6%A1%A5%E6%9D%AFEclipse%E4%B8%AA%E4%BA%BA%E8%AE%BE%E7%BD%AE/</url>
+    <content><![CDATA[<h3 id="1、自动补全"><a href="#1、自动补全" class="headerlink" title="1、自动补全"></a>1、自动补全</h3><p>编写代码时，自动提示完善代码。比如键盘输入‘s’,提示String等选项</p>
+<p>操作步骤：window -&gt;Perferences -&gt;Java -&gt; Editor -&gt; Content Assist</p>
+<p>Auto activation triggers for java 参数 填写<code>**.()&#123;&#125;abcdefghijklmnopqrstuvwxyz</code></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221215212531534.png" alt="image-20221215212531534" loading="lazy"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221215212556536.png" alt="image-20221215212556536" loading="lazy"></p>
+<h3 id="2、快捷键"><a href="#2、快捷键" class="headerlink" title="2、快捷键"></a>2、快捷键</h3><blockquote>
+<p> 操作步骤：<strong>Window - &gt;Preferences -&gt; General -&gt; Keys</strong></p>
+<ol>
+<li>quick fixed available（快速修复错误): 光标放在出错的代码位置，然后<strong>ctrl+1</strong>，在按<strong>enter</strong>键，即可快速智能修复。</li>
+<li>注释：ctrl+&#x2F;，取消注释 Ctrl+&#x2F;</li>
+<li>Alt+Shift+R 重命名 ，尤其是变量或类的重命名</li>
+<li>Ctrl+Shift+X 把当前选中的文本全部变为大写</li>
+<li>Ctrl+Shift+Y 把当前选中的文本全部变为小写</li>
+<li>Ctrl+L 定位在某行</li>
+<li>Ctrl+2，L为本地变量赋值,用过idea的同学都知道，idea中有一个 .var的变量自动赋值功能非常好用，eclipse中ctrl+2,L的功能和其类似。</li>
+<li>代码编辑区缩放，类似我们常用的快捷键组合Ctrl+鼠标滚轮。eclipse中（笔记本）使用Ctrl+ -代码编辑区缩小，Ctrl+&#x3D;放大。</li>
+</ol>
+</blockquote>
+]]></content>
+      <categories>
+        <category>catalogue</category>
+      </categories>
+      <tags>
+        <tag>Blue Bridge Cup</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>蓝桥杯备赛</title>
+    <url>/2022/12/08/%E8%93%9D%E6%A1%A5%E6%9D%AF%E5%A4%87%E8%B5%9B/</url>
+    <content><![CDATA[<h3 id="一、说明"><a href="#一、说明" class="headerlink" title="一、说明"></a>一、说明</h3><p>本目录是我蓝桥杯备赛的总目录。</p>
+<p>蓝桥杯历年省赛真题：<a href="http://oj.ecustacm.cn/viewnews.php?id=1021">蓝桥杯历年省赛真题</a></p>
+<p>AcWing：<a href="https://www.acwing.com/about/">AcWing</a></p>
+<p>尚硅谷 数据结构与算法（Java数据结构与算法）：<a href="https://www.bilibili.com/video/BV1E4411H73v/?spm_id_from=333.788.recommend_more_video.0&vd_source=b67e806ce2d472466c131e4de446b801">尚硅谷 数据结构与算法（Java数据结构与算法）</a></p>
+<blockquote>
+<p>比赛环境说明：</p>
+<p>eclipse-java-2020-06-R-win32-x86_64</p>
+<p>jdk-8u261-windows-x64</p>
+<p>JDK 1.8 API</p>
+</blockquote>
+<p>IDE美化：<a href="/2022/12/15/%E8%93%9D%E6%A1%A5%E6%9D%AFEclipse%E4%B8%AA%E4%BA%BA%E8%AE%BE%E7%BD%AE/" title="蓝桥杯Eclipse个人设置">蓝桥杯Eclipse个人设置</a></p>
+<h3 id="二、数据结构笔记目录"><a href="#二、数据结构笔记目录" class="headerlink" title="二、数据结构笔记目录"></a>二、数据结构笔记目录</h3><ol>
+<li>数组</li>
+<li>字符串</li>
+<li>队列</li>
+<li>栈</li>
+<li>链表</li>
+<li>哈希表</li>
+<li>数<ul>
+<li>二叉树</li>
+<li>多叉树</li>
+<li>字典树</li>
+</ul>
+</li>
+</ol>
+<h3 id="三、算法笔记目录"><a href="#三、算法笔记目录" class="headerlink" title="三、算法笔记目录"></a>三、算法笔记目录</h3><ol>
+<li>八大排序</li>
+<li>双指针</li>
+<li>查找</li>
+<li>分治</li>
+<li>动态规划</li>
+<li>递归</li>
+<li>回溯</li>
+<li>贪心</li>
+<li>位运算</li>
+<li>DFS</li>
+<li>BFS</li>
+<li>图</li>
+<li>暴力遍历</li>
+<li>枚举</li>
+</ol>
+]]></content>
+      <categories>
+        <category>catalogue</category>
+      </categories>
+      <tags>
+        <tag>Blue Bridge Cup</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/2024/03/08/%E7%94%B3%E8%AE%BA%E5%A4%A7%E4%BD%9C%E6%96%87/</url>
+    <content><![CDATA[<h3 id="一、申论"><a href="#一、申论" class="headerlink" title="一、申论"></a>一、申论</h3><h4 id="1-做题顺序"><a href="#1-做题顺序" class="headerlink" title="1. 做题顺序"></a>1. 做题顺序</h4><ol>
+<li><strong>定需要考虑的段落</strong>，分析材料和材料的关系<br>在做题的时候就要当心已经使用的材料里面是不是有被使用的过的段落还需要被使用。</li>
+<li><strong>分析材料，找主体，找包含题干的，找包含材料的句子，不管细节</strong></li>
+<li><strong>找总论点</strong></li>
+<li><strong>找分论点</strong>，分论点段不会就（要有普适性，要每个地方都能用的）抄材料（从材料推广，把要素到论点推广，概括）（稍微改改词）</li>
+<li><strong>构建框架</strong>，列出总论点、分论点、对应的材料</li>
+</ol>
+<h3 id="二、模板句"><a href="#二、模板句" class="headerlink" title="二、模板句"></a>二、模板句</h3><h4 id="1-开头"><a href="#1-开头" class="headerlink" title="1. 开头"></a>1. 开头</h4><h5 id="1-1-青年"><a href="#1-1-青年" class="headerlink" title="1.1 青年"></a>1.1 青年</h5><p>青年历史清晰而深刻地昭示，没有中国共产党就没有朝气蓬勃的中国青年运动，矢志不渝跟党走是中国青年百年奋斗的最宝贵经验。理想指引青春航向，信念决定事业成败。青年理想远大、信念坚定，是一个国家、一个民族无坚不摧的前进动力。新征程上，广大青年要树立共产主义远大理想，坚定中国特色社会主义共同理想，坚定听党话、跟党走的政治信念，在强国建设、民族复兴的历史潮流中确立正确的人生目标，为一生的奋斗奠定基石。</p>
+<p>青春心向党，奋进正当时。广大青年要紧紧地团结凝聚在党的周围，以青春之我、奋斗之我，为强国建设添砖加瓦，为民族复兴铺路架桥，牢记责任，勇担使命，接续奋斗！</p>
+<h5 id="1-2-基层治理"><a href="#1-2-基层治理" class="headerlink" title="1.2 基层治理"></a>1.2 基层治理</h5><p>今年是毛泽东同志批示学习推广“枫桥经验”60周年，是习近平总书记指示坚持和发展“枫桥经验”20周年。前不久，总书记在浙江考察时，专程来到“枫桥经验”发源地诸暨市枫桥镇，参观枫桥经验陈列馆，了解新时代“枫桥经验”的生动实践，指出：“要坚持好、发展好新时代枫桥经验’，坚持党的群众路线，正确处理人民内部矛盾，紧紧依靠人民群众，把问题解决在基层、化解在萌芽状态。”</p>
+<p>治国安邦，重在基层。新征程上，更加紧密地团结在以习近平同志为核心的党中央周围，全面贯彻习近平新时代中国特色社会主义思想，坚持和发展好新时代“枫桥经验“，不断提高新形势下群众工作能力和水平，使社会治理成效更多、更公平地惠及全体人民，我们一定能不断把人民对美好生活的向往变为现实，在推进中国式现代化的进程中紧紧依靠人民创造新的历史伟业。</p>
+<h5 id="1-3-文化"><a href="#1-3-文化" class="headerlink" title="1.3 文化"></a>1.3 文化</h5><p>文化是民族血脉里奔涌的长河，大河汤汤，沾溉着我们的心灵，把我们从根底上连妾起来，凝聚为不可分离的共同体：文化是时代精神的火焰，辉映着我们共同的梦想，进发着一个时代的光芒和力量。今天，在以中国式现代化全面推进中华民族伟大复兴的韦大实践中，在全面建设社会主义现代化国家的新的历史起点上，中国特色社会主义文比正在迎来新的无限广阔的天地。</p>
+<p>新时代新征程上，我们要满怀信心地担负起新的文化使命，在习近平文化思想的指引下，坚定文化自信、秉持开放包容、坚持守正创新，族续历史文脉，光大优秀传统，刘造属于我们这个时代的新文化，让中华民族现代文明绽放辉煌灿烂的光芒。</p>
+<h5 id="1-4-社会主义强国"><a href="#1-4-社会主义强国" class="headerlink" title="1.4 社会主义强国"></a>1.4 社会主义强国</h5><p>“从二○二○年到二○三五年基本实现社会主义现代化：从二○三五年到本世纪中叶把我国建成富强民主文明和谐美丽的社会主义现代化强国。“党的二十大报告明确了全面建成社会主义现代化强国的两步走战略安排，确定了时间表、制定了路线图。</p>
+<p>蓝图已经绘就，号角已经吹响。新征程是充满光荣和梦想的远征，当前和未来的工作是充满机遇和活力的探索。始终瞄准目标，牢牢聚焦任务，担当作为、求真务实，踔厉奋发、勇毅前行，把各项工作抓紧抓好，必定能以实效实绩创造更加灿烂的明天。</p>
+<h5 id="1-5-共同富裕"><a href="#1-5-共同富裕" class="headerlink" title="1.5 共同富裕"></a>1.5 共同富裕</h5><p>党的二十大报告深刻阐述了中国式现代化的中国特色，指出实现全体人民共同富裕是中国式现代化的本质要求之一。新时代新征程上，不论世界发生什么样的变化。我们坚信，只要XXX,就一定能XXX。</p>
+<p>“点点星火，汇聚成炬”，中国美好的明天需要我们共同书写”走在日新月异的现在，走向光明宏大的未来，有中国共产党的坚强领导，有全国各族人民的紧密团结，全面建成社会主义现代化强国的目标一定能够实现，中华民族伟大复兴的中国梦一定能够实现。</p>
+<h5 id="1-5-脱贫攻坚"><a href="#1-5-脱贫攻坚" class="headerlink" title="1.5 脱贫攻坚"></a>1.5 脱贫攻坚</h5><p>如期打赢脱贫攻坚战，如期全面建成小康社会，为促进共同富裕创造了良好条件。现在，已经到了扎实推动共同富裕的历史阶段。朝着这个目标坚定前行，中国式现代化道路必将越走越宽广，亿万人民生活必将越过越红火。</p>
+<p>抚今追昔，中国人民是具有伟大创造精神、伟大奋斗精神的人民：凝聚全体中国人的聪明才智，汇集全体中国人的辛勒汗水，XX,我们必能逐步实现全体 XX,创造更加美好的生活。</p>
+<h5 id="1-6-一带一路"><a href="#1-6-一带一路" class="headerlink" title="1.6 一带一路"></a>1.6 一带一路</h5><p>共建“一带一路”是习近平总书记亲自谋划、亲自部署、亲自推动的重大倡议。提出这一重大倡议的初心，是借鉴古丝绸之路，以互联互通为主线，同各国加强政策沟通、设施联通、贸易畅通、资金融通、民心相通，为世界经济增长注入新动能，为全球发展开辟新空间，为国际经济合作打造新平台。这一重大倡议，顺应经济全球化的历史潮流、顺应全球治理体系变革的时代要求、顺应各国人民过上更好日子的强烈愿望，开拓了人类共同实现现代化的新路径，开辟了推动构建人类命运共同体更加广阔的道路。</p>
+<p>“共建一带一路走过了第一个蓬勃十年，正值风华正茂，务当昂扬奋进，奔向下一个金色十年！”面向未来，各方深化“一带一路”国际合作，迎接共建“一带一路”更高质量、更高水平的新发展，推动实现世界各国的现代化，建设一个开放包容、互联互通、共同发展的世界，共同推动构建人类命运共同体，必将开创人类更加美好的未来。</p>
+<h5 id="1-7-经济发展"><a href="#1-7-经济发展" class="headerlink" title="1.7 经济发展"></a>1.7 经济发展</h5><p>当前，我国经济发展面临很多两难多难问题，要在多重约束下求得最优解，必须遵循经济规律，坚持系统观念、守正创新。XX,中国经济航船一定能劈波斩浪、行稳致远，驶向更开阔水域。</p>
+<p>当前我国经济运行仍面临不少风险挑战。经济恢复基础尚不牢固，需求收缩、供给冲击、预期转弱三重压力仍然较大。</p>
+<p>责任在心，呼唤踔厉奋发、勇往直前。XX,我们一定能推动实现高质量发展，在构建新发展格局中展现新气象新作为，把中国经济的潜力更加充分释放出来，交出不负时代、不负人民的发展答卷。</p>
+<h5 id="1-8-人才"><a href="#1-8-人才" class="headerlink" title="1.8 人才"></a>1.8 人才</h5><h5 id="1-9-可持续发展"><a href="#1-9-可持续发展" class="headerlink" title="1.9 可持续发展"></a>1.9 可持续发展</h5><h5 id="1-10-现代化科技"><a href="#1-10-现代化科技" class="headerlink" title="1.10 现代化科技"></a>1.10 现代化科技</h5><h3 id="三、积累句"><a href="#三、积累句" class="headerlink" title="三、积累句"></a>三、积累句</h3><p>分论点+过渡句+核心句</p>
+<p>核心句&#x3D;一方面，例子，结果+另外一方面（此外），例子，结果</p>
+<h5 id="3-1-党的领导对基层治理"><a href="#3-1-党的领导对基层治理" class="headerlink" title="3.1 党的领导对基层治理"></a>3.1 党的领导对基层治理</h5><p>推进基层治理，必须坚持党的领导。 <strong>党政军民学、东西南北中，党是领导一切的，只有坚持“坚持党对一切工作的领导”，才能发挥社会主义制度的政治优势，实现国家富强、民族复兴、人民幸福。</strong> 基层治理也必须坚持党的领导，只有坚持党的领导才能保证治理不走样，有成效。推进基层治理必须要加强党组织建设，发挥基层党组织的战斗堡垒作用，把党的全面领导落实到基层，让党的旗帜在基层高高飘扬。</p>
+<h5 id="3-2-习主席说的话"><a href="#3-2-习主席说的话" class="headerlink" title="3.2 习主席说的话"></a>3.2 习主席说的话</h5><h6 id="3-2-1-经济发展"><a href="#3-2-1-经济发展" class="headerlink" title="3.2.1 经济发展"></a>3.2.1 经济发展</h6><p>要坚定信心、保持定力，加快转变经济发展方式，把实体经济特别是制造业做实做强做优，围绕产业链部署创新链、围绕创新链布局产业链，推动经济高质量发展迈出更大步伐。</p>
+<h6 id="3-2-2-生态经济"><a href="#3-2-2-生态经济" class="headerlink" title="3.2.2 生态经济"></a>3.2.2 生态经济</h6><p>要在严格保护生态环境的前提下，全面提高资源利用效率，加快推动绿色低碳发展，努力建设人与自然和谐共生的绿色发展示范带。</p>
+<h6 id="3-2-3-经济发展"><a href="#3-2-3-经济发展" class="headerlink" title="3.2.3 经济发展"></a>3.2.3 经济发展</h6><p>构建新发展格局绝不是闭关内顾，而是要从供给和需求两端同时发力，全面畅通生产、分配、流通、消费各环节，在提高经济韧性和竞争力的同时，建设更高水平的开放型经济新体制。</p>
+<h6 id="3-2-4-党和人民"><a href="#3-2-4-党和人民" class="headerlink" title="3.2.4 党和人民"></a>3.2.4 党和人民</h6><p>我们党来自于人民，党的根基和血脉在人民。为人民而生，因人民而兴，始终同人民在一起，为人民利益而奋斗，是我们党立党兴党强党的根本出发点和落脚点.</p>
+<h6 id="3-2-5-民生建设"><a href="#3-2-5-民生建设" class="headerlink" title="3.2.5 民生建设"></a>3.2.5 民生建设</h6><p>要从最困难的群体入手，从最突出的问题着眼，从最具体的工作抓起，通堵点、疏痛点、消盲点，全面解决好同老百姓生活息息相关的教育、就业、社保、医疗、住房、环保、社会治安等问题，集中全力做好普惠性、基础性、兜底性民生建设。</p>
+<h6 id="3-2-6-绿水青山"><a href="#3-2-6-绿水青山" class="headerlink" title="3.2.6 绿水青山"></a>3.2.6 绿水青山</h6><p>要牢固树立绿水青山就是金山银山的理念，加强生态保护和修复，扩大城乡绿色空间，为人民群众植树造林，努力打造青山常在、绿水长流、空气常新的美丽中国</p>
+<h6 id="3-2-7-基层人民社区服务"><a href="#3-2-7-基层人民社区服务" class="headerlink" title="3.2.7 基层人民社区服务"></a>3.2.7 基层人民社区服务</h6><p>要坚持为民服务宗旨，把城乡社区组织和便民服务中心建设好，强化社区为民、便民、安民功能，做到居民有需求、社区有服务，让社区成为居民最放心、最安心的港湾。</p>
+<h6 id="3-2-8-农村扶持服务"><a href="#3-2-8-农村扶持服务" class="headerlink" title="3.2.8 农村扶持服务"></a>3.2.8 农村扶持服务</h6><p>要发展优势特色产业，发展适度规模经营，促进农牧业产业化、品牌化，并同发展文化旅游、乡村旅游结合起来，增加农牧民收入。</p>
+<h6 id="3-2-9-党史教育"><a href="#3-2-9-党史教育" class="headerlink" title="3.2.9 党史教育"></a>3.2.9 党史教育</h6><p>在党史学习教育中，要充分运用红色资源，教育引导广大党员、干部坚定理想信念、筑牢初心使命，不断增强斗争精神、提高斗争本领，做到在复杂形势面前不迷航、在艰巨斗争面前不退缩。</p>
+<h6 id="3-2-10-文化交流"><a href="#3-2-10-文化交流" class="headerlink" title="3.2.10 文化交流"></a>3.2.10 文化交流</h6><p>文明因多样而交流，因交流而互鉴，因互鉴而发展。</p>
+<h6 id="3-2-11-新青年"><a href="#3-2-11-新青年" class="headerlink" title="3.2.11 新青年"></a>3.2.11 新青年</h6><p>新时代中国青年要勇做走在时代前列的奋进者、开拓者、奉献者，毫不畏惧面对一切艰难险阻，在劈波斩浪中开拓前进，在披荆斩棘中开辟天地，在攻坚克难中创造业绩，用青春和汗水创造出让世界刮目相看的新奇迹。</p>
+]]></content>
+      <categories>
+        <category>essay</category>
+      </categories>
+      <tags>
+        <tag>study</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>编译原理期末复习</title>
     <url>/2023/01/05/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/</url>
     <content><![CDATA[<h3 id="一、说明"><a href="#一、说明" class="headerlink" title="一、说明"></a>一、说明</h3><p>别多废话，背！</p>
@@ -690,87 +808,6 @@
       </categories>
       <tags>
         <tag>finalexam</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>蓝桥杯Eclipse个人设置</title>
-    <url>/2022/12/15/%E8%93%9D%E6%A1%A5%E6%9D%AFEclipse%E4%B8%AA%E4%BA%BA%E8%AE%BE%E7%BD%AE/</url>
-    <content><![CDATA[<h3 id="1、自动补全"><a href="#1、自动补全" class="headerlink" title="1、自动补全"></a>1、自动补全</h3><p>编写代码时，自动提示完善代码。比如键盘输入‘s’,提示String等选项</p>
-<p>操作步骤：window -&gt;Perferences -&gt;Java -&gt; Editor -&gt; Content Assist</p>
-<p>Auto activation triggers for java 参数 填写<code>**.()&#123;&#125;abcdefghijklmnopqrstuvwxyz</code></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221215212531534.png" alt="image-20221215212531534" loading="lazy"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221215212556536.png" alt="image-20221215212556536" loading="lazy"></p>
-<h3 id="2、快捷键"><a href="#2、快捷键" class="headerlink" title="2、快捷键"></a>2、快捷键</h3><blockquote>
-<p> 操作步骤：<strong>Window - &gt;Preferences -&gt; General -&gt; Keys</strong></p>
-<ol>
-<li>quick fixed available（快速修复错误): 光标放在出错的代码位置，然后<strong>ctrl+1</strong>，在按<strong>enter</strong>键，即可快速智能修复。</li>
-<li>注释：ctrl+&#x2F;，取消注释 Ctrl+&#x2F;</li>
-<li>Alt+Shift+R 重命名 ，尤其是变量或类的重命名</li>
-<li>Ctrl+Shift+X 把当前选中的文本全部变为大写</li>
-<li>Ctrl+Shift+Y 把当前选中的文本全部变为小写</li>
-<li>Ctrl+L 定位在某行</li>
-<li>Ctrl+2，L为本地变量赋值,用过idea的同学都知道，idea中有一个 .var的变量自动赋值功能非常好用，eclipse中ctrl+2,L的功能和其类似。</li>
-<li>代码编辑区缩放，类似我们常用的快捷键组合Ctrl+鼠标滚轮。eclipse中（笔记本）使用Ctrl+ -代码编辑区缩小，Ctrl+&#x3D;放大。</li>
-</ol>
-</blockquote>
-]]></content>
-      <categories>
-        <category>catalogue</category>
-      </categories>
-      <tags>
-        <tag>Blue Bridge Cup</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>蓝桥杯备赛</title>
-    <url>/2022/12/08/%E8%93%9D%E6%A1%A5%E6%9D%AF%E5%A4%87%E8%B5%9B/</url>
-    <content><![CDATA[<h3 id="一、说明"><a href="#一、说明" class="headerlink" title="一、说明"></a>一、说明</h3><p>本目录是我蓝桥杯备赛的总目录。</p>
-<p>蓝桥杯历年省赛真题：<a href="http://oj.ecustacm.cn/viewnews.php?id=1021">蓝桥杯历年省赛真题</a></p>
-<p>AcWing：<a href="https://www.acwing.com/about/">AcWing</a></p>
-<p>尚硅谷 数据结构与算法（Java数据结构与算法）：<a href="https://www.bilibili.com/video/BV1E4411H73v/?spm_id_from=333.788.recommend_more_video.0&vd_source=b67e806ce2d472466c131e4de446b801">尚硅谷 数据结构与算法（Java数据结构与算法）</a></p>
-<blockquote>
-<p>比赛环境说明：</p>
-<p>eclipse-java-2020-06-R-win32-x86_64</p>
-<p>jdk-8u261-windows-x64</p>
-<p>JDK 1.8 API</p>
-</blockquote>
-<p>IDE美化：<a href="/2022/12/15/%E8%93%9D%E6%A1%A5%E6%9D%AFEclipse%E4%B8%AA%E4%BA%BA%E8%AE%BE%E7%BD%AE/" title="蓝桥杯Eclipse个人设置">蓝桥杯Eclipse个人设置</a></p>
-<h3 id="二、数据结构笔记目录"><a href="#二、数据结构笔记目录" class="headerlink" title="二、数据结构笔记目录"></a>二、数据结构笔记目录</h3><ol>
-<li>数组</li>
-<li>字符串</li>
-<li>队列</li>
-<li>栈</li>
-<li>链表</li>
-<li>哈希表</li>
-<li>数<ul>
-<li>二叉树</li>
-<li>多叉树</li>
-<li>字典树</li>
-</ul>
-</li>
-</ol>
-<h3 id="三、算法笔记目录"><a href="#三、算法笔记目录" class="headerlink" title="三、算法笔记目录"></a>三、算法笔记目录</h3><ol>
-<li>八大排序</li>
-<li>双指针</li>
-<li>查找</li>
-<li>分治</li>
-<li>动态规划</li>
-<li>递归</li>
-<li>回溯</li>
-<li>贪心</li>
-<li>位运算</li>
-<li>DFS</li>
-<li>BFS</li>
-<li>图</li>
-<li>暴力遍历</li>
-<li>枚举</li>
-</ol>
-]]></content>
-      <categories>
-        <category>catalogue</category>
-      </categories>
-      <tags>
-        <tag>Blue Bridge Cup</tag>
       </tags>
   </entry>
 </search>
