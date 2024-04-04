@@ -849,4 +849,78 @@
         <tag>study</tag>
       </tags>
   </entry>
+  <entry>
+    <title>人工智能学习路线</title>
+    <url>/2024/04/04/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/</url>
+    <content><![CDATA[<h3 id="一、前期准备"><a href="#一、前期准备" class="headerlink" title="一、前期准备"></a>一、前期准备</h3><h4 id="1-1-python基础"><a href="#1-1-python基础" class="headerlink" title="1.1 python基础"></a>1.1 python基础</h4><ol>
+<li>变量、操作符、字符串、列表、集合、字典、循环、判断、函数的使用和编程思想</li>
+<li>数值计算拓展工具-Numpy</li>
+<li>数据分析工具-Pandas</li>
+<li>可视化展示库-Matplotlib</li>
+<li>通用型开源机器学习库-Scikit</li>
+</ol>
+<h4 id="1-2-数学基础"><a href="#1-2-数学基础" class="headerlink" title="1.2 数学基础"></a>1.2 数学基础</h4><ol>
+<li>微积分和线性代数</li>
+<li>最优化方法</li>
+<li>概率论</li>
+</ol>
+<h4 id="1-3-机器学习概念"><a href="#1-3-机器学习概念" class="headerlink" title="1.3 机器学习概念"></a>1.3 机器学习概念</h4><blockquote>
+<p>算法分类：</p>
+<ol>
+<li>监督信号</li>
+<li>分类问题和回归问题</li>
+<li>判别模型与生成模型</li>
+<li>强化学习</li>
+</ol>
+</blockquote>
+<blockquote>
+<p>模型评价指标：</p>
+<ol>
+<li>精度与召回率</li>
+<li>ROC曲线</li>
+<li>混淆矩阵</li>
+<li>交叉验证</li>
+</ol>
+</blockquote>
+<blockquote>
+<p>模型选择：</p>
+<ol>
+<li>过拟合与欠拟合</li>
+<li>偏差与方差分解</li>
+<li>正则化</li>
+</ol>
+</blockquote>
+<h4 id="1-4-机器学习"><a href="#1-4-机器学习" class="headerlink" title="1.4 机器学习"></a>1.4 机器学习</h4><ol>
+<li>贝叶斯分类器</li>
+<li>决策树</li>
+<li>KNN算法（我的最爱）</li>
+<li>数据降维</li>
+<li>线性判别分析</li>
+<li>人工神经网络</li>
+<li>支持向量机</li>
+<li>线性模型</li>
+<li>随机森林</li>
+<li>Boosting算法</li>
+</ol>
+<h4 id="1-5-深度学习"><a href="#1-5-深度学习" class="headerlink" title="1.5 深度学习"></a>1.5 深度学习</h4><ol>
+<li>基础自己了解</li>
+<li>自动编码器</li>
+<li>受限波尔兹曼机</li>
+<li>卷积神经网络</li>
+<li>循环神经网络</li>
+<li>生成对抗网络</li>
+<li>聚类算法</li>
+<li>半监督学习</li>
+<li>隐马尔可夫模型</li>
+<li>条件随机场</li>
+<li>强化学习</li>
+</ol>
+]]></content>
+      <categories>
+        <category>essay</category>
+      </categories>
+      <tags>
+        <tag>study</tag>
+      </tags>
+  </entry>
 </search>
